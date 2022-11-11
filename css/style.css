@@ -355,30 +355,30 @@ p {
 .fh5co-grid .fh5co-col-2 img {
   max-width: 100%;
 }
-.fh5co-grid .fh5co-col-1 .fh5co-item,
-.fh5co-grid .fh5co-col-2 .fh5co-item {
+.fh5co-grid .fh5co-col-1 .album,
+.fh5co-grid .fh5co-col-2 .album {
   margin-bottom: .5em;
   float: left;
   width: 100%;
   position: relative;
   background: #f2f2f2;
 }
-.fh5co-grid .fh5co-col-1 .fh5co-item a,
-.fh5co-grid .fh5co-col-2 .fh5co-item a {
+.fh5co-grid .fh5co-col-1 .album a,
+.fh5co-grid .fh5co-col-2 .album a {
   position: relative;
   display: block;
   overflow: hidden;
 }
-.fh5co-grid .fh5co-col-1 .fh5co-item a.image-popup h2,
-.fh5co-grid .fh5co-col-2 .fh5co-item a.image-popup h2 {
+.fh5co-grid .fh5co-col-1 .album a.image-popup h2,
+.fh5co-grid .fh5co-col-2 .album a.image-popup h2 {
   opacity: 0;
   visibility: hidden;
   -webkit-transition: 0.5s;
   -o-transition: 0.5s;
   transition: 0.5s;
 }
-.fh5co-grid .fh5co-col-1 .fh5co-item a .fh5co-item-text-wrap,
-.fh5co-grid .fh5co-col-2 .fh5co-item a .fh5co-item-text-wrap {
+.fh5co-grid .fh5co-col-1 .album a .album-text-wrap,
+.fh5co-grid .fh5co-col-2 .album a .album-text-wrap {
   position: absolute;
   top: 0;
   left: 0;
@@ -390,8 +390,8 @@ p {
   -o-transition: 0.5s;
   transition: 0.5s;
 }
-.fh5co-grid .fh5co-col-1 .fh5co-item a .fh5co-item-text,
-.fh5co-grid .fh5co-col-2 .fh5co-item a .fh5co-item-text {
+.fh5co-grid .fh5co-col-1 .album a .album-text,
+.fh5co-grid .fh5co-col-2 .album a .album-text {
   position: absolute;
   z-index: 99;
   text-align: center;
@@ -401,13 +401,13 @@ p {
   margin-top: -18px;
 }
 @media screen and (max-width: 768px) {
-  .fh5co-grid .fh5co-col-1 .fh5co-item a .fh5co-item-text,
-  .fh5co-grid .fh5co-col-2 .fh5co-item a .fh5co-item-text {
+  .fh5co-grid .fh5co-col-1 .album a .album-text,
+  .fh5co-grid .fh5co-col-2 .album a .album-text {
     margin-top: -12px;
   }
 }
-.fh5co-grid .fh5co-col-1 .fh5co-item a .fh5co-item-text h2,
-.fh5co-grid .fh5co-col-2 .fh5co-item a .fh5co-item-text h2 {
+.fh5co-grid .fh5co-col-1 .album a .album-text h2,
+.fh5co-grid .fh5co-col-2 .album a .album-text h2 {
   margin: 0;
   padding: 0;
   color: #fff;
@@ -415,13 +415,13 @@ p {
   font-size: 30px;
 }
 @media screen and (max-width: 768px) {
-  .fh5co-grid .fh5co-col-1 .fh5co-item a .fh5co-item-text h2,
-  .fh5co-grid .fh5co-col-2 .fh5co-item a .fh5co-item-text h2 {
+  .fh5co-grid .fh5co-col-1 .album a .album-text h2,
+  .fh5co-grid .fh5co-col-2 .album a .album-text h2 {
     font-size: 20px;
   }
 }
-.fh5co-grid .fh5co-col-1 .fh5co-item a img,
-.fh5co-grid .fh5co-col-2 .fh5co-item a img {
+.fh5co-grid .fh5co-col-1 .album a img,
+.fh5co-grid .fh5co-col-2 .album a img {
   -webkit-transform: scale(1);
   -moz-transform: scale(1);
   -ms-transform: scale(1);
@@ -431,24 +431,122 @@ p {
   -o-transition: 0.5s;
   transition: 0.5s;
 }
-.fh5co-grid .fh5co-col-1 .fh5co-item a:hover img,
-.fh5co-grid .fh5co-col-2 .fh5co-item a:hover img {
+.fh5co-grid .fh5co-col-1 .album a:hover img,
+.fh5co-grid .fh5co-col-2 .album a:hover img {
   -webkit-transform: scale(1.05);
   -moz-transform: scale(1.05);
   -ms-transform: scale(1.05);
   -o-transform: scale(1.05);
   transform: scale(1.05);
 }
-.fh5co-grid .fh5co-col-1 .fh5co-item a:hover .fh5co-item-text-wrap,
-.fh5co-grid .fh5co-col-2 .fh5co-item a:hover .fh5co-item-text-wrap {
+.fh5co-grid .fh5co-col-1 .album a:hover .album-text-wrap,
+.fh5co-grid .fh5co-col-2 .album a:hover .album-text-wrap {
   /* This is the dark overlay on album covers on hover*/
   background: rgba(0, 0, 0, 0.4);
 }
-.fh5co-grid .fh5co-col-1 .fh5co-item a.image-popup:hover h2,
-.fh5co-grid .fh5co-col-2 .fh5co-item a.image-popup:hover h2 {
+.fh5co-grid .fh5co-col-1 .album a.image-popup:hover h2,
+.fh5co-grid .fh5co-col-2 .album a.image-popup:hover h2 {
   opacity: 1;
   visibility: visible;
 }
+
+/* Album Photos */
+.fh5co-grid .fh5co-col-1 .album-photo,
+.fh5co-grid .fh5co-col-2 .album-photo {
+  margin-bottom: .5em;
+  float: left;
+  width: 100%;
+  position: relative;
+  background: #f2f2f2;
+}
+.fh5co-grid .fh5co-col-1 .album-photo a,
+.fh5co-grid .fh5co-col-2 .album-photo a {
+  position: relative;
+  display: block;
+  overflow: hidden;
+}
+.fh5co-grid .fh5co-col-1 .album-photo a.image-popup h2,
+.fh5co-grid .fh5co-col-2 .album-photo a.image-popup h2 {
+  opacity: 0;
+  visibility: hidden;
+  -webkit-transition: 0.5s;
+  -o-transition: 0.5s;
+  transition: 0.5s;
+}
+.fh5co-grid .fh5co-col-1 .album-photo a .album-photo-text-wrap,
+.fh5co-grid .fh5co-col-2 .album-photo a .album-photo-text-wrap {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  /* This is the dark overlay on album-photo covers before hover*/
+  background: rgba(0, 0, 0, 0);
+  -webkit-transition: 0.5s;
+  -o-transition: 0.5s;
+  transition: 0.5s;
+}
+.fh5co-grid .fh5co-col-1 .album-photo a .album-photo-text,
+.fh5co-grid .fh5co-col-2 .album-photo a .album-photo-text {
+  position: absolute;
+  z-index: 99;
+  text-align: center;
+  top: 50%;
+  width: 100%;
+  vertical-align: middle;
+  margin-top: -18px;
+}
+@media screen and (max-width: 768px) {
+  .fh5co-grid .fh5co-col-1 .album-photo a .album-photo-text,
+  .fh5co-grid .fh5co-col-2 .album-photo a .album-photo-text {
+    margin-top: -12px;
+  }
+}
+.fh5co-grid .fh5co-col-1 .album-photo a .album-photo-text h2,
+.fh5co-grid .fh5co-col-2 .album-photo a .album-photo-text h2 {
+  margin: 0;
+  padding: 0;
+  color: #fff;
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 30px;
+}
+@media screen and (max-width: 768px) {
+  .fh5co-grid .fh5co-col-1 .album-photo a .album-photo-text h2,
+  .fh5co-grid .fh5co-col-2 .album-photo a .album-photo-text h2 {
+    font-size: 20px;
+  }
+}
+.fh5co-grid .fh5co-col-1 .album-photo a img,
+.fh5co-grid .fh5co-col-2 .album-photo a img {
+  -webkit-transform: scale(1);
+  -moz-transform: scale(1);
+  -ms-transform: scale(1);
+  -o-transform: scale(1);
+  transform: scale(1);
+  -webkit-transition: 0.5s;
+  -o-transition: 0.5s;
+  transition: 0.5s;
+}
+.fh5co-grid .fh5co-col-1 .album-photo a:hover img,
+.fh5co-grid .fh5co-col-2 .album-photo a:hover img {
+  -webkit-transform: scale(1.05);
+  -moz-transform: scale(1.05);
+  -ms-transform: scale(1.05);
+  -o-transform: scale(1.05);
+  transform: scale(1.05);
+}
+.fh5co-grid .fh5co-col-1 .album-photo a:hover .album-photo-text-wrap,
+.fh5co-grid .fh5co-col-2 .album-photo a:hover .album-photo-text-wrap {
+  /* This is the dark overlay on album-photo covers on hover*/
+  background: rgba(0, 0, 0, 0.4);
+}
+.fh5co-grid .fh5co-col-1 .album-photo a.image-popup:hover h2,
+.fh5co-grid .fh5co-col-2 .album-photo a.image-popup:hover h2 {
+  opacity: 1;
+  visibility: visible;
+}
+
+/* Columns */
 .fh5co-grid .fh5co-col-1 {
   float: left;
   padding-right: .25em;
