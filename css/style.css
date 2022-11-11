@@ -421,7 +421,9 @@ p {
   }
 }
 .fh5co-grid .fh5co-col-1 .album a img,
-.fh5co-grid .fh5co-col-2 .album a img {
+.fh5co-grid .fh5co-col-2 .album a img,
+.fh5co-grid .fh5co-col-1 .album a picture,
+.fh5co-grid .fh5co-col-2 .album a picture {
   -webkit-transform: scale(1);
   -moz-transform: scale(1);
   -ms-transform: scale(1);
@@ -432,7 +434,9 @@ p {
   transition: 0.5s;
 }
 .fh5co-grid .fh5co-col-1 .album a:hover img,
-.fh5co-grid .fh5co-col-2 .album a:hover img {
+.fh5co-grid .fh5co-col-2 .album a:hover img,
+.fh5co-grid .fh5co-col-1 .album a:hover picture,
+.fh5co-grid .fh5co-col-2 .album a:hover picture  {
   -webkit-transform: scale(1.05);
   -moz-transform: scale(1.05);
   -ms-transform: scale(1.05);
