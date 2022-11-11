@@ -76,7 +76,7 @@ a:hover, a:focus, a:active {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: "Playfair Display", times, serif;
+  font-family: 'Playfair Display', serif;
   color: #000;
   margin-bottom: 1.5em;
   clear: both;
@@ -89,7 +89,7 @@ p {
 .btn {
   margin-right: 4px;
   margin-bottom: 4px;
-  font-family: "Playfair Display", times, serif;
+  font-family: 'Playfair Display', serif;
   font-size: 12px;
   letter-spacing: 2px;
   text-transform: uppercase;
@@ -265,7 +265,7 @@ p {
   visibility: hidden;
   font-size: 43px;
   top: 2px;
-  font-family: "Playfair Display", times, serif;
+  font-family: 'Playfair Display', serif;
 }
 #fh5co-logo > a:hover em {
   opacity: 1;
@@ -471,6 +471,7 @@ p {
 .mfp-with-zoom .mfp-container,
 .mfp-with-zoom.mfp-bg {
   opacity: 0;
+  backface-visibility: hidden;
   -webkit-backface-visibility: hidden;
   /* ideally, transition speed should match zoom duration */
   -webkit-transition: all 0.5s ease-out;
