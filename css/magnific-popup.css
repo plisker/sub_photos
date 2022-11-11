@@ -19,7 +19,8 @@
   z-index: 1043;
   position: fixed;
   outline: none !important;
-  -webkit-backface-visibility: hidden; }
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden; }
 
 .mfp-container {
   text-align: center;
@@ -109,6 +110,7 @@ button.mfp-close, button.mfp-arrow {
   background: transparent;
   border: 0;
   -webkit-appearance: none;
+  appearance: none;
   display: block;
   outline: none;
   padding: 0;
@@ -156,8 +158,8 @@ button::-moz-focus-inner {
   top: 0;
   right: 0;
   color: #cccccc;
-  font-size: 12px;
-  line-height: 18px; }
+  font-size: 16px;
+  line-height: 22px; }
 
 .mfp-arrow {
   position: absolute;
@@ -247,7 +249,7 @@ img.mfp-img {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
-  padding: 40px 0 40px;
+  padding: 40px 0 25px;
   margin: 0 auto; }
 
 /* The shadow behind the image */
