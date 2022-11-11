@@ -526,6 +526,8 @@ p {
   -webkit-transition: 0.5s;
   -o-transition: 0.5s;
   transition: 0.5s;
+  width: 100%;
+  height: 100%;
 }
 .fh5co-grid .fh5co-col-1 .album-photo a:hover img,
 .fh5co-grid .fh5co-col-2 .album-photo a:hover img {
