@@ -87,12 +87,12 @@
 })();
 
 $(document).ready(function () {
-  $("body").css("display", "none");
+//   $("body").css("display", "none");
 
-  $("body").fadeIn(2000);
-  $("body").stop().animate({
-    opacity: 1,
-  });
+//   $("body").fadeIn(2000);
+//   $("body").stop().animate({
+//     opacity: 1,
+//   });
 
   $("a.transition").click(function (event) {
     event.preventDefault();
