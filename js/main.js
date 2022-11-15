@@ -100,7 +100,7 @@ $(document).ready(function () {
 //     $("body").fadeOut(1000, redirectPage);
 //   });
 
-  function redirectPage() {
-    window.location = linkLocation;
-  }
+//   function redirectPage() {
+//     window.location = linkLocation;
+//   }
 });
