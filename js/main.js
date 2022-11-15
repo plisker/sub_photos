@@ -14,9 +14,9 @@
   };
 
   // Loading page
-  var loaderPage = function () {
-    $(".fh5co-loader").fadeOut("slow");
-  };
+//   var loaderPage = function () {
+//     $(".fh5co-loader").fadeOut("slow");
+//   };
 
   // Magnific Popup
 
@@ -78,7 +78,7 @@
 
   // Document on load.
   $(function () {
-    loaderPage();
+    // loaderPage();
     magnifPopup();
 
     // Animations
@@ -87,18 +87,18 @@
 })();
 
 $(document).ready(function () {
-//   $("body").css("display", "none");
+  $("body").css("display", "none");
 
-//   $("body").fadeIn(2000);
-//   $("body").stop().animate({
-//     opacity: 1,
-//   });
-
-  $("a.transition").click(function (event) {
-    event.preventDefault();
-    linkLocation = this.href;
-    $("body").fadeOut(1000, redirectPage);
+  $("body").fadeIn(2000);
+  $("body").stop().animate({
+    opacity: 1,
   });
+
+//   $("a.transition").click(function (event) {
+//     event.preventDefault();
+//     linkLocation = this.href;
+//     $("body").fadeOut(1000, redirectPage);
+//   });
 
   function redirectPage() {
     window.location = linkLocation;

@@ -22,11 +22,11 @@ body:before, body:after {
   height: 20px;
   z-index: 1002;
 }
-@media screen and (max-width: 768px) {
+/* @media screen and (max-width: 768px) {
   body:before, body:after {
     display: none;
   }
-}
+} */
 
 body:before {
   top: 0;
