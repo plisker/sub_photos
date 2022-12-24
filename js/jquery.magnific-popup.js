@@ -378,6 +378,14 @@ MagnificPopup.prototype = {
 		mfp.updateSize(windowHeight);
 		_mfpTrigger(OPEN_EVENT);
 
+        // Google Analytics: Tracks gallery open
+        var item = mfp.items[mfp.index]
+        var file = item.src.split('\\').pop().split('/').pop();
+        var filename = file.substr(0, file.lastIndexOf("."))
+        gtag('event', 'gallery', {
+            'photo_clicked': filename,
+        });
+
 		return data;
 	},
 
