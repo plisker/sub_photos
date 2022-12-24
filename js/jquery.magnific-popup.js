@@ -528,6 +528,7 @@ MagnificPopup.prototype = {
 		// Append container back after its content changed
 		mfp.container.prepend(mfp.contentContainer);
 
+        // Google Analytics: Tracks each photo view
         var file = item.src.split('\\').pop().split('/').pop();
         var filename = file.substr(0, file.lastIndexOf("."))
         gtag('event', 'view_photo', {
