@@ -379,6 +379,7 @@ MagnificPopup.prototype = {
 		_mfpTrigger(OPEN_EVENT);
 
         // Google Analytics: Tracks gallery open
+        var item = mfp.items[mfp.index];
         var split_path = item.src.split('\\').pop().split('/');
         var file = split_path.pop();
         var dir = split_path.pop();
@@ -552,7 +553,7 @@ MagnificPopup.prototype = {
         var split_path = item.src.split('\\').pop().split('/');
         var file = split_path.pop();
         var dir = split_path.pop();
-        var filename = file.substr(0, file.lastIndexOf("."));
+        var filename = file.substr(0, file.lastIndexOf("."))
         var photo_id = dir + "|" + filename;
         gtag("event", "view_photo", {
             photo_id: photo_id,
