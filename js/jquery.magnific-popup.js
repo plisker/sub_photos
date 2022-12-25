@@ -379,14 +379,26 @@ MagnificPopup.prototype = {
 		_mfpTrigger(OPEN_EVENT);
 
         // Google Analytics: Tracks gallery open
-        var item = mfp.items[mfp.index]
-        var file = item.src.split('\\').pop().split('/').pop();
+        var split_path = item.src.split('\\').pop().split('/');
+        var file = split_path.pop();
+        var dir = split_path.pop();
         var filename = file.substr(0, file.lastIndexOf("."))
+        var photo_id = dir + "|" + filename;
         gtag('event', 'gallery', {
-            'photo_clicked': filename,
+            'photo_clicked': photo_id,
         });
 
-		return data;
+        // Same Google Analytics metric, but as recommended event
+        gtag("event", "select_item", {
+            items: [
+                {
+                    item_id: photo_id,
+                    item_category: dir,
+                }
+            ]
+        });
+
+        return data;
 	},
 
 	/**
@@ -537,10 +549,23 @@ MagnificPopup.prototype = {
 		mfp.container.prepend(mfp.contentContainer);
 
         // Google Analytics: Tracks each photo view
-        var file = item.src.split('\\').pop().split('/').pop();
+        var split_path = item.src.split('\\').pop().split('/');
+        var file = split_path.pop();
+        var dir = split_path.pop();
         var filename = file.substr(0, file.lastIndexOf("."))
-        gtag('event', 'view_photo', {
-            'photo_id': filename,
+        var photo_id = dir + "|" + filename;
+        gtag("event", "view_photo", {
+            photo_id: photo_id,
+        });
+
+        // Same Google Analytics metric, but as recommended event
+        gtag("event", "view_item", {
+            items: [
+                {
+                    item_id: photo_id,
+                    item_category: dir,
+                }
+            ]
         });
 
 		_mfpTrigger('AfterChange');
