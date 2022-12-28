@@ -380,11 +380,17 @@ MagnificPopup.prototype = {
 
         // Google Analytics: Tracks gallery open
         var item = mfp.items[mfp.index];
-        var split_path = item.src.split('\\').pop().split('/');
-        var file = split_path.pop();
-        var dir = split_path.pop();
-        var filename = file.substr(0, file.lastIndexOf("."));
-        var photo_id = dir + "|" + filename;
+        if (item.src.includes("youtube")) {
+            var dir = "";
+            var photo_id = item.src;
+        }
+        else {
+            var split_path = item.src.split('\\').pop().split('/');
+            var file = split_path.pop();
+            var dir = split_path.pop();
+            var filename = file.substr(0, file.lastIndexOf("."));
+            var photo_id = dir + "|" + filename;
+        }
         gtag('event', 'gallery', {
             'photo_clicked': photo_id,
         });
@@ -549,12 +555,18 @@ MagnificPopup.prototype = {
 		// Append container back after its content changed
 		mfp.container.prepend(mfp.contentContainer);
 
+        if (item.src.includes("youtube")) {
+            var dir = "";
+            var photo_id = item.src;
+        }
+        else {
+            var split_path = item.src.split('\\').pop().split('/');
+            var file = split_path.pop();
+            var dir = split_path.pop();
+            var filename = file.substr(0, file.lastIndexOf("."));
+            var photo_id = dir + "|" + filename;
+        }
         // Google Analytics: Tracks each photo view
-        var split_path = item.src.split('\\').pop().split('/');
-        var file = split_path.pop();
-        var dir = split_path.pop();
-        var filename = file.substr(0, file.lastIndexOf("."))
-        var photo_id = dir + "|" + filename;
         gtag("event", "view_photo", {
             photo_id: photo_id,
         });
