@@ -1,4 +1,4 @@
-function lightbox () {
+function lightbox() {
     "use strict";
 
     // iPad and iPod detection
@@ -86,7 +86,68 @@ function lightbox () {
     });
 };
 
+function getSocials() {
+    let socials = document.createElement('ul');
+    socials.className = 'fh5co-social';
+
+    socials.innerHTML = `
+            <li>
+                <a href="https://www.instagram.com/paullisker/" rel="noopener" target="_blank"
+                    aria-label="See: Instagram"><i class="fa-brands fa-instagram"></i></a>
+            </li>
+            <li>
+                <a href="https://www.linkedin.com/in/paullisker/" rel="noopener" target="_blank"
+                    aria-label="See: LinkedIn"><i class="fa-brands fa-linkedin"></i></a>
+            </li>
+            <li>
+                <a href="https://twitter.com/PaulLisker/" rel="noopener" target="_blank"
+                    aria-label="See: Twitter"><i class="fa-brands fa-twitter"></i></a>
+            </li>
+            <li>
+                <a href="https://ebird.org/profile/MTgxMjE3NQ/" rel="noopener" target="_blank"
+                    aria-label="See: eBird"><i class="fa-solid fa-binoculars"></i></a>
+            </li>
+            <li>
+                <a href="mailto:photos@lisker.me/" rel="noopener" target="_blank"
+                    aria-label="Email me: photos@lisker.me"><i class="fa-regular fa-envelope"></i></a>
+            </li>
+    `;
+
+    return socials;
+}
+
+function getFooter() {
+    let footer = document.createElement('div');
+    footer.className = 'padding-left';
+    footer.id = 'fh5co-footer';
+
+    footer.innerHTML = `
+        <p>
+            <small>&copy; 2024 Paul Lisker. All Rights Reserved.<br />
+                <a href="https://lisker.me/privacy_policy" target="_blank">Privacy Policy</a>
+                &#183;
+                <a href="https://lisker.me/cookie_policy" target="_blank">Cookie Policy</a><br />
+                Modified from a design by
+                <a href="http://freehtml5.co/" target="_blank">FreeHTML5.co</a></small>
+        </p>
+        `;
+
+    footer.appendChild(getSocials());
+
+    return footer;
+}
+
 $(document).ready(function () {
+    const socials = document.getElementById('socials');
+    if (!!socials) {
+        socials.insertAdjacentElement('beforeend', getSocials());
+    }
+
+    const footer = document.getElementById('footer');
+    if (!!footer) {
+        footer.insertAdjacentElement('beforeend', getFooter());
+    }
+
     $("body").css("display", "none");
 
     $("body").fadeIn(2000);
