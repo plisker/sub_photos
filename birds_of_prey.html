@@ -71,9 +71,15 @@
     <!-- <script src="js/jquery.magnific-popup.min.js"></script> -->
     <script src="js/jquery.magnific-popup.js"></script>
 
+    <!-- Photos JS -->
+    <script src="js/photos.js"></script>
+    <script>
+            populatePhotoGrid('images/birds_of_prey/json/photos.json');
+    </script>
+
     <!-- Main JS -->
     <script src="js/main.js"></script>
-
+    
     <!-- Modernizr JS -->
     <script src="js/modernizr-2.6.2.min.js"></script>
     <!-- FOR IE9 below -->
@@ -102,186 +108,40 @@
                 </div>
             </div>
 
-            <div class="fh5co-grid">
-                <!-- Column 1 -->
-                <div class="fh5co-col-1">
-                    <!-- <div class="fh5co-heading padding-right">
-                        <h2>Outdoor</h2>
-                        <p>
-                            A small river named Duden flows by their place and supplies it
-                            with the necessary regelialia. It is a paradisematic country, in
-                            which roasted parts of sentences fly into your mouth.
-                        </p>
-                    </div> -->
+            <div id="photo-grid" class="fh5co-grid"></div>
 
-                    <div class="album-photo">
-                        <a href="images/birds_of_prey/bado.jpg" class="image-popup" title="Barred Owl">
-                            <picture>
-                                <source type="image/webp" srcset="images/birds_of_prey/bado.webp">
-                                <source type="image/jpeg" srcset="images/birds_of_prey/bado.jpg">
-                                <img src="images/birds_of_prey/bado.jpg" alt="Barred Owl" title="Barred Owl">
-                            </picture>
-                            <div class="album-photo-text-wrap">
-                                <div class="album-photo-text">
-                                    <h2>Barred Owl</h2>
-                                </div>
-                            </div>
-                        </a>
-                    </div>
-                    <div class="album-photo">
-                        <a href="images/birds_of_prey/bado1.jpg" class="image-popup" title="Barred Owl">
-                            <picture>
-                                <source type="image/webp" srcset="images/birds_of_prey/bado1.webp">
-                                <source type="image/jpeg" srcset="images/birds_of_prey/bado1.jpg">
-                                <img src="images/birds_of_prey/bado1.jpg" alt="Barred Owl" title="Barred Owl">
-                            </picture>
-                            <div class="album-photo-text-wrap">
-                                <div class="album-photo-text">
-                                    <h2>Barred Owl</h2>
-                                </div>
-                            </div>
-                        </a>
-                    </div>
-                    <div class="album-photo">
-                        <a href="images/birds_of_prey/coha.jpg" class="image-popup" title="Cooper's Hawk">
-                            <picture>
-                                <source type="image/webp" srcset="images/birds_of_prey/coha.webp">
-                                <source type="image/jpeg" srcset="images/birds_of_prey/coha.jpg">
-                                <img src="images/birds_of_prey/coha.jpg" alt="Cooper's Hawk" title="Cooper's Hawk">
-                            </picture>
-                            <div class="album-photo-text-wrap">
-                                <div class="album-photo-text">
-                                    <h2>Cooper's Hawk</h2>
-                                </div>
-                            </div>
-                        </a>
-                    </div>
-                    <div class="album-photo">
-                        <a href="images/birds_of_prey/rtha.jpg" class="image-popup" title="Red-Tailed Hawk">
-                            <picture>
-                                <source type="image/webp" srcset="images/birds_of_prey/rtha.webp">
-                                <source type="image/jpeg" srcset="images/birds_of_prey/rtha.jpg">
-                                <img src="images/birds_of_prey/rtha.jpg" alt="Red-Tailed Hawk" title="Red-Tailed Hawk">
-                            </picture>
-                            <div class="album-photo-text-wrap">
-                                <div class="album-photo-text">
-                                    <h2>Red-Tailed Hawk</h2>
-                                </div>
-                            </div>
-                        </a>
-                    </div>
-                    <div class="album-photo">
-                        <a href="https://www.youtube.com/watch?v=EX9RkPYKs4I" class="mfp-iframe image-popup"
-                            title="Video of a Barred Owl">
-                            <picture>
-                                <source type="image/webp" srcset="images/birds_of_prey/bado-video.webp" />
-                                <source type="image/jpeg" srcset="images/birds_of_prey/bado-video.jpg" />
-                                <img src="images/birds_of_prey/bado-video.jpg" alt="Video of a Barred Owl"
-                                    title="Video of a Barred Owl" />
-                            </picture>
-                            <div class="album-photo-text-wrap">
-                                <div class="album-photo-text">
-                                    <h2>Video of a Barred Owl</h2>
-                                </div>
-                            </div>
-                        </a>
-                    </div>
-                </div>
-                <!-- Column 2 -->
-                <div class="fh5co-col-2">
-                    <div class="album-photo">
-                        <a href="images/birds_of_prey/rsha.jpg" class="image-popup" title="Red-Shouldered Hawk">
-                            <picture>
-                                <source type="image/webp" srcset="images/birds_of_prey/rsha.webp">
-                                <source type="image/jpeg" srcset="images/birds_of_prey/rsha.jpg">
-                                <img src="images/birds_of_prey/rsha.jpg" alt="Red-Shouldered Hawk"
-                                    title="Red-Shouldered Hawk">
-                            </picture>
-                            <div class="album-photo-text-wrap">
-                                <div class="album-photo-text">
-                                    <h2>Red-Shouldered Hawk</h2>
-                                </div>
-                            </div>
-                        </a>
-                    </div>
-                    <div class="album-photo">
-                        <a href="images/birds_of_prey/ghow.jpg" class="image-popup" title="Great Horned Owl">
-                            <picture>
-                                <source type="image/webp" srcset="images/birds_of_prey/ghow.webp">
-                                <source type="image/jpeg" srcset="images/birds_of_prey/ghow.jpg">
-                                <img src="images/birds_of_prey/ghow.jpg" alt="Great Horned Owl"
-                                    title="Great Horned Owl">
-                            </picture>
-                            <div class="album-photo-text-wrap">
-                                <div class="album-photo-text">
-                                    <h2>Great Horned Owl</h2>
-                                </div>
-                            </div>
-                        </a>
-                    </div>
-                    <div class="album-photo">
-                        <a href="images/birds_of_prey/baea.jpg" class="image-popup" title="Bald Eagle">
-                            <picture>
-                                <source type="image/webp" srcset="images/birds_of_prey/baea.webp">
-                                <source type="image/jpeg" srcset="images/birds_of_prey/baea.jpg">
-                                <img src="images/birds_of_prey/baea.jpg" alt="Bald Eagle" title="Bald Eagle">
-                            </picture>
-                            <div class="album-photo-text-wrap">
-                                <div class="album-photo-text">
-                                    <h2>Bald Eagle</h2>
-                                </div>
-                            </div>
-                        </a>
-                    </div>
-                    <div class="album-photo">
-                        <a href="images/birds_of_prey/coha1.jpg" class="image-popup" title="Cooper's Hawk">
-                            <picture>
-                                <source type="image/webp" srcset="images/birds_of_prey/coha1.webp">
-                                <source type="image/jpeg" srcset="images/birds_of_prey/coha1.jpg">
-                                <img src="images/birds_of_prey/coha1.jpg" alt="Cooper's Hawk" title="Cooper's Hawk">
-                            </picture>
-                            <div class="album-photo-text-wrap">
-                                <div class="album-photo-text">
-                                    <h2>Cooper's Hawk</h2>
-                                </div>
-                            </div>
-                        </a>
-                    </div>
-
-                    <!-- Footer -->
-                    <div id="fh5co-footer" class="padding-left">
-                        <p>
-                            <small>&copy; 2023 Paul Lisker. All Rights Reserved.<br />
-                                <a href="https://lisker.me/privacy_policy" target="_blank">Privacy Policy</a>
-                                &#183;
-                                <a href="https://lisker.me/cookie_policy" target="_blank">Cookie Policy</a><br />
-                                Modified from a design by
-                                <a href="http://freehtml5.co/" target="_blank">FreeHTML5.co</a></small>
-                        </p>
-                        <ul class="fh5co-social">
-                            <li>
-                                <a href="https://www.instagram.com/paullisker/" rel="noopener" target="_blank"
-                                    aria-label="See: Instagram"><i class="fa-brands fa-instagram"></i></a>
-                            </li>
-                            <li>
-                                <a href="https://www.linkedin.com/in/paullisker/" rel="noopener" target="_blank"
-                                    aria-label="See: LinkedIn"><i class="fa-brands fa-linkedin"></i></a>
-                            </li>
-                            <li>
-                                <a href="https://twitter.com/PaulLisker/" rel="noopener" target="_blank"
-                                    aria-label="See: Twitter"><i class="fa-brands fa-twitter"></i></a>
-                            </li>
-                            <li>
-                                <a href="https://ebird.org/profile/MTgxMjE3NQ/" rel="noopener" target="_blank"
-                                    aria-label="See: eBird"><i class="fa-solid fa-binoculars"></i></a>
-                            </li>
-                            <li>
-                                <a href="mailto:photos@lisker.me/" rel="noopener" target="_blank"
-                                    aria-label="Email me: photos@lisker.me"><i class="fa-regular fa-envelope"></i></a>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
+            <!-- Footer -->
+            <div id="fh5co-footer" class="padding-left">
+                <p>
+                    <small>&copy; 2023 Paul Lisker. All Rights Reserved.<br />
+                        <a href="https://lisker.me/privacy_policy" target="_blank">Privacy Policy</a>
+                        &#183;
+                        <a href="https://lisker.me/cookie_policy" target="_blank">Cookie Policy</a><br />
+                        Modified from a design by
+                        <a href="http://freehtml5.co/" target="_blank">FreeHTML5.co</a></small>
+                </p>
+                <ul class="fh5co-social">
+                    <li>
+                        <a href="https://www.instagram.com/paullisker/" rel="noopener" target="_blank"
+                            aria-label="See: Instagram"><i class="fa-brands fa-instagram"></i></a>
+                    </li>
+                    <li>
+                        <a href="https://www.linkedin.com/in/paullisker/" rel="noopener" target="_blank"
+                            aria-label="See: LinkedIn"><i class="fa-brands fa-linkedin"></i></a>
+                    </li>
+                    <li>
+                        <a href="https://twitter.com/PaulLisker/" rel="noopener" target="_blank"
+                            aria-label="See: Twitter"><i class="fa-brands fa-twitter"></i></a>
+                    </li>
+                    <li>
+                        <a href="https://ebird.org/profile/MTgxMjE3NQ/" rel="noopener" target="_blank"
+                            aria-label="See: eBird"><i class="fa-solid fa-binoculars"></i></a>
+                    </li>
+                    <li>
+                        <a href="mailto:photos@lisker.me/" rel="noopener" target="_blank"
+                            aria-label="Email me: photos@lisker.me"><i class="fa-regular fa-envelope"></i></a>
+                    </li>
+                </ul>
             </div>
         </div>
     </div>

@@ -15,23 +15,48 @@ function populatePhotoGrid(jsonFilePath) {
                     currentColumn = column2;
                 }
 
-                const albumPhoto = document.createElement('div');
-                albumPhoto.className = 'album-photo';
-                albumPhoto.innerHTML = `
-            <a href="${data.directory}${photo.file}.jpg" class="image-popup" title="${photo.name}">
-              <picture>
-                <source type="image/webp" srcset="${data.directory}${photo.file}.webp">
-                <source type="image/jpeg" srcset="${data.directory}${photo.file}.jpg">
-                <img src="${photo.image}" alt="${photo.name}" title="${photo.name}">
-              </picture>
-              <div class="album-photo-text-wrap">
-                <div class="album-photo-text">
-                  <h2>${photo.name}</h2>
-                </div>
-              </div>
-            </a>
-          `;
-                currentColumn.appendChild(albumPhoto);
+                let albumElement;
+                if (photo.video) {
+                    // Handle video
+                    albumElement = document.createElement('div');
+                    albumElement.className = 'album-photo';
+                    albumElement.innerHTML = `
+                        <a href="${photo.video}" class="mfp-iframe image-popup" title="${photo.name}">
+                            <picture>
+                                <source type="image/webp" srcset="${data.directory}${photo.file}.webp" />
+                                <source type="image/jpeg" srcset="${data.directory}${photo.file}.jpg" />
+                                <img src="${data.directory}${photo.file}.jpg" alt="${photo.name}"
+                                    title="${photo.name}" />
+                            </picture>
+                            <div class="album-photo-text-wrap">
+                                <div class="album-photo-text">
+                                    <h2>${photo.name}</h2>
+                                </div>
+                            </div>
+                        </a>
+                    `;
+                } else {
+                    // Handle photo
+                    albumElement = document.createElement('div');
+                    albumElement.className = 'album-photo';
+                    albumElement.innerHTML = `
+                        <a href="${data.directory}${photo.file}.jpg" class="image-popup" title="${photo.name}">
+                            <picture>
+                                <source type="image/webp" srcset="${data.directory}${photo.file}.webp" />
+                                <source type="image/jpeg" srcset="${data.directory}${photo.file}.jpg" />
+                                <img src="${data.directory}${photo.file}.jpg" alt="${photo.name}"
+                                    title="${photo.name}" />
+                            </picture>
+                            <div class="album-photo-text-wrap">
+                                <div class="album-photo-text">
+                                    <h2>${photo.name}</h2>
+                                </div>
+                            </div>
+                        </a>
+                    `;
+                }
+
+                currentColumn.appendChild(albumElement);
             });
 
             // Append footer to the photo-grid
@@ -41,7 +66,7 @@ function populatePhotoGrid(jsonFilePath) {
             // Append columns to the photo-grid
             photoGrid.appendChild(column1);
             photoGrid.appendChild(column2);
-            
+
             lightbox();
         })
         .catch(error => console.error('Error fetching photos:', error));
