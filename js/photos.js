@@ -1,4 +1,4 @@
-function populatePhotoGrid(jsonFilePath) {
+function populatePhotoGrid(jsonFilePath, offset=0) {
     fetch(jsonFilePath)
         .then(response => response.json())
         .then(data => {
@@ -10,7 +10,7 @@ function populatePhotoGrid(jsonFilePath) {
             let currentColumn = column1;
 
             data.photos.forEach((photo, index) => {
-                if (index === Math.ceil(data.photos.length / 2)) {
+                if (index === Math.ceil((data.photos.length - offset) / 2)) {
                     // Switch to the second column
                     currentColumn = column2;
                 }

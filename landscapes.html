@@ -71,6 +71,12 @@
     <!-- <script src="js/jquery.magnific-popup.min.js"></script> -->
     <script src="js/jquery.magnific-popup.js"></script>
 
+    <!-- Photos JS -->
+    <script src="js/photos.js"></script>
+    <script>
+            populatePhotoGrid('images/landscapes/json/photos.json', 1);
+    </script>
+
     <!-- Main JS -->
     <script src="js/main.js"></script>
 
@@ -112,437 +118,40 @@
                 </div>
             </div>
 
-            <div class="fh5co-grid">
-                <!-- Column 1 -->
-                <div class="fh5co-col-1">
-                    <!-- <div class="fh5co-heading padding-right">
-                        <h2>Outdoor</h2>
-                        <p>
-                            A small river named Duden flows by their place and supplies it
-                            with the necessary regelialia. It is a paradisematic country, in
-                            which roasted parts of sentences fly into your mouth.
-                        </p>
-                    </div> -->
+            <div id="photo-grid" class="fh5co-grid"></div>
 
-                    <div class="album-photo">
-                        <a href="images/landscapes/badlands.jpg" class="image-popup"
-                            title="Panorama Point, Badlands National Park, SD">
-                            <picture>
-                                <source type="image/webp" srcset="images/landscapes/badlands.webp">
-                                <source type="image/jpeg" srcset="images/landscapes/badlands.jpg">
-                                <img src="images/landscapes/badlands.jpg"
-                                    alt="Panorama Point, Badlands National Park, SD"
-                                    title="Panorama Point, Badlands National Park, SD">
-                            </picture>
-                            <div class="album-photo-text-wrap">
-                                <div class="album-photo-text">
-                                    <h2>Panorama Point, Badlands National Park, SD</h2>
-                                </div>
-                            </div>
-                        </a>
-                    </div>
-                    <div class="album-photo">
-                        <a href="images/landscapes/lamar-valley.jpg" class="image-popup"
-                            title="Lamar Valley, Yellowstone National Park, WY">
-                            <picture>
-                                <source type="image/webp" srcset="images/landscapes/lamar-valley.webp">
-                                <source type="image/jpeg" srcset="images/landscapes/lamar-valley.jpg">
-                                <img src="images/landscapes/lamar-valley.jpg"
-                                    alt="Lamar Valley, Yellowstone National Park, WY"
-                                    title="Lamar Valley, Yellowstone National Park, WY">
-                            </picture>
-                            <div class="album-photo-text-wrap">
-                                <div class="album-photo-text">
-                                    <h2>Lamar Valley, Yellowstone National Park, WY</h2>
-                                </div>
-                            </div>
-                        </a>
-                    </div>
-                    <div class="album-photo">
-                        <a href="images/landscapes/badlands2.jpg" class="image-popup"
-                            title="Panorama Point, Badlands National Park, SD">
-                            <picture>
-                                <source type="image/webp" srcset="images/landscapes/badlands2.webp">
-                                <source type="image/jpeg" srcset="images/landscapes/badlands2.jpg">
-                                <img src="images/landscapes/badlands2.jpg"
-                                    alt="Panorama Point, Badlands National Park, SD"
-                                    title="Panorama Point, Badlands National Park, SD">
-                            </picture>
-                            <div class="album-photo-text-wrap">
-                                <div class="album-photo-text">
-                                    <h2>Panorama Point, Badlands National Park, SD</h2>
-                                </div>
-                            </div>
-                        </a>
-                    </div>
-                    <div class="album-photo">
-                        <a href="images/landscapes/iztaccihuatl.jpg" class="image-popup" title="Iztaccihuatl, México">
-                            <picture>
-                                <source type="image/webp" srcset="images/landscapes/iztaccihuatl.webp">
-                                <source type="image/jpeg" srcset="images/landscapes/iztaccihuatl.jpg">
-                                <img src="images/landscapes/iztaccihuatl.jpg" alt="Iztaccihuatl, México"
-                                    title="Iztaccihuatl, México">
-                            </picture>
-                            <div class="album-photo-text-wrap">
-                                <div class="album-photo-text">
-                                    <h2>Iztaccihuatl, México</h2>
-                                </div>
-                            </div>
-                        </a>
-                    </div>
-                    <div class="album-photo">
-                        <a href="images/landscapes/gtsr1.jpg" class="image-popup"
-                            title="Going-to-the-Sun Road, Glacier National Park, MT">
-                            <picture>
-                                <source type="image/webp" srcset="images/landscapes/gtsr1.webp">
-                                <source type="image/jpeg" srcset="images/landscapes/gtsr1.jpg">
-                                <img src="images/landscapes/gtsr1.jpg"
-                                    alt="Going-to-the-Sun Road, Glacier National Park, MT"
-                                    title="Going-to-the-Sun Road, Glacier National Park, MT">
-                            </picture>
-                            <div class="album-photo-text-wrap">
-                                <div class="album-photo-text">
-                                    <h2>Going-to-the-Sun Road, Glacier National Park, MT</h2>
-                                </div>
-                            </div>
-                        </a>
-                    </div>
-                    <div class="album-photo">
-                        <a href="images/landscapes/emerald-isle-night.jpg" class="image-popup" title="Emerald Isle, NC">
-                            <picture>
-                                <source type="image/webp" srcset="images/landscapes/emerald-isle-night.webp">
-                                <source type="image/jpeg" srcset="images/landscapes/emerald-isle-night.jpg">
-                                <img src="images/landscapes/emerald-isle-night.jpg" alt="Emerald Isle, NC"
-                                    title="Emerald Isle, NC">
-                            </picture>
-                            <div class="album-photo-text-wrap">
-                                <div class="album-photo-text">
-                                    <h2>Emerald Isle, NC</h2>
-                                </div>
-                            </div>
-                        </a>
-                    </div>
-                    <div class="album-photo">
-                        <a href="images/landscapes/yellowstone-canyon1.jpg" class="image-popup"
-                            title="Grand Canyon of the Yellowstone, Yellowstone National Park, WY">
-                            <picture>
-                                <source type="image/webp" srcset="images/landscapes/yellowstone-canyon1.webp">
-                                <source type="image/jpeg" srcset="images/landscapes/yellowstone-canyon1.jpg">
-                                <img src="images/landscapes/yellowstone-canyon1.jpg"
-                                    alt="Grand Canyon of the Yellowstone, Yellowstone National Park, WY"
-                                    title="Grand Canyon of the Yellowstone, Yellowstone National Park, WY">
-                            </picture>
-                            <div class="album-photo-text-wrap">
-                                <div class="album-photo-text">
-                                    <h2>Grand Canyon of the Yellowstone, Yellowstone National Park, WY</h2>
-                                </div>
-                            </div>
-                        </a>
-                    </div>
-                    <div class="album-photo">
-                        <a href="images/landscapes/tapachula.jpg" class="image-popup"
-                            title="Tapachula, Chiapas, México">
-                            <picture>
-                                <source type="image/webp" srcset="images/landscapes/tapachula.webp">
-                                <source type="image/jpeg" srcset="images/landscapes/tapachula.jpg">
-                                <img src="images/landscapes/tapachula.jpg" alt="Tapachula, Chiapas, México"
-                                    title="Tapachula, Chiapas, México">
-                            </picture>
-                            <div class="album-photo-text-wrap">
-                                <div class="album-photo-text">
-                                    <h2>Tapachula, Chiapas, México</h2>
-                                </div>
-                            </div>
-                        </a>
-                    </div>
-                    <div class="album-photo">
-                        <a href="images/landscapes/volcan-fuego.jpg" class="image-popup"
-                            title="Volcán de Fuego, Guatemala">
-                            <picture>
-                                <source type="image/webp" srcset="images/landscapes/volcan-fuego.webp">
-                                <source type="image/jpeg" srcset="images/landscapes/volcan-fuego.jpg">
-                                <img src="images/landscapes/volcan-fuego.jpg" alt="Volcán de Fuego, Guatemala"
-                                    title="Volcán de Fuego, Guatemala">
-                            </picture>
-                            <div class="album-photo-text-wrap">
-                                <div class="album-photo-text">
-                                    <h2>Volcán de Fuego, Guatemala</h2>
-                                </div>
-                            </div>
-                        </a>
-                    </div>
-                    <div class="album-photo">
-                        <a href="images/landscapes/gtsr3.jpg" class="image-popup"
-                            title="Going-to-the-Sun Road, Glacier National Park, MT">
-                            <picture>
-                                <source type="image/webp" srcset="images/landscapes/gtsr3.webp">
-                                <source type="image/jpeg" srcset="images/landscapes/gtsr3.jpg">
-                                <img src="images/landscapes/gtsr3.jpg"
-                                    alt="Going-to-the-Sun Road, Glacier National Park, MT"
-                                    title="Going-to-the-Sun Road, Glacier National Park, MT">
-                            </picture>
-                            <div class="album-photo-text-wrap">
-                                <div class="album-photo-text">
-                                    <h2>Going-to-the-Sun Road, Glacier National Park, MT</h2>
-                                </div>
-                            </div>
-                        </a>
-                    </div>
-                    <div class="album-photo">
-                        <a href="images/landscapes/sumidero.jpg" class="image-popup"
-                            title="Cañón del Sumidero, Chiapas, México">
-                            <picture>
-                                <source type="image/webp" srcset="images/landscapes/sumidero.webp">
-                                <source type="image/jpeg" srcset="images/landscapes/sumidero.jpg">
-                                <img src="images/landscapes/sumidero.jpg" alt="Cañón del Sumidero, Chiapas, México"
-                                    title="Cañón del Sumidero, Chiapas, México">
-                            </picture>
-                            <div class="album-photo-text-wrap">
-                                <div class="album-photo-text">
-                                    <h2>Cañón del Sumidero, Chiapas, México</h2>
-                                </div>
-                            </div>
-                        </a>
-                    </div>
-
-                </div>
-                <!-- Column 2 -->
-                <div class="fh5co-col-2">
-                    <div class="album-photo">
-                        <a href="images/landscapes/glacier-natl-park.jpg" class="image-popup"
-                            title="Three Falls Trail, Glacier National Park, MT">
-                            <picture>
-                                <source type="image/webp" srcset="images/landscapes/glacier-natl-park.webp">
-                                <source type="image/jpeg" srcset="images/landscapes/glacier-natl-park.jpg">
-                                <img src="images/landscapes/glacier-natl-park.jpg"
-                                    alt="Three Falls Trail, Glacier National Park, MT"
-                                    title="Three Falls Trail, Glacier National Park, MT">
-                            </picture>
-                            <div class="album-photo-text-wrap">
-                                <div class="album-photo-text">
-                                    <h2>Three Falls Trail, Glacier National Park, MT</h2>
-                                </div>
-                            </div>
-                        </a>
-                    </div>
-                    <div class="album-photo">
-                        <a href="images/landscapes/prismatic.jpg" class="image-popup"
-                            title="Grand Prismatic Spring, Yellowstone National Park, WY">
-                            <picture>
-                                <source type="image/webp" srcset="images/landscapes/prismatic.webp">
-                                <source type="image/jpeg" srcset="images/landscapes/prismatic.jpg">
-                                <img src="images/landscapes/prismatic.jpg"
-                                    alt="Grand Prismatic Spring, Yellowstone National Park, WY"
-                                    title="Grand Prismatic Spring, Yellowstone National Park, WY">
-                            </picture>
-                            <div class="album-photo-text-wrap">
-                                <div class="album-photo-text">
-                                    <h2>Grand Prismatic Spring, Yellowstone National Park, WY</h2>
-                                </div>
-                            </div>
-                        </a>
-                    </div>
-                    <div class="album-photo">
-                        <a href="images/landscapes/gtsr4.jpg" class="image-popup"
-                            title="Going-to-the-Sun Road, Glacier National Park, MT">
-                            <picture>
-                                <source type="image/webp" srcset="images/landscapes/gtsr4.webp">
-                                <source type="image/jpeg" srcset="images/landscapes/gtsr4.jpg">
-                                <img src="images/landscapes/gtsr4.jpg"
-                                    alt="Going-to-the-Sun Road, Glacier National Park, MT"
-                                    title="Going-to-the-Sun Road, Glacier National Park, MT">
-                            </picture>
-                            <div class="album-photo-text-wrap">
-                                <div class="album-photo-text">
-                                    <h2>Going-to-the-Sun Road, Glacier National Park, MT</h2>
-                                </div>
-                            </div>
-                        </a>
-                    </div>
-                    <div class="album-photo">
-                        <a href="images/landscapes/yellowstone-canyon.jpg" class="image-popup"
-                            title="Grand Canyon of the Yellowstone, Yellowstone National Park, WY">
-                            <picture>
-                                <source type="image/webp" srcset="images/landscapes/yellowstone-canyon.webp">
-                                <source type="image/jpeg" srcset="images/landscapes/yellowstone-canyon.jpg">
-                                <img src="images/landscapes/yellowstone-canyon.jpg"
-                                    alt="Grand Canyon of the Yellowstone, Yellowstone National Park, WY"
-                                    title="Grand Canyon of the Yellowstone, Yellowstone National Park, WY">
-                            </picture>
-                            <div class="album-photo-text-wrap">
-                                <div class="album-photo-text">
-                                    <h2>Grand Canyon of the Yellowstone, Yellowstone National Park, WY</h2>
-                                </div>
-                            </div>
-                        </a>
-                    </div>
-                    <div class="album-photo">
-                        <a href="images/landscapes/lake-mcdonald.jpg" class="image-popup"
-                            title="Lake McDonald, Glacier National Park, MT">
-                            <picture>
-                                <source type="image/webp" srcset="images/landscapes/lake-mcdonald.webp">
-                                <source type="image/jpeg" srcset="images/landscapes/lake-mcdonald.jpg">
-                                <img src="images/landscapes/lake-mcdonald.jpg"
-                                    alt="Lake McDonald, Glacier National Park, MT"
-                                    title="Lake McDonald, Glacier National Park, MT">
-                            </picture>
-                            <div class="album-photo-text-wrap">
-                                <div class="album-photo-text">
-                                    <h2>Lake McDonald, Glacier National Park, MT</h2>
-                                </div>
-                            </div>
-                        </a>
-                    </div>
-                    <div class="album-photo">
-                        <a href="images/landscapes/three-falls.jpg" class="image-popup"
-                            title="Three Falls Trail, Glacier National Park, MT">
-                            <picture>
-                                <source type="image/webp" srcset="images/landscapes/three-falls.webp">
-                                <source type="image/jpeg" srcset="images/landscapes/three-falls.jpg">
-                                <img src="images/landscapes/three-falls.jpg"
-                                    alt="Three Falls Trail, Glacier National Park, MT"
-                                    title="Three Falls Trail, Glacier National Park, MT">
-                            </picture>
-                            <div class="album-photo-text-wrap">
-                                <div class="album-photo-text">
-                                    <h2>Three Falls Trail, Glacier National Park, MT</h2>
-                                </div>
-                            </div>
-                        </a>
-                    </div>
-                    <div class="album-photo">
-                        <a href="images/landscapes/emerald-isle-day.jpg" class="image-popup" title="Emerald Isle, NC">
-                            <picture>
-                                <source type="image/webp" srcset="images/landscapes/emerald-isle-day.webp">
-                                <source type="image/jpeg" srcset="images/landscapes/emerald-isle-day.jpg">
-                                <img src="images/landscapes/emerald-isle-day.jpg" alt="Emerald Isle, NC"
-                                    title="Emerald Isle, NC">
-                            </picture>
-                            <div class="album-photo-text-wrap">
-                                <div class="album-photo-text">
-                                    <h2>Emerald Isle, NC</h2>
-                                </div>
-                            </div>
-                        </a>
-                    </div>
-                    <div class="album-photo">
-                        <a href="images/landscapes/gtsr2.jpg" class="image-popup"
-                            title="Going-to-the-Sun Road, Glacier National Park, MT">
-                            <picture>
-                                <source type="image/webp" srcset="images/landscapes/gtsr2.webp">
-                                <source type="image/jpeg" srcset="images/landscapes/gtsr2.jpg">
-                                <img src="images/landscapes/gtsr2.jpg"
-                                    alt="Going-to-the-Sun Road, Glacier National Park, MT"
-                                    title="Going-to-the-Sun Road, Glacier National Park, MT">
-                            </picture>
-                            <div class="album-photo-text-wrap">
-                                <div class="album-photo-text">
-                                    <h2>Going-to-the-Sun Road, Glacier National Park, MT</h2>
-                                </div>
-                            </div>
-                        </a>
-                    </div>
-                    <div class="album-photo">
-                        <a href="images/landscapes/cholla.jpg" class="image-popup"
-                            title="Cholla Cactus Garden, Joshua Tree National Park, CA">
-                            <picture>
-                                <source type="image/webp" srcset="images/landscapes/cholla.webp">
-                                <source type="image/jpeg" srcset="images/landscapes/cholla.jpg">
-                                <img src="images/landscapes/cholla.jpg"
-                                    alt="Cholla Cactus Garden, Joshua Tree National Park, CA"
-                                    title="Cholla Cactus Garden, Joshua Tree National Park, CA">
-                            </picture>
-                            <div class="album-photo-text-wrap">
-                                <div class="album-photo-text">
-                                    <h2>Cholla Cactus Garden, Joshua Tree National Park, CA</h2>
-                                </div>
-                            </div>
-                        </a>
-                    </div>
-                    <div class="album-photo">
-                        <a href="images/landscapes/welch-dickey.jpg" class="image-popup"
-                            title="Welch-Dickey Loop Trail, NH">
-                            <picture>
-                                <source type="image/webp" srcset="images/landscapes/welch-dickey.webp">
-                                <source type="image/jpeg" srcset="images/landscapes/welch-dickey.jpg">
-                                <img src="images/landscapes/welch-dickey.jpg" alt="Welch-Dickey Loop Trail, NH"
-                                    title="Welch-Dickey Loop Trail, NH">
-                            </picture>
-                            <div class="album-photo-text-wrap">
-                                <div class="album-photo-text">
-                                    <h2>Welch-Dickey Loop Trail, NH</h2>
-                                </div>
-                            </div>
-                        </a>
-                    </div>
-                    <div class="album-photo">
-                        <a href="images/landscapes/valle-de-bravo.jpg" class="image-popup"
-                            title="Mirador La Peña, Valle de Bravo, Estado de México, México">
-                            <picture>
-                                <source type="image/webp" srcset="images/landscapes/valle-de-bravo.webp">
-                                <source type="image/jpeg" srcset="images/landscapes/valle-de-bravo.jpg">
-                                <img src="images/landscapes/valle-de-bravo.jpg"
-                                    alt="Mirador La Peña, Valle de Bravo, Estado de México, México"
-                                    title="Mirador La Peña, Valle de Bravo, Estado de México, México">
-                            </picture>
-                            <div class="album-photo-text-wrap">
-                                <div class="album-photo-text">
-                                    <h2>Mirador La Peña, Valle de Bravo, Estado de México, México</h2>
-                                </div>
-                            </div>
-                        </a>
-                    </div>
-                    <div class="album-photo">
-                        <a href="images/landscapes/tapachula2.jpg" class="image-popup"
-                            title="Tapachula, Chiapas, México">
-                            <picture>
-                                <source type="image/webp" srcset="images/landscapes/tapachula2.webp">
-                                <source type="image/jpeg" srcset="images/landscapes/tapachula2.jpg">
-                                <img src="images/landscapes/tapachula2.jpg" alt="Tapachula, Chiapas, México"
-                                    title="Tapachula, Chiapas, México">
-                            </picture>
-                            <div class="album-photo-text-wrap">
-                                <div class="album-photo-text">
-                                    <h2>Tapachula, Chiapas, México</h2>
-                                </div>
-                            </div>
-                        </a>
-                    </div>
-
-                    <!-- Footer -->
-                    <div id="fh5co-footer" class="padding-left">
-                        <p>
-                            <small>&copy; 2023 Paul Lisker. All Rights Reserved.<br />
-                                <a href="https://lisker.me/privacy_policy" target="_blank">Privacy Policy</a>
-                                &#183;
-                                <a href="https://lisker.me/cookie_policy" target="_blank">Cookie Policy</a><br />
-                                Modified from a design by
-                                <a href="http://freehtml5.co/" target="_blank">FreeHTML5.co</a></small>
-                        </p>
-                        <ul class="fh5co-social">
-                            <li>
-                                <a href="https://www.instagram.com/paullisker/" rel="noopener" target="_blank"
-                                    aria-label="See: Instagram"><i class="fa-brands fa-instagram"></i></a>
-                            </li>
-                            <li>
-                                <a href="https://www.linkedin.com/in/paullisker/" rel="noopener" target="_blank"
-                                    aria-label="See: LinkedIn"><i class="fa-brands fa-linkedin"></i></a>
-                            </li>
-                            <li>
-                                <a href="https://twitter.com/PaulLisker/" rel="noopener" target="_blank"
-                                    aria-label="See: Twitter"><i class="fa-brands fa-twitter"></i></a>
-                            </li>
-                            <li>
-                                <a href="https://ebird.org/profile/MTgxMjE3NQ/" rel="noopener" target="_blank"
-                                    aria-label="See: eBird"><i class="fa-solid fa-binoculars"></i></a>
-                            </li>
-                            <li>
-                                <a href="mailto:photos@lisker.me/" rel="noopener" target="_blank"
-                                    aria-label="Email me: photos@lisker.me"><i class="fa-regular fa-envelope"></i></a>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
+            <!-- Footer -->
+            <div id="fh5co-footer" class="padding-left">
+                <p>
+                    <small>&copy; 2023 Paul Lisker. All Rights Reserved.<br />
+                        <a href="https://lisker.me/privacy_policy" target="_blank">Privacy Policy</a>
+                        &#183;
+                        <a href="https://lisker.me/cookie_policy" target="_blank">Cookie Policy</a><br />
+                        Modified from a design by
+                        <a href="http://freehtml5.co/" target="_blank">FreeHTML5.co</a></small>
+                </p>
+                <ul class="fh5co-social">
+                    <li>
+                        <a href="https://www.instagram.com/paullisker/" rel="noopener" target="_blank"
+                            aria-label="See: Instagram"><i class="fa-brands fa-instagram"></i></a>
+                    </li>
+                    <li>
+                        <a href="https://www.linkedin.com/in/paullisker/" rel="noopener" target="_blank"
+                            aria-label="See: LinkedIn"><i class="fa-brands fa-linkedin"></i></a>
+                    </li>
+                    <li>
+                        <a href="https://twitter.com/PaulLisker/" rel="noopener" target="_blank"
+                            aria-label="See: Twitter"><i class="fa-brands fa-twitter"></i></a>
+                    </li>
+                    <li>
+                        <a href="https://ebird.org/profile/MTgxMjE3NQ/" rel="noopener" target="_blank"
+                            aria-label="See: eBird"><i class="fa-solid fa-binoculars"></i></a>
+                    </li>
+                    <li>
+                        <a href="mailto:photos@lisker.me/" rel="noopener" target="_blank"
+                            aria-label="Email me: photos@lisker.me"><i class="fa-regular fa-envelope"></i></a>
+                    </li>
+                </ul>
             </div>
         </div>
     </div>
