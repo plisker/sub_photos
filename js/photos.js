@@ -1,4 +1,4 @@
-function populatePhotoGrid(jsonFilePath, offset=0) {
+function populatePhotoGrid(jsonFilePath, offset = 0) {
     fetch(jsonFilePath)
         .then(response => response.json())
         .then(data => {
@@ -20,8 +20,11 @@ function populatePhotoGrid(jsonFilePath, offset=0) {
                     // Handle video
                     albumElement = document.createElement('div');
                     albumElement.className = 'album-photo';
+
+                    let elementDescription = photo.description ? photo.description : photo.name;
+
                     albumElement.innerHTML = `
-                        <a href="${photo.video}" class="mfp-iframe image-popup" title="${photo.name}">
+                        <a href="${photo.video}" class="mfp-iframe image-popup" title="${elementDescription}">
                             <picture>
                                 <source type="image/webp" srcset="${data.directory}${photo.file}.webp" />
                                 <source type="image/jpeg" srcset="${data.directory}${photo.file}.jpg" />
@@ -39,8 +42,11 @@ function populatePhotoGrid(jsonFilePath, offset=0) {
                     // Handle photo
                     albumElement = document.createElement('div');
                     albumElement.className = 'album-photo';
+
+                    let elementDescription = photo.description ? photo.description : photo.name;
+
                     albumElement.innerHTML = `
-                        <a href="${data.directory}${photo.file}.jpg" class="image-popup" title="${photo.name}">
+                        <a href="${data.directory}${photo.file}.jpg" class="image-popup" title="${elementDescription}">
                             <picture>
                                 <source type="image/webp" srcset="${data.directory}${photo.file}.webp" />
                                 <source type="image/jpeg" srcset="${data.directory}${photo.file}.jpg" />
