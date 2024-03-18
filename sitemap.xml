@@ -7,53 +7,53 @@
 
     <url>
         <loc>https://photos.lisker.me/</loc>
-        <lastmod>2023-01-02T23:25:21+00:00</lastmod>
+        <lastmod>2024-03-18T23:29:27+00:00</lastmod>
         <priority>1.00</priority>
     </url>
     <url>
-        <loc>https://photos.lisker.me/about.html</loc>
-        <lastmod>2023-01-02T23:25:20+00:00</lastmod>
+        <loc>https://photos.lisker.me/about/</loc>
+        <lastmod>2024-03-18T23:29:27+00:00</lastmod>
         <priority>0.80</priority>
     </url>
     <url>
-        <loc>https://photos.lisker.me/machias-seal-island.html</loc>
-        <lastmod>2023-01-02T23:25:21+00:00</lastmod>
+        <loc>https://photos.lisker.me/albums/machias-seal-island/</loc>
+        <lastmod>2024-03-18T23:29:27+00:00</lastmod>
         <priority>0.80</priority>
     </url>
     <url>
-        <loc>https://photos.lisker.me/birds_of_prey.html</loc>
-        <lastmod>2023-01-02T23:25:20+00:00</lastmod>
+        <loc>https://photos.lisker.me/albums/birds-of-prey/</loc>
+        <lastmod>2024-03-18T23:29:27+00:00</lastmod>
         <priority>0.80</priority>
     </url>
     <url>
-        <loc>https://photos.lisker.me/backyards.html</loc>
-        <lastmod>2023-01-02T23:25:20+00:00</lastmod>
+        <loc>https://photos.lisker.me/albums/backyards/</loc>
+        <lastmod>2024-03-18T23:29:27+00:00</lastmod>
         <priority>0.80</priority>
     </url>
     <url>
-        <loc>https://photos.lisker.me/wildlife.html</loc>
-        <lastmod>2023-01-02T23:25:21+00:00</lastmod>
+        <loc>https://photos.lisker.me/albums/wildlife/</loc>
+        <lastmod>2024-03-18T23:29:27+00:00</lastmod>
         <priority>0.80</priority>
     </url>
     <url>
-        <loc>https://photos.lisker.me/wings-over-america.html</loc>
-        <lastmod>2023-01-02T23:25:21+00:00</lastmod>
+        <loc>https://photos.lisker.me/albums/wings-over-america/</loc>
+        <lastmod>2024-03-18T23:29:27+00:00</lastmod>
         <priority>0.80</priority>
     </url>
     <url>
-        <loc>https://photos.lisker.me/warblers.html</loc>
-        <lastmod>2023-01-02T23:25:21+00:00</lastmod>
+        <loc>https://photos.lisker.me/albums/warblers/</loc>
+        <lastmod>2024-03-18T23:29:27+00:00</lastmod>
         <priority>0.80</priority>
     </url>
     <url>
-        <loc>https://photos.lisker.me/beach.html</loc>
-        <lastmod>2023-01-02T23:25:20+00:00</lastmod>
+        <loc>https://photos.lisker.me/albums/beach/</loc>
+        <lastmod>2024-03-18T23:29:27+00:00</lastmod>
         <priority>0.80</priority>
     </url>
     <url>
-        <loc>https://photos.lisker.me/landscapes.html</loc>
-        <lastmod>2023-01-02T23:25:21+00:00</lastmod>
+        <loc>https://photos.lisker.me/albums/landscapes/</loc>
+        <lastmod>2024-03-18T23:29:27+00:00</lastmod>
         <priority>0.80</priority>
     </url>
-    
+
 </urlset>
