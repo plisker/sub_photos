@@ -1,0 +1,65 @@
+{
+    "directory": "/assets/images/beach/",
+    "photos": [
+        {
+            "name": "Long-Billed Curlew",
+            "file": "lbcu"
+        },
+        {
+            "name": "American Oystercatcher",
+            "file": "amoy2"
+        },
+        {
+            "name": "Whimbrel",
+            "file": "whim"
+        },
+        {
+            "name": "Sanderlings",
+            "file": "sand"
+        },
+        {
+            "name": "Semipalmated Plover",
+            "file": "sepl"
+        },
+        {
+            "name": "Wilson's Plover",
+            "file": "wipl"
+        },
+        {
+            "name": "Ring-Billed Gull",
+            "file": "rbgu"
+        },
+        {
+            "name": "American Avocet",
+            "file": "amav"
+        },
+        {
+            "name": "Herring Gull",
+            "file": "herg"
+        },
+        {
+            "name": "Ruddy Turnstone",
+            "file": "rutu"
+        },
+        {
+            "name": "Lesser Yellowlegs",
+            "file": "leye2"
+        },
+        {
+            "name": "Least Sandpiper",
+            "file": "lesa1"
+        },
+        {
+            "name": "Sanderling",
+            "file": "sand3"
+        },
+        {
+            "name": "American Oystercatcher",
+            "file": "amoy"
+        },
+        {
+            "name": "Great Black-Backed Gull",
+            "file": "gbbg"
+        }
+    ]
+}

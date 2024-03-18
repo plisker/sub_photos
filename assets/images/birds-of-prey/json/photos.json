@@ -1,0 +1,42 @@
+{
+    "directory": "/assets/images/birds-of-prey/",
+    "photos": [
+        {
+            "name": "Barred Owl",
+            "file": "bado"
+        },
+        {
+            "name": "Barred Owl",
+            "file": "bado1"
+        },
+        {
+            "name": "Cooper's Hawk",
+            "file": "coha"
+        },
+        {
+            "name": "Red-Tailed Hawk",
+            "file": "rtha"
+        },
+        {
+            "name": "Video of a Barred Owl",
+            "file": "bado-video",
+            "video": "https://www.youtube.com/watch?v=EX9RkPYKs4I"
+        },
+        {
+            "name": "Red-Shouldered Hawk",
+            "file": "rsha"
+        },
+        {
+            "name": "Great Horned Owl",
+            "file": "ghow"
+        },
+        {
+            "name": "Bald Eagle",
+            "file": "baea"
+        },
+        {
+            "name": "Cooper's Hawk",
+            "file": "coha1"
+        }
+    ]
+}
