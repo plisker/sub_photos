@@ -1,0 +1,70 @@
+{
+    "directory": "images/wildlife/",
+    "photos": [
+      {
+        "name": "Black Bear",
+        "file": "mama-bear"
+      },
+      {
+        "name": "Bighorn Sheep",
+        "file": "bighorn-sheep1"
+      },
+      {
+        "name": "Marine Iguana",
+        "file": "marine-iguana1"
+      },
+      {
+        "name": "Common Chuckwalla",
+        "file": "chuckwalla"
+      },
+      {
+        "name": "Long-Tailed Ground Squirrel",
+        "file": "ground-squirrel"
+      },
+      {
+        "name": "Pronghorn",
+        "file": "pronghorn"
+      },
+      {
+        "name": "Western Fence Lizard",
+        "file": "fence-lizard"
+      },
+      {
+        "name": "Bighorn Sheep",
+        "file": "bighorn-sheep3"
+      },
+      {
+        "name": "Prairie Dog",
+        "file": "prairie-dog"
+      },
+      {
+        "name": "Bison",
+        "file": "bison"
+      },
+      {
+        "name": "Olive Ridley Sea Turtle",
+        "file": "sea-turtle"
+      },
+      {
+        "name": "Galápagos Fur Seal",
+        "file": "fur-seal"
+      },
+      {
+        "name": "Moose",
+        "file": "moose"
+      },
+      {
+        "name": "Bighorn Sheep",
+        "file": "bighorn-sheep"
+      },
+      {
+        "name": "Black Bear cubs",
+        "file": "bear-cubs"
+      },
+      {
+        "name": "Eastern Gray Squirrel",
+        "file": "squirrel"
+      }
+    ]
+  }
+  

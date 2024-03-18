@@ -71,6 +71,12 @@
     <!-- <script src="js/jquery.magnific-popup.min.js"></script> -->
     <script src="js/jquery.magnific-popup.js"></script>
 
+    <!-- Photos JS -->
+    <script src="js/photos.js"></script>
+    <script>
+        populatePhotoGrid('images/wildlife/json/photos.json', 1);
+    </script>
+
     <!-- Main JS -->
     <script src="js/main.js"></script>
 
@@ -109,286 +115,40 @@
                 </div>
             </div>
 
-            <div class="fh5co-grid">
-                <!-- Column 1 -->
-                <div class="fh5co-col-1">
-                    <!-- <div class="fh5co-heading padding-right">
-                        <h2>Outdoor</h2>
-                        <p>
-                            A small river named Duden flows by their place and supplies it
-                            with the necessary regelialia. It is a paradisematic country, in
-                            which roasted parts of sentences fly into your mouth.
-                        </p>
-                    </div> -->
+            <div id="photo-grid" class="fh5co-grid"></div>
 
-                    <div class="album-photo">
-                        <a href="images/wildlife/mama-bear.jpg" class="image-popup" title="Black Bear">
-                            <picture>
-                                <source type="image/webp" srcset="images/wildlife/mama-bear.webp">
-                                <source type="image/jpeg" srcset="images/wildlife/mama-bear.jpg">
-                                <img src="images/wildlife/mama-bear.jpg" alt="Black Bear" title="Black Bear">
-                            </picture>
-                            <div class="album-photo-text-wrap">
-                                <div class="album-photo-text">
-                                    <h2>Black Bear</h2>
-                                </div>
-                            </div>
-                        </a>
-                    </div>
-                    <div class="album-photo">
-                        <a href="images/wildlife/bighorn-sheep1.jpg" class="image-popup" title="Bighorn Sheep">
-                            <picture>
-                                <source type="image/webp" srcset="images/wildlife/bighorn-sheep1.webp">
-                                <source type="image/jpeg" srcset="images/wildlife/bighorn-sheep1.jpg">
-                                <img src="images/wildlife/bighorn-sheep1.jpg" alt="Bighorn Sheep" title="Bighorn Sheep">
-                            </picture>
-                            <div class="album-photo-text-wrap">
-                                <div class="album-photo-text">
-                                    <h2>Bighorn Sheep</h2>
-                                </div>
-                            </div>
-                        </a>
-                    </div>
-                    <div class="album-photo">
-                        <a href="images/wildlife/marine-iguana1.jpg" class="image-popup" title="Marine Iguana">
-                            <picture>
-                                <source type="image/webp" srcset="images/wildlife/marine-iguana1.webp">
-                                <source type="image/jpeg" srcset="images/wildlife/marine-iguana1.jpg">
-                                <img src="images/wildlife/marine-iguana1.jpg" alt="Marine Iguana" title="Marine Iguana">
-                            </picture>
-                            <div class="album-photo-text-wrap">
-                                <div class="album-photo-text">
-                                    <h2>Marine Iguana</h2>
-                                </div>
-                            </div>
-                        </a>
-                    </div>
-                    <div class="album-photo">
-                        <a href="images/wildlife/chuckwalla.jpg" class="image-popup" title="Common Chuckwalla">
-                            <picture>
-                                <source type="image/webp" srcset="images/wildlife/chuckwalla.webp">
-                                <source type="image/jpeg" srcset="images/wildlife/chuckwalla.jpg">
-                                <img src="images/wildlife/chuckwalla.jpg" alt="Common Chuckwalla"
-                                    title="Common Chuckwalla">
-                            </picture>
-                            <div class="album-photo-text-wrap">
-                                <div class="album-photo-text">
-                                    <h2>Common Chuckwalla</h2>
-                                </div>
-                            </div>
-                        </a>
-                    </div>
-                    <div class="album-photo">
-                        <a href="images/wildlife/ground-squirrel.jpg" class="image-popup"
-                            title="Long-Tailed Ground Squirrel">
-                            <picture>
-                                <source type="image/webp" srcset="images/wildlife/ground-squirrel.webp">
-                                <source type="image/jpeg" srcset="images/wildlife/ground-squirrel.jpg">
-                                <img src="images/wildlife/ground-squirrel.jpg" alt="Long-Tailed Ground Squirrel"
-                                    title="Long-Tailed Ground Squirrel">
-                            </picture>
-                            <div class="album-photo-text-wrap">
-                                <div class="album-photo-text">
-                                    <h2>Long-Tailed Ground Squirrel</h2>
-                                </div>
-                            </div>
-                        </a>
-                    </div>
-                    <div class="album-photo">
-                        <a href="images/wildlife/pronghorn.jpg" class="image-popup" title="Pronghorn">
-                            <picture>
-                                <source type="image/webp" srcset="images/wildlife/pronghorn.webp">
-                                <source type="image/jpeg" srcset="images/wildlife/pronghorn.jpg">
-                                <img src="images/wildlife/pronghorn.jpg" alt="Pronghorn" title="Pronghorn">
-                            </picture>
-                            <div class="album-photo-text-wrap">
-                                <div class="album-photo-text">
-                                    <h2>Pronghorn</h2>
-                                </div>
-                            </div>
-                        </a>
-                    </div>
-                    <div class="album-photo">
-                        <a href="images/wildlife/fence-lizard.jpg" class="image-popup" title="Western Fence Lizard">
-                            <picture>
-                                <source type="image/webp" srcset="images/wildlife/fence-lizard.webp">
-                                <source type="image/jpeg" srcset="images/wildlife/fence-lizard.jpg">
-                                <img src="images/wildlife/fence-lizard.jpg" alt="Western Fence Lizard"
-                                    title="Western Fence Lizard">
-                            </picture>
-                            <div class="album-photo-text-wrap">
-                                <div class="album-photo-text">
-                                    <h2>Western Fence Lizard</h2>
-                                </div>
-                            </div>
-                        </a>
-                    </div>
-                    <div class="album-photo">
-                        <a href="images/wildlife/bighorn-sheep3.jpg" class="image-popup" title="Bighorn Sheep">
-                            <picture>
-                                <source type="image/webp" srcset="images/wildlife/bighorn-sheep3.webp">
-                                <source type="image/jpeg" srcset="images/wildlife/bighorn-sheep3.jpg">
-                                <img src="images/wildlife/bighorn-sheep3.jpg" alt="Bighorn Sheep" title="Bighorn Sheep">
-                            </picture>
-                            <div class="album-photo-text-wrap">
-                                <div class="album-photo-text">
-                                    <h2>Bighorn Sheep</h2>
-                                </div>
-                            </div>
-                        </a>
-                    </div>
-                </div>
-                <!-- Column 2 -->
-                <div class="fh5co-col-2">
-                    <div class="album-photo">
-                        <a href="images/wildlife/prairie-dog.jpg" class="image-popup" title="Prairie Dog">
-                            <picture>
-                                <source type="image/webp" srcset="images/wildlife/prairie-dog.webp">
-                                <source type="image/jpeg" srcset="images/wildlife/prairie-dog.jpg">
-                                <img src="images/wildlife/prairie-dog.jpg" alt="Prairie Dog" title="Prairie Dog">
-                            </picture>
-                            <div class="album-photo-text-wrap">
-                                <div class="album-photo-text">
-                                    <h2>Prairie Dog</h2>
-                                </div>
-                            </div>
-                        </a>
-                    </div>
-                    <div class="album-photo">
-                        <a href="images/wildlife/bison.jpg" class="image-popup" title="Bison">
-                            <picture>
-                                <source type="image/webp" srcset="images/wildlife/bison.webp">
-                                <source type="image/jpeg" srcset="images/wildlife/bison.jpg">
-                                <img src="images/wildlife/bison.jpg" alt="Bison" title="Bison">
-                            </picture>
-                            <div class="album-photo-text-wrap">
-                                <div class="album-photo-text">
-                                    <h2>Bison</h2>
-                                </div>
-                            </div>
-                        </a>
-                    </div>
-                    <div class="album-photo">
-                        <a href="images/wildlife/sea-turtle.jpg" class="image-popup" title="Olive Ridley Sea Turtle">
-                            <picture>
-                                <source type="image/webp" srcset="images/wildlife/sea-turtle.webp">
-                                <source type="image/jpeg" srcset="images/wildlife/sea-turtle.jpg">
-                                <img src="images/wildlife/sea-turtle.jpg" alt="Olive Ridley Sea Turtle"
-                                    title="Olive Ridley Sea Turtle">
-                            </picture>
-                            <div class="album-photo-text-wrap">
-                                <div class="album-photo-text">
-                                    <h2>Olive Ridley Sea Turtle</h2>
-                                </div>
-                            </div>
-                        </a>
-                    </div>
-                    <div class="album-photo">
-                        <a href="images/wildlife/fur-seal.jpg" class="image-popup" title="Galápagos Fur Seal">
-                            <picture>
-                                <source type="image/webp" srcset="images/wildlife/fur-seal.webp">
-                                <source type="image/jpeg" srcset="images/wildlife/fur-seal.jpg">
-                                <img src="images/wildlife/fur-seal.jpg" alt="Galápagos Fur Seal"
-                                    title="Galápagos Fur Seal">
-                            </picture>
-                            <div class="album-photo-text-wrap">
-                                <div class="album-photo-text">
-                                    <h2>Galápagos Fur Seal</h2>
-                                </div>
-                            </div>
-                        </a>
-                    </div>
-                    <div class="album-photo">
-                        <a href="images/wildlife/moose.jpg" class="image-popup" title="Moose">
-                            <picture>
-                                <source type="image/webp" srcset="images/wildlife/moose.webp">
-                                <source type="image/jpeg" srcset="images/wildlife/moose.jpg">
-                                <img src="images/wildlife/moose.jpg" alt="Moose" title="Moose">
-                            </picture>
-                            <div class="album-photo-text-wrap">
-                                <div class="album-photo-text">
-                                    <h2>Moose</h2>
-                                </div>
-                            </div>
-                        </a>
-                    </div>
-                    <div class="album-photo">
-                        <a href="images/wildlife/bighorn-sheep.jpg" class="image-popup" title="Bighorn Sheep">
-                            <picture>
-                                <source type="image/webp" srcset="images/wildlife/bighorn-sheep.webp">
-                                <source type="image/jpeg" srcset="images/wildlife/bighorn-sheep.jpg">
-                                <img src="images/wildlife/bighorn-sheep.jpg" alt="Bighorn Sheep" title="Bighorn Sheep">
-                            </picture>
-                            <div class="album-photo-text-wrap">
-                                <div class="album-photo-text">
-                                    <h2>Bighorn Sheep</h2>
-                                </div>
-                            </div>
-                        </a>
-                    </div>
-                    <div class="album-photo">
-                        <a href="images/wildlife/bear-cubs.jpg" class="image-popup" title="Black Bear cubs">
-                            <picture>
-                                <source type="image/webp" srcset="images/wildlife/bear-cubs.webp">
-                                <source type="image/jpeg" srcset="images/wildlife/bear-cubs.jpg">
-                                <img src="images/wildlife/bear-cubs.jpg" alt="Black Bear cubs" title="Black Bear cubs">
-                            </picture>
-                            <div class="album-photo-text-wrap">
-                                <div class="album-photo-text">
-                                    <h2>Black Bear cubs</h2>
-                                </div>
-                            </div>
-                        </a>
-                    </div>
-                    <div class="album-photo">
-                        <a href="images/wildlife/squirrel.jpg" class="image-popup" title="Eastern Gray Squirrel">
-                            <picture>
-                                <source type="image/webp" srcset="images/wildlife/squirrel.webp">
-                                <source type="image/jpeg" srcset="images/wildlife/squirrel.jpg">
-                                <img src="images/wildlife/squirrel.jpg" alt="Eastern Gray Squirrel"
-                                    title="Eastern Gray Squirrel">
-                            </picture>
-                            <div class="album-photo-text-wrap">
-                                <div class="album-photo-text">
-                                    <h2>Eastern Gray Squirrel</h2>
-                                </div>
-                            </div>
-                        </a>
-                    </div>
-                    <!-- Footer -->
-                    <div id="fh5co-footer" class="padding-left">
-                        <p>
-                            <small>&copy; 2023 Paul Lisker. All Rights Reserved.<br />
-                                <a href="https://lisker.me/privacy_policy" target="_blank">Privacy Policy</a>
-                                &#183;
-                                <a href="https://lisker.me/cookie_policy" target="_blank">Cookie Policy</a><br />
-                                Modified from a design by
-                                <a href="http://freehtml5.co/" target="_blank">FreeHTML5.co</a></small>
-                        </p>
-                        <ul class="fh5co-social">
-                            <li>
-                                <a href="https://www.instagram.com/paullisker/" rel="noopener" target="_blank"
-                                    aria-label="See: Instagram"><i class="fa-brands fa-instagram"></i></a>
-                            </li>
-                            <li>
-                                <a href="https://www.linkedin.com/in/paullisker/" rel="noopener" target="_blank"
-                                    aria-label="See: LinkedIn"><i class="fa-brands fa-linkedin"></i></a>
-                            </li>
-                            <li>
-                                <a href="https://twitter.com/PaulLisker/" rel="noopener" target="_blank"
-                                    aria-label="See: Twitter"><i class="fa-brands fa-twitter"></i></a>
-                            </li>
-                            <li>
-                                <a href="https://ebird.org/profile/MTgxMjE3NQ/" rel="noopener" target="_blank"
-                                    aria-label="See: eBird"><i class="fa-solid fa-binoculars"></i></a>
-                            </li>
-                            <li>
-                                <a href="mailto:photos@lisker.me/" rel="noopener" target="_blank"
-                                    aria-label="Email me: photos@lisker.me"><i class="fa-regular fa-envelope"></i></a>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
+            <!-- Footer -->
+            <div id="fh5co-footer" class="padding-left">
+                <p>
+                    <small>&copy; 2023 Paul Lisker. All Rights Reserved.<br />
+                        <a href="https://lisker.me/privacy_policy" target="_blank">Privacy Policy</a>
+                        &#183;
+                        <a href="https://lisker.me/cookie_policy" target="_blank">Cookie Policy</a><br />
+                        Modified from a design by
+                        <a href="http://freehtml5.co/" target="_blank">FreeHTML5.co</a></small>
+                </p>
+                <ul class="fh5co-social">
+                    <li>
+                        <a href="https://www.instagram.com/paullisker/" rel="noopener" target="_blank"
+                            aria-label="See: Instagram"><i class="fa-brands fa-instagram"></i></a>
+                    </li>
+                    <li>
+                        <a href="https://www.linkedin.com/in/paullisker/" rel="noopener" target="_blank"
+                            aria-label="See: LinkedIn"><i class="fa-brands fa-linkedin"></i></a>
+                    </li>
+                    <li>
+                        <a href="https://twitter.com/PaulLisker/" rel="noopener" target="_blank"
+                            aria-label="See: Twitter"><i class="fa-brands fa-twitter"></i></a>
+                    </li>
+                    <li>
+                        <a href="https://ebird.org/profile/MTgxMjE3NQ/" rel="noopener" target="_blank"
+                            aria-label="See: eBird"><i class="fa-solid fa-binoculars"></i></a>
+                    </li>
+                    <li>
+                        <a href="mailto:photos@lisker.me/" rel="noopener" target="_blank"
+                            aria-label="Email me: photos@lisker.me"><i class="fa-regular fa-envelope"></i></a>
+                    </li>
+                </ul>
             </div>
         </div>
     </div>
