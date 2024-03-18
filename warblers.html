@@ -72,6 +72,15 @@
     <script src="js/jquery.magnific-popup.js"></script>
 
     <!-- Main JS -->
+    <script src="js/photos.js"></script>
+    <script>
+            populatePhotoGrid('images/warblers/photos.json');
+        // document.addEventListener('DOMContentLoaded', function () {
+        //     populatePhotoGrid('images/warblers/photos.json');
+        // });
+    </script>
+
+    <!-- Main JS -->
     <script src="js/main.js"></script>
 
     <!-- Modernizr JS -->
@@ -107,173 +116,40 @@
                 </div>
             </div>
 
-            <div class="fh5co-grid">
-                <!-- Column 1 -->
-                <div class="fh5co-col-1">
-                    <!-- <div class="fh5co-heading padding-right">
-                        <h2>Outdoor</h2>
-                        <p>
-                            A small river named Duden flows by their place and supplies it
-                            with the necessary regelialia. It is a paradisematic country, in
-                            which roasted parts of sentences fly into your mouth.
-                        </p>
-                    </div> -->
+            <div id="photo-grid" class="fh5co-grid"></div>
 
-                    <div class="album-photo">
-                        <a href="images/warblers/cmwa.jpg" class="image-popup" title="Cape May Warbler">
-                            <picture>
-                                <source type="image/webp" srcset="images/warblers/cmwa.webp">
-                                <source type="image/jpeg" srcset="images/warblers/cmwa.jpg">
-                                <img src="images/warblers/cmwa.jpg" alt="Cape May Warbler" title="Cape May Warbler">
-                            </picture>
-                            <div class="album-photo-text-wrap">
-                                <div class="album-photo-text">
-                                    <h2>Cape May Warbler</h2>
-                                </div>
-                            </div>
-                        </a>
-                    </div>
-                    <div class="album-photo">
-                        <a href="images/warblers/amre.jpg" class="image-popup" title="American Redstart">
-                            <picture>
-                                <source type="image/webp" srcset="images/warblers/amre.webp">
-                                <source type="image/jpeg" srcset="images/warblers/amre.jpg">
-                                <img src="images/warblers/amre.jpg" alt="American Redstart" title="American Redstart">
-                            </picture>
-                            <div class="album-photo-text-wrap">
-                                <div class="album-photo-text">
-                                    <h2>American Redstart</h2>
-                                </div>
-                            </div>
-                        </a>
-                    </div>
-                    <div class="album-photo">
-                        <a href="images/warblers/yrwa.jpg" class="image-popup" title="Yellow-Rumped Warbler">
-                            <picture>
-                                <source type="image/webp" srcset="images/warblers/yrwa.webp">
-                                <source type="image/jpeg" srcset="images/warblers/yrwa.jpg">
-                                <img src="images/warblers/yrwa.jpg" alt="Yellow-Rumped Warbler"
-                                    title="Yellow-Rumped Warbler">
-                            </picture>
-                            <div class="album-photo-text-wrap">
-                                <div class="album-photo-text">
-                                    <h2>Yellow-Rumped Warbler</h2>
-                                </div>
-                            </div>
-                        </a>
-                    </div>
-                    <div class="album-photo">
-                        <a href="images/warblers/mgwa.jpg" class="image-popup" title="MacGillivray's Warbler">
-                            <picture>
-                                <source type="image/webp" srcset="images/warblers/mgwa.webp">
-                                <source type="image/jpeg" srcset="images/warblers/mgwa.jpg">
-                                <img src="images/warblers/mgwa.jpg" alt="MacGillivray's Warbler"
-                                    title="MacGillivray's Warbler">
-                            </picture>
-                            <div class="album-photo-text-wrap">
-                                <div class="album-photo-text">
-                                    <h2>MacGillivray's Warbler</h2>
-                                </div>
-                            </div>
-                        </a>
-                    </div>
-                </div>
-                <!-- Column 2 -->
-                <div class="fh5co-col-2">
-                    <div class="album-photo">
-                        <a href="images/warblers/nopa.jpg" class="image-popup" title="Northern Parula">
-                            <picture>
-                                <source type="image/webp" srcset="images/warblers/nopa.webp">
-                                <source type="image/jpeg" srcset="images/warblers/nopa.jpg">
-                                <img src="images/warblers/nopa.jpg" alt="Northern Parula" title="Northern Parula">
-                            </picture>
-                            <div class="album-photo-text-wrap">
-                                <div class="album-photo-text">
-                                    <h2>Northern Parula</h2>
-                                </div>
-                            </div>
-                        </a>
-                    </div>
-                    <div class="album-photo">
-                        <a href="images/warblers/prwa.jpg" class="image-popup" title="Prothonotary Warbler">
-                            <picture>
-                                <source type="image/webp" srcset="images/warblers/prwa.webp">
-                                <source type="image/jpeg" srcset="images/warblers/prwa.jpg">
-                                <img src="images/warblers/prwa.jpg" alt="Prothonotary Warbler"
-                                    title="Prothonotary Warbler">
-                            </picture>
-                            <div class="album-photo-text-wrap">
-                                <div class="album-photo-text">
-                                    <h2>Prothonotary Warbler</h2>
-                                </div>
-                            </div>
-                        </a>
-                    </div>
-                    <div class="album-photo">
-                        <a href="images/warblers/coye.jpg" class="image-popup" title="Common Yellowthroat">
-                            <picture>
-                                <source type="image/webp" srcset="images/warblers/coye.webp">
-                                <source type="image/jpeg" srcset="images/warblers/coye.jpg">
-                                <img src="images/warblers/coye.jpg" alt="Common Yellowthroat"
-                                    title="Common Yellowthroat">
-                            </picture>
-                            <div class="album-photo-text-wrap">
-                                <div class="album-photo-text">
-                                    <h2>Common Yellowthroat</h2>
-                                </div>
-                            </div>
-                        </a>
-                    </div>
-                    <div class="album-photo">
-                        <a href="images/warblers/lowa.jpg" class="image-popup" title="Louisiana Waterthrush, juvenile">
-                            <picture>
-                                <source type="image/webp" srcset="images/warblers/lowa.webp">
-                                <source type="image/jpeg" srcset="images/warblers/lowa.jpg">
-                                <img src="images/warblers/lowa.jpg" alt="Louisiana Waterthrush, juvenile"
-                                    title="Louisiana Waterthrush, juvenile">
-                            </picture>
-                            <div class="album-photo-text-wrap">
-                                <div class="album-photo-text">
-                                    <h2>Louisiana Waterthrush, juvenile</h2>
-                                </div>
-                            </div>
-                        </a>
-                    </div>
-
-                    <!-- Footer -->
-                    <div id="fh5co-footer" class="padding-left">
-                        <p>
-                            <small>&copy; 2023 Paul Lisker. All Rights Reserved.<br />
-                                <a href="https://lisker.me/privacy_policy" target="_blank">Privacy Policy</a>
-                                &#183;
-                                <a href="https://lisker.me/cookie_policy" target="_blank">Cookie Policy</a><br />
-                                Modified from a design by
-                                <a href="http://freehtml5.co/" target="_blank">FreeHTML5.co</a></small>
-                        </p>
-                        <ul class="fh5co-social">
-                            <li>
-                                <a href="https://www.instagram.com/paullisker/" rel="noopener" target="_blank"
-                                    aria-label="See: Instagram"><i class="fa-brands fa-instagram"></i></a>
-                            </li>
-                            <li>
-                                <a href="https://www.linkedin.com/in/paullisker/" rel="noopener" target="_blank"
-                                    aria-label="See: LinkedIn"><i class="fa-brands fa-linkedin"></i></a>
-                            </li>
-                            <li>
-                                <a href="https://twitter.com/PaulLisker/" rel="noopener" target="_blank"
-                                    aria-label="See: Twitter"><i class="fa-brands fa-twitter"></i></a>
-                            </li>
-                            <li>
-                                <a href="https://ebird.org/profile/MTgxMjE3NQ/" rel="noopener" target="_blank"
-                                    aria-label="See: eBird"><i class="fa-solid fa-binoculars"></i></a>
-                            </li>
-                            <li>
-                                <a href="mailto:photos@lisker.me/" rel="noopener" target="_blank"
-                                    aria-label="Email me: photos@lisker.me"><i class="fa-regular fa-envelope"></i></a>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
+            <!-- Footer -->
+            <div id="fh5co-footer" class="padding-left">
+                <p>
+                    <small>&copy; 2023 Paul Lisker. All Rights Reserved.<br />
+                        <a href="https://lisker.me/privacy_policy" target="_blank">Privacy Policy</a>
+                        &#183;
+                        <a href="https://lisker.me/cookie_policy" target="_blank">Cookie Policy</a><br />
+                        Modified from a design by
+                        <a href="http://freehtml5.co/" target="_blank">FreeHTML5.co</a></small>
+                </p>
+                <ul class="fh5co-social">
+                    <li>
+                        <a href="https://www.instagram.com/paullisker/" rel="noopener" target="_blank"
+                            aria-label="See: Instagram"><i class="fa-brands fa-instagram"></i></a>
+                    </li>
+                    <li>
+                        <a href="https://www.linkedin.com/in/paullisker/" rel="noopener" target="_blank"
+                            aria-label="See: LinkedIn"><i class="fa-brands fa-linkedin"></i></a>
+                    </li>
+                    <li>
+                        <a href="https://twitter.com/PaulLisker/" rel="noopener" target="_blank"
+                            aria-label="See: Twitter"><i class="fa-brands fa-twitter"></i></a>
+                    </li>
+                    <li>
+                        <a href="https://ebird.org/profile/MTgxMjE3NQ/" rel="noopener" target="_blank"
+                            aria-label="See: eBird"><i class="fa-solid fa-binoculars"></i></a>
+                    </li>
+                    <li>
+                        <a href="mailto:photos@lisker.me/" rel="noopener" target="_blank"
+                            aria-label="Email me: photos@lisker.me"><i class="fa-regular fa-envelope"></i></a>
+                    </li>
+                </ul>
             </div>
         </div>
     </div>
