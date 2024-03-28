@@ -101,7 +101,7 @@ function getSocials() {
             </li>
             <li>
                 <a href="https://twitter.com/PaulLisker/" rel="noopener" target="_blank"
-                    aria-label="See: Twitter"><i class="fa-brands fa-twitter"></i></a>
+                    aria-label="See: X (Twitter)"><i class="fa-brands fa-x-twitter"></i></a>
             </li>
             <li>
                 <a href="https://ebird.org/profile/MTgxMjE3NQ/" rel="noopener" target="_blank"
