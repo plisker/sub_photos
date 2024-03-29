@@ -1,0 +1,5 @@
+User-agent: *
+Disallow:
+
+Sitemap: https://photos.lisker.me/sitemap.xml
+
