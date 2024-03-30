@@ -10,6 +10,10 @@
             "file": "lamar-valley"
         },
         {
+            "name": "Kohala Coast, Island of Hawai&lsquo;i, HI",
+            "file": "kohala-coast-1"
+        },
+        {
             "name": "Iztaccihuatl, México",
             "file": "iztaccihuatl"
         },
@@ -24,6 +28,10 @@
         {
             "name": "Grand Canyon of the Yellowstone, Yellowstone National Park, WY",
             "file": "yellowstone-canyon1"
+        },
+        {
+            "name": "Honolulu, HI",
+            "file": "honolulu"
         },
         {
             "name": "Tapachula, Chiapas, México",
@@ -46,8 +54,16 @@
             "file": "glacier-natl-park"
         },
         {
+            "name": "Island of Hawai&lsquo;i, HI",
+            "file": "hawaii"
+        },
+        {
             "name": "Grand Prismatic Spring, Yellowstone National Park, WY",
             "file": "prismatic"
+        },
+        {
+            "name": "Chain of Craters Road, Volcanoes National Park, HI",
+            "file": "chain-of-craters"
         },
         {
             "name": "Going-to-the-Sun Road, Glacier National Park, MT",
@@ -60,6 +76,10 @@
         {
             "name": "Three Falls Trail, Glacier National Park, MT",
             "file": "three-falls"
+        },
+        {
+            "name": "Makapu'u Point Lookout, Oahu, HI",
+            "file": "makapu'u"
         },
         {
             "name": "Emerald Isle, NC",
@@ -80,6 +100,10 @@
         {
             "name": "Mirador La Peña, Valle de Bravo, Estado de México, México",
             "file": "valle-de-bravo"
+        },
+        {
+            "name": "Kohala Coast, Island of Hawai&lsquo;i, HI",
+            "file": "kohala-coast-2"
         },
         {
             "name": "Tapachula, Chiapas, México",
