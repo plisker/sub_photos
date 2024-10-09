@@ -334,6 +334,18 @@ p {
   width: 100%;
 }
 
+.fh5co-img picture img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  border: 15px solid #f3f3f3; /* Thick white border simulating photo paper */
+  background-color: #f9f3e7; /* Slight off-white, beige tone for vintage effect */
+  box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.1), /* Inner shadow for slight depth */
+              0 5px 15px rgba(0, 0, 0, 0.3);    /* Outer shadow to lift the image */
+  position: relative;
+  filter: sepia(10%); /* Subtle sepia filter for vintage feel */
+}
+
 .fh5co-grid {
   position: relative;
 }
