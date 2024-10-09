@@ -18,21 +18,27 @@ function populatePhotoGrid(jsonFilePath, offset = 0) {
                 let albumElement = document.createElement('div');
                 albumElement.className = 'album-photo';
 
-                // Set the image format based on browser support
-                const imageFormat = supportsWebP() ? 'webp' : 'jpg';
+                // Set the image format based on browser support and photo availability
+                const imageFormat = supportsAvif() && photo.hasAvif ? 'avif' :
+                                    (supportsWebP() && photo.hasWebp ? 'webp' : 'jpg');
 
                 let elementDescription = photo.description ? photo.description : photo.name;
                 let lightboxElement = photo.video ? photo.video : data.directory + photo.file + '.' + imageFormat;
                 let lightboxClass = photo.video ? 'mfp-iframe image-popup' : 'image-popup'
 
+                // Dynamically build the <picture> element based on available formats
+                let pictureElement = `
+                    <picture>
+                        ${photo.hasAvif ? `<source type="image/avif" srcset="${data.directory}${photo.file}.avif" />` : ''}
+                        ${photo.hasWebp ? `<source type="image/webp" srcset="${data.directory}${photo.file}.webp" />` : ''}
+                        <source type="image/jpeg" srcset="${data.directory}${photo.file}.jpg" />
+                        <img src="${data.directory}${photo.file}.${imageFormat}" alt="${photo.name}" title="${photo.name}" />
+                    </picture>
+                `;
+
                 albumElement.innerHTML = `
                         <a href="${lightboxElement}" class="${lightboxClass}" title="${elementDescription}">
-                            <picture>
-                                <source type="image/webp" srcset="${data.directory}${photo.file}.webp" />
-                                <source type="image/jpeg" srcset="${data.directory}${photo.file}.jpg" />
-                                <img src="${data.directory}${photo.file}.${imageFormat}" alt="${photo.name}"
-                                    title="${photo.name}" />
-                            </picture>
+                            ${pictureElement}
                             <div class="album-photo-text-wrap">
                                 <div class="album-photo-text">
                                     <h2>${photo.name}</h2>
@@ -65,5 +71,15 @@ function supportsWebP() {
 
     const img = new Image();
     img.src = webpData;
+    return img.decode !== undefined;
+}
+
+function supportsAvif() {
+    if (!self.createImageBitmap) return false;
+
+    const avifData = 'data:image/avif;base64,AAAAIGZ0eXBhdmlmAAAAAG1pZjFhdmlmAAACAGF2aWZtYWl...';
+
+    const img = new Image();
+    img.src = avifData;
     return img.decode !== undefined;
 }

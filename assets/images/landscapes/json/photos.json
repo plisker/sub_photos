@@ -2,12 +2,19 @@
     "directory": "/assets/images/landscapes/",
     "photos": [
         {
+            "name": "Maroon Bells, CO",
+            "file": "maroon-bells"
+        },        {
             "name": "Panorama Point, Badlands National Park, SD",
             "file": "badlands"
         },
         {
             "name": "Lamar Valley, Yellowstone National Park, WY",
             "file": "lamar-valley"
+        },
+        {
+            "name": "Black Canyon of the Gunnison National Park, CO",
+            "file": "black-canyon"
         },
         {
             "name": "Kohala Coast, Island of Hawai&lsquo;i, HI",
@@ -52,6 +59,10 @@
         {
             "name": "Three Falls Trail, Glacier National Park, MT",
             "file": "glacier-natl-park"
+        },
+        {
+            "name": "Canyonlands National Park, UT",
+            "file": "canyonlands"
         },
         {
             "name": "Island of Hawai&lsquo;i, HI",
