@@ -19,7 +19,6 @@ function lightbox() {
     //   };
 
     // Magnific Popup
-
     var magnifPopup = function () {
         $(".image-popup").magnificPopup({
             type: "image",
@@ -30,24 +29,34 @@ function lightbox() {
                 enabled: true,
             },
             zoom: {
-                enabled: true, // By default it's false, so don't forget to enable it
-
-                duration: 300, // duration of the effect, in milliseconds
-                easing: "ease-in-out", // CSS transition easing function
-
-                // The "opener" function should return the element from which popup will be zoomed in
-                // and to which popup will be scaled down
-                // By defailt it looks for an image tag:
+                enabled: true,
+                duration: 300,
+                easing: "ease-in-out",
                 opener: function (openerElement) {
-                    // openerElement is the element on which popup was initialized, in this case its <a> tag
-                    // you don't need to add "opener" option if this code matches your needs, it's default one.
                     return openerElement.is("img")
                         ? openerElement
                         : openerElement.find("img");
                 },
             },
+            callbacks: {
+                open: function () {
+                    // Get the current photo's href attribute to use in the URL
+                    var currentPhoto = this.currItem.el.attr('href');
+                    
+                    // Use pushState to update the URL without reloading the page
+                    var newUrl = window.location.pathname + '#photo=' + encodeURIComponent(currentPhoto);
+                    history.pushState(null, null, newUrl);
+                },
+                close: function () {
+                    // Restore the original URL when the popup is closed
+                    var currentUrl = window.location.href;
+                    var cleanUrl = currentUrl.substring(0, currentUrl.indexOf('#'));
+                    history.pushState(null, null, cleanUrl);
+                }
+            }
         });
     };
+    
 
     var contentWayPoint = function () {
         var i = 0;
@@ -139,29 +148,30 @@ function getFooter() {
 
 $(document).ready(function () {
     const socials = document.getElementById('socials');
-    if (!!socials) {
+    if (socials) {
         socials.insertAdjacentElement('beforeend', getSocials());
     }
 
     const footer = document.getElementById('footer');
-    if (!!footer) {
+    if (footer) {
         footer.insertAdjacentElement('beforeend', getFooter());
     }
 
     $("body").css("display", "none");
 
-    $("body").fadeIn(2000);
-    $("body").stop().animate({
-        opacity: 1,
+    $("body").fadeIn(2000).stop().animate({ opacity: 1 });
+
+    // Check for a photo hash in the URL
+    var hash = window.location.hash;
+    if (hash && hash.includes('#photo=')) {
+        var photoUrl = decodeURIComponent(hash.split('#photo=')[1]);
+        
+        // Automatically open the lightbox for the specific photo
+        $.magnificPopup.open({
+            items: {
+                src: photoUrl
+            },
+            type: 'image'
+        });
+    }
     });
-
-    //   $("a.transition").click(function (event) {
-    //     event.preventDefault();
-    //     linkLocation = this.href;
-    //     $("body").fadeOut(1000, redirectPage);
-    //   });
-
-    //   function redirectPage() {
-    //     window.location = linkLocation;
-    //   }
-});
