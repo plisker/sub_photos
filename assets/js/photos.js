@@ -22,6 +22,7 @@ function populatePhotoGrid(jsonFilePath, offset = 0) {
                 const imageFormat = supportsAvif() && photo.hasAvif ? 'avif' :
                                     (supportsWebP() && photo.hasWebp ? 'webp' : 'jpg');
 
+                console.log('Will load ' + photo.file + '.' + imageFormat);
                 let elementDescription = photo.description ? photo.description : photo.name;
                 let lightboxElement = photo.video ? photo.video : data.directory + photo.file + '.' + imageFormat;
                 let lightboxClass = photo.video ? 'mfp-iframe image-popup' : 'image-popup'
