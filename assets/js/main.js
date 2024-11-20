@@ -1,25 +1,12 @@
 function lightbox() {
     "use strict";
 
-    // iPad and iPod detection
-    var isiPad = function () {
-        return navigator.platform.indexOf("iPad") != -1;
-    };
-
-    var isiPhone = function () {
-        return (
-            navigator.platform.indexOf("<i></i>Phone") != -1 ||
-            navigator.platform.indexOf("iPod") != -1
-        );
-    };
-
     // Loading page
     //   var loaderPage = function () {
     //     $(".fh5co-loader").fadeOut("slow");
     //   };
 
     // Magnific Popup
-
     var magnifPopup = function () {
         $(".image-popup").magnificPopup({
             type: "image",
@@ -28,26 +15,45 @@ function lightbox() {
             titleSrc: "title",
             gallery: {
                 enabled: true,
+                navigateByImgClick: true,
+                preload: [0, 1],
             },
             zoom: {
-                enabled: true, // By default it's false, so don't forget to enable it
-
-                duration: 300, // duration of the effect, in milliseconds
-                easing: "ease-in-out", // CSS transition easing function
-
-                // The "opener" function should return the element from which popup will be zoomed in
-                // and to which popup will be scaled down
-                // By defailt it looks for an image tag:
+                enabled: true,
+                duration: 300,
+                easing: "ease-in-out",
                 opener: function (openerElement) {
-                    // openerElement is the element on which popup was initialized, in this case its <a> tag
-                    // you don't need to add "opener" option if this code matches your needs, it's default one.
                     return openerElement.is("img")
                         ? openerElement
                         : openerElement.find("img");
                 },
             },
+            callbacks: {
+                open: function () {
+                    // Update the URL when the lightbox opens with the current photo
+                    var currentPhoto = this.currItem.el.attr('href');
+                    var photoId = extractPhotoId(currentPhoto);
+
+                    var newUrl = window.location.pathname + '#photo=' + encodeURIComponent(photoId);
+                    history.pushState(null, null, newUrl);
+                },
+                change: function () {
+                    // Update the URL when navigating to a new photo
+                    var currentPhoto = this.currItem.el.attr('href');
+                    var photoId = extractPhotoId(currentPhoto);
+
+                    var newUrl = window.location.pathname + '#photo=' + encodeURIComponent(photoId);
+                    history.pushState(null, null, newUrl);
+                },
+                close: function () {
+                    // Restore the original URL when the popup is closed
+                    var cleanUrl = window.location.pathname;
+                    history.pushState(null, null, cleanUrl);
+                }
+            }
         });
     };
+    
 
     var contentWayPoint = function () {
         var i = 0;
@@ -75,6 +81,13 @@ function lightbox() {
             { offset: "50%" }
         );
     };
+
+    // Helper function to extract unique photo ID from a full photo path
+    function extractPhotoId(photoPath) {
+        // Use regex to extract the file name without the extension
+        var match = photoPath.match(/\/([^\/]+)\.\w+$/);
+        return match ? match[1] : photoPath; // Return the file name if matched, or the original path if not
+    }
 
     // Document on load.
     $(function () {
@@ -139,29 +152,30 @@ function getFooter() {
 
 $(document).ready(function () {
     const socials = document.getElementById('socials');
-    if (!!socials) {
+    if (socials) {
         socials.insertAdjacentElement('beforeend', getSocials());
     }
 
     const footer = document.getElementById('footer');
-    if (!!footer) {
+    if (footer) {
         footer.insertAdjacentElement('beforeend', getFooter());
     }
 
     $("body").css("display", "none");
 
-    $("body").fadeIn(2000);
-    $("body").stop().animate({
-        opacity: 1,
+    $("body").fadeIn(2000).stop().animate({ opacity: 1 });
+
+    // Check for a photo hash in the URL
+    var hash = window.location.hash;
+    if (hash && hash.includes('#photo=')) {
+        var photoUrl = decodeURIComponent(hash.split('#photo=')[1]);
+        
+        // Automatically open the lightbox for the specific photo
+        $.magnificPopup.open({
+            items: {
+                src: photoUrl
+            },
+            type: 'image'
+        });
+    }
     });
-
-    //   $("a.transition").click(function (event) {
-    //     event.preventDefault();
-    //     linkLocation = this.href;
-    //     $("body").fadeOut(1000, redirectPage);
-    //   });
-
-    //   function redirectPage() {
-    //     window.location = linkLocation;
-    //   }
-});

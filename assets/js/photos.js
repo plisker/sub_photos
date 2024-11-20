@@ -22,6 +22,7 @@ function populatePhotoGrid(jsonFilePath, offset = 0) {
                 const imageFormat = supportsAvif() && photo.hasAvif ? 'avif' :
                                     (supportsWebP() && photo.hasWebp ? 'webp' : 'jpg');
 
+                console.debug('Will load ' + photo.file + '.' + imageFormat);
                 let elementDescription = photo.description ? photo.description : photo.name;
                 let lightboxElement = photo.video ? photo.video : data.directory + photo.file + '.' + imageFormat;
                 let lightboxClass = photo.video ? 'mfp-iframe image-popup' : 'image-popup'
@@ -59,8 +60,26 @@ function populatePhotoGrid(jsonFilePath, offset = 0) {
             photoGrid.appendChild(column2);
 
             lightbox();
+
+            // Open photo if URL hash is present
+            openPhotoFromHash();
         })
         .catch(error => console.error('Error fetching photos:', error));
+}
+
+// Function to open a photo based on the hash in the URL
+function openPhotoFromHash() {
+    const hash = window.location.hash;
+    if (hash.startsWith("#photo=")) {
+        const photoId = decodeURIComponent(hash.split("=")[1]);
+        if (!photoId) return;
+
+        // Look for a matching photo in the DOM
+        const photoElement = document.querySelector(`a[href*="${photoId}"]`);
+        if (photoElement) {
+            photoElement.click(); // Open the lightbox
+        }
+    }
 }
 
 function supportsWebP() {
