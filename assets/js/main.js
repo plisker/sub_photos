@@ -27,6 +27,8 @@ function lightbox() {
             titleSrc: "title",
             gallery: {
                 enabled: true,
+                navigateByImgClick: true,
+                preload: [0, 1],
             },
             zoom: {
                 enabled: true,
@@ -40,17 +42,20 @@ function lightbox() {
             },
             callbacks: {
                 open: function () {
-                    // Get the current photo's href attribute to use in the URL
+                    // Update the URL when the lightbox opens with the current photo
                     var currentPhoto = this.currItem.el.attr('href');
-                    
-                    // Use pushState to update the URL without reloading the page
+                    var newUrl = window.location.pathname + '#photo=' + encodeURIComponent(currentPhoto);
+                    history.pushState(null, null, newUrl);
+                },
+                change: function () {
+                    // Update the URL when navigating to a new photo
+                    var currentPhoto = this.currItem.el.attr('href');
                     var newUrl = window.location.pathname + '#photo=' + encodeURIComponent(currentPhoto);
                     history.pushState(null, null, newUrl);
                 },
                 close: function () {
                     // Restore the original URL when the popup is closed
-                    var currentUrl = window.location.href;
-                    var cleanUrl = currentUrl.substring(0, currentUrl.indexOf('#'));
+                    var cleanUrl = window.location.pathname;
                     history.pushState(null, null, cleanUrl);
                 }
             }
