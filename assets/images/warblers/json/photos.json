@@ -1,54 +1,53 @@
 {
-    "directory": "/assets/images/warblers/",
-    "photos": [
-      {
-        "name": "Cape May Warbler",
-        "file": "cmwa",
-        "hasAvif": false,
-        "hasWebp": true
-      },
-      {
-        "name": "American Redstart",
-        "file": "amre",
-        "hasAvif": false,
-        "hasWebp": true
-      },
-      {
-        "name": "Yellow-Rumped Warbler",
-        "file": "yrwa",
-        "hasAvif": false,
-        "hasWebp": true
-      },
-      {
-        "name": "MacGillivray's Warbler",
-        "file": "mgwa",
-        "hasAvif": false,
-        "hasWebp": true
-      },
-      {
-        "name": "Northern Parula",
-        "file": "nopa",
-        "hasAvif": false,
-        "hasWebp": true
-      },
-      {
-        "name": "Prothonotary Warbler",
-        "file": "prwa",
-        "hasAvif": false,
-        "hasWebp": true
-      },
-      {
-        "name": "Common Yellowthroat",
-        "file": "coye",
-        "hasAvif": false,
-        "hasWebp": true
-      },
-      {
-        "name": "Louisiana Waterthrush, juvenile",
-        "file": "lowa",
-        "hasAvif": false,
-        "hasWebp": true
-      }
-    ]
-  }
-  
+  "directory": "/assets/images/warblers/",
+  "photos": [
+    {
+      "name": "Cape May Warbler",
+      "file": "cmwa",
+      "hasAvif": false,
+      "hasWebp": true
+    },
+    {
+      "name": "American Redstart",
+      "file": "amre",
+      "hasAvif": false,
+      "hasWebp": true
+    },
+    {
+      "name": "Yellow-Rumped Warbler",
+      "file": "yrwa",
+      "hasAvif": false,
+      "hasWebp": true
+    },
+    {
+      "name": "MacGillivray's Warbler",
+      "file": "mgwa",
+      "hasAvif": false,
+      "hasWebp": true
+    },
+    {
+      "name": "Northern Parula",
+      "file": "nopa",
+      "hasAvif": false,
+      "hasWebp": true
+    },
+    {
+      "name": "Prothonotary Warbler",
+      "file": "prwa",
+      "hasAvif": false,
+      "hasWebp": true
+    },
+    {
+      "name": "Common Yellowthroat",
+      "file": "coye",
+      "hasAvif": false,
+      "hasWebp": true
+    },
+    {
+      "name": "Louisiana Waterthrush, juvenile",
+      "file": "lowa",
+      "hasAvif": false,
+      "hasWebp": true
+    }
+  ]
+}
