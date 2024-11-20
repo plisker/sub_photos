@@ -3,111 +3,165 @@
     "photos": [
         {
             "name": "American Robin",
-            "file": "amro"
+            "file": "amro",
+            "hasAvif": false,
+            "hasWebp": true
         },
         {
             "name": "Carolina Chickadee",
-            "file": "cach"
+            "file": "cach",
+            "hasAvif": false,
+            "hasWebp": true
         },
         {
             "name": "Brown Creeper",
-            "file": "brcr"
+            "file": "brcr",
+            "hasAvif": false,
+            "hasWebp": true
         },
         {
             "name": "White-Throated Sparrow",
-            "file": "wtsp2"
+            "file": "wtsp2",
+            "hasAvif": false,
+            "hasWebp": true
         },
         {
             "name": "Grasshopper Sparrow",
-            "file": "grsp"
+            "file": "grsp",
+            "hasAvif": false,
+            "hasWebp": true
         },
         {
             "name": "Yellow-Breasted Sapsucker",
-            "file": "ybsa"
+            "file": "ybsa",
+            "hasAvif": false,
+            "hasWebp": true
         },
         {
             "name": "Ruby-Throated Hummingbird",
-            "file": "rthu2"
+            "file": "rthu2",
+            "hasAvif": false,
+            "hasWebp": true
         },
         {
             "name": "Northern Mockingbird",
-            "file": "nomo"
+            "file": "nomo",
+            "hasAvif": false,
+            "hasWebp": true
         },
         {
             "name": "Costa's Hummingbird",
-            "file": "cohu1"
+            "file": "cohu1",
+            "hasAvif": false,
+            "hasWebp": true
         },
         {
             "name": "White-Throated Sparrow",
-            "file": "wtsp"
+            "file": "wtsp",
+            "hasAvif": false,
+            "hasWebp": true
         },
         {
             "name": "House Finch",
-            "file": "hofi"
+            "file": "hofi",
+            "hasAvif": false,
+            "hasWebp": true
         },
         {
             "name": "Great-Horned Owl pair",
-            "file": "ghow"
+            "file": "ghow",
+            "hasAvif": false,
+            "hasWebp": true
         },
         {
             "name": "Red-Bellied Woodpecker",
-            "file": "rbwo"
+            "file": "rbwo",
+            "hasAvif": false,
+            "hasWebp": true
         },
         {
             "name": "Song Sparrow",
-            "file": "sosp"
+            "file": "sosp",
+            "hasAvif": false,
+            "hasWebp": true
         },
         {
             "name": "Berylline Hummingbird",
-            "file": "behu1"
+            "file": "behu1",
+            "hasAvif": false,
+            "hasWebp": true
         },
         {
             "name": "Chipping Sparrow",
-            "file": "chsp"
+            "file": "chsp",
+            "hasAvif": false,
+            "hasWebp": true
         },
         {
             "name": "Tufted Titmouse",
-            "file": "tuti"
+            "file": "tuti",
+            "hasAvif": false,
+            "hasWebp": true
         },
         {
             "name": "Evening Grosbeak",
-            "file": "evgr"
+            "file": "evgr",
+            "hasAvif": false,
+            "hasWebp": true
         },
         {
             "name": "Costa's Hummingbird",
-            "file": "cohu3"
+            "file": "cohu3",
+            "hasAvif": false,
+            "hasWebp": true
         },
         {
             "name": "House Finch",
-            "file": "hofi1"
+            "file": "hofi1",
+            "hasAvif": false,
+            "hasWebp": true
         },
         {
             "name": "Blue-Throated Mountain-Gem",
-            "file": "btmg"
+            "file": "btmg",
+            "hasAvif": false,
+            "hasWebp": true
         },
         {
             "name": "Barred Owl",
-            "file": "bado"
+            "file": "bado",
+            "hasAvif": false,
+            "hasWebp": true
         },
         {
             "name": "Ruby-Throated Hummingbird",
-            "file": "rthu1"
+            "file": "rthu1",
+            "hasAvif": false,
+            "hasWebp": true
         },
         {
             "name": "Bewick's Wren",
-            "file": "bewr"
+            "file": "bewr",
+            "hasAvif": false,
+            "hasWebp": true
         },
         {
             "name": "Costa's Hummingbird",
-            "file": "cohu2"
+            "file": "cohu2",
+            "hasAvif": false,
+            "hasWebp": true
         },
         {
             "name": "Eurasian Tree Sparrow",
-            "file": "etsp"
+            "file": "etsp",
+            "hasAvif": false,
+            "hasWebp": true
         },
         {
             "name": "White-Throated Sparrow",
-            "file": "wtsp1"
+            "file": "wtsp1",
+            "hasAvif": false,
+            "hasWebp": true
         }
     ]
 }

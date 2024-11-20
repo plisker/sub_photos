@@ -3,123 +3,183 @@
     "photos": [
         {
             "name": "Departing from Cutler, ME",
-            "file": "cutler"
+            "file": "cutler",
+            "hasAvif": false,
+            "hasWebp": true
         },
         {
             "name": "Machias Seal Island from afar",
-            "file": "flock"
+            "file": "flock",
+            "hasAvif": false,
+            "hasWebp": true
         },
         {
             "name": "Atlantic Puffins floating",
-            "file": "atpu-floating"
+            "file": "atpu-floating",
+            "hasAvif": false,
+            "hasWebp": true
         },
         {
             "name": "From the Barbara Frost",
-            "file": "barbara-frost"
+            "file": "barbara-frost",
+            "hasAvif": false,
+            "hasWebp": true
         },
         {
             "name": "Captain Andrew Patterson and his skiff",
-            "file": "skiff"
+            "file": "skiff",
+            "hasAvif": false,
+            "hasWebp": true
         },
         {
             "name": "Atlantic Puffin",
-            "file": "atpu9"
+            "file": "atpu9",
+            "hasAvif": false,
+            "hasWebp": true
         },
         {
             "name": "Atlantic Puffin",
-            "file": "atpu5"
+            "file": "atpu5",
+            "hasAvif": false,
+            "hasWebp": true
         },
         {
             "name": "Common Murre",
-            "file": "comu1"
+            "file": "comu1",
+            "hasAvif": false,
+            "hasWebp": true
         },
         {
             "name": "Puffins build their nest among the rocks",
-            "file": "atpu2"
+            "file": "atpu2",
+            "hasAvif": false,
+            "hasWebp": true
         },
         {
             "name": "Puffin stretching out its wings",
-            "file": "atpu3"
+            "file": "atpu3",
+            "hasAvif": false,
+            "hasWebp": true
         },
         {
             "name": "Razorbill",
-            "file": "razo3"
+            "file": "razo3",
+            "hasAvif": false,
+            "hasWebp": true
         },
         {
             "name": "Razorbill flaunting its bright yellow palate",
-            "file": "razo4"
+            "file": "razo4",
+            "hasAvif": false,
+            "hasWebp": true
         },
         {
             "name": "Razorbill after a successful hunt",
-            "file": "razo5"
+            "file": "razo5",
+            "hasAvif": false,
+            "hasWebp": true
         },
         {
             "name": "Puffins, like other alcids, are strong fliers and divers",
-            "file": "atpu10"
+            "file": "atpu10",
+            "hasAvif": false,
+            "hasWebp": true
         },
         {
             "name": "Puffin headshot",
-            "file": "atpu1"
+            "file": "atpu1",
+            "hasAvif": false,
+            "hasWebp": true
         },
         {
             "name": "Atlantic Puffin",
-            "file": "atpu"
+            "file": "atpu",
+            "hasAvif": false,
+            "hasWebp": true
         },
         {
             "name": "Razorbills",
-            "file": "razo6"
+            "file": "razo6",
+            "hasAvif": false,
+            "hasWebp": true
         },
         {
             "name": "Puffin seen through the blind...",
-            "file": "atpu6"
+            "file": "atpu6",
+            "hasAvif": false,
+            "hasWebp": true
         },
         {
             "name": "...and the puffin seeing us!",
-            "file": "atpu7"
+            "file": "atpu7",
+            "hasAvif": false,
+            "hasWebp": true
         },
         {
             "name": "Common Murres",
-            "file": "comu"
+            "file": "comu",
+            "hasAvif": false,
+            "hasWebp": true
         },
         {
             "name": "Puffin headshot",
-            "file": "atpu11"
+            "file": "atpu11",
+            "hasAvif": false,
+            "hasWebp": true
         },
         {
             "name": "Razorbill",
-            "file": "razo1"
+            "file": "razo1",
+            "hasAvif": false,
+            "hasWebp": true
         },
         {
             "name": "Atlantic Puffins",
-            "file": "atpu4"
+            "file": "atpu4",
+            "hasAvif": false,
+            "hasWebp": true
         },
         {
             "name": "Puffins can sometimes have rocky landings!",
-            "file": "atpu13"
+            "file": "atpu13",
+            "hasAvif": false,
+            "hasWebp": true
         },
         {
             "name": "Razorbills",
-            "file": "razo7"
+            "file": "razo7",
+            "hasAvif": false,
+            "hasWebp": true
         },
         {
             "name": "Puffin after a successful hunt",
-            "file": "atpu8"
+            "file": "atpu8",
+            "hasAvif": false,
+            "hasWebp": true
         },
         {
             "name": "Razorbill displaying its beautiful facial markings",
-            "file": "razo2"
+            "file": "razo2",
+            "hasAvif": false,
+            "hasWebp": true
         },
         {
             "name": "Atlantic Puffin in flight",
-            "file": "atpu12"
+            "file": "atpu12",
+            "hasAvif": false,
+            "hasWebp": true
         },
         {
             "name": "Wilson's Storm Petrel",
-            "file": "petrel"
+            "file": "petrel",
+            "hasAvif": false,
+            "hasWebp": true
         },
         {
             "name": "One of the island's namesake seals",
-            "file": "seal"
+            "file": "seal",
+            "hasAvif": false,
+            "hasWebp": true
         }
     ]
 }

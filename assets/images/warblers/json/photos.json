@@ -3,35 +3,51 @@
     "photos": [
       {
         "name": "Cape May Warbler",
-        "file": "cmwa"
+        "file": "cmwa",
+        "hasAvif": false,
+        "hasWebp": true
       },
       {
         "name": "American Redstart",
-        "file": "amre"
+        "file": "amre",
+        "hasAvif": false,
+        "hasWebp": true
       },
       {
         "name": "Yellow-Rumped Warbler",
-        "file": "yrwa"
+        "file": "yrwa",
+        "hasAvif": false,
+        "hasWebp": true
       },
       {
         "name": "MacGillivray's Warbler",
-        "file": "mgwa"
+        "file": "mgwa",
+        "hasAvif": false,
+        "hasWebp": true
       },
       {
         "name": "Northern Parula",
-        "file": "nopa"
+        "file": "nopa",
+        "hasAvif": false,
+        "hasWebp": true
       },
       {
         "name": "Prothonotary Warbler",
-        "file": "prwa"
+        "file": "prwa",
+        "hasAvif": false,
+        "hasWebp": true
       },
       {
         "name": "Common Yellowthroat",
-        "file": "coye"
+        "file": "coye",
+        "hasAvif": false,
+        "hasWebp": true
       },
       {
         "name": "Louisiana Waterthrush, juvenile",
-        "file": "lowa"
+        "file": "lowa",
+        "hasAvif": false,
+        "hasWebp": true
       }
     ]
   }

@@ -3,63 +3,93 @@
     "photos": [
         {
             "name": "Long-Billed Curlew",
-            "file": "lbcu"
+            "file": "lbcu",
+            "hasAvif": false,
+            "hasWebp": true
         },
         {
             "name": "American Oystercatcher",
-            "file": "amoy2"
+            "file": "amoy2",
+            "hasAvif": false,
+            "hasWebp": true
         },
         {
             "name": "Whimbrel",
-            "file": "whim"
+            "file": "whim",
+            "hasAvif": false,
+            "hasWebp": true
         },
         {
             "name": "Sanderlings",
-            "file": "sand"
+            "file": "sand",
+            "hasAvif": false,
+            "hasWebp": true
         },
         {
             "name": "Semipalmated Plover",
-            "file": "sepl"
+            "file": "sepl",
+            "hasAvif": false,
+            "hasWebp": true
         },
         {
             "name": "Wilson's Plover",
-            "file": "wipl"
+            "file": "wipl",
+            "hasAvif": false,
+            "hasWebp": true
         },
         {
             "name": "Ring-Billed Gull",
-            "file": "rbgu"
+            "file": "rbgu",
+            "hasAvif": false,
+            "hasWebp": true
         },
         {
             "name": "American Avocet",
-            "file": "amav"
+            "file": "amav",
+            "hasAvif": false,
+            "hasWebp": true
         },
         {
             "name": "Herring Gull",
-            "file": "herg"
+            "file": "herg",
+            "hasAvif": false,
+            "hasWebp": true
         },
         {
             "name": "Ruddy Turnstone",
-            "file": "rutu"
+            "file": "rutu",
+            "hasAvif": false,
+            "hasWebp": true
         },
         {
             "name": "Lesser Yellowlegs",
-            "file": "leye2"
+            "file": "leye2",
+            "hasAvif": false,
+            "hasWebp": true
         },
         {
             "name": "Least Sandpiper",
-            "file": "lesa1"
+            "file": "lesa1",
+            "hasAvif": false,
+            "hasWebp": true
         },
         {
             "name": "Sanderling",
-            "file": "sand3"
+            "file": "sand3",
+            "hasAvif": false,
+            "hasWebp": true
         },
         {
             "name": "American Oystercatcher",
-            "file": "amoy"
+            "file": "amoy",
+            "hasAvif": false,
+            "hasWebp": true
         },
         {
             "name": "Great Black-Backed Gull",
-            "file": "gbbg"
+            "file": "gbbg",
+            "hasAvif": false,
+            "hasWebp": true
         }
     ]
 }

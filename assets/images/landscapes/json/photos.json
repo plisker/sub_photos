@@ -3,123 +3,183 @@
     "photos": [
         {
             "name": "Maroon Bells, CO",
-            "file": "maroon-bells"
+            "file": "maroon-bells",
+            "hasAvif": true,
+            "hasWebp": false
         },
         {
             "name": "Panorama Point, Badlands National Park, SD",
-            "file": "badlands"
+            "file": "badlands",
+            "hasAvif": false,
+            "hasWebp": true
         },
         {
             "name": "Lamar Valley, Yellowstone National Park, WY",
-            "file": "lamar-valley"
+            "file": "lamar-valley",
+            "hasAvif": false,
+            "hasWebp": true
         },
         {
             "name": "Black Canyon of the Gunnison National Park, CO",
-            "file": "black-canyon"
+            "file": "black-canyon",
+            "hasAvif": true,
+            "hasWebp": false
         },
         {
             "name": "Kohala Coast, Island of Hawai&lsquo;i, HI",
-            "file": "kohala-coast-1"
+            "file": "kohala-coast-1",
+            "hasAvif": false,
+            "hasWebp": true
         },
         {
             "name": "Iztaccihuatl, México",
-            "file": "iztaccihuatl"
+            "file": "iztaccihuatl",
+            "hasAvif": false,
+            "hasWebp": true
         },
         {
             "name": "Going-to-the-Sun Road, Glacier National Park, MT",
-            "file": "gtsr1"
+            "file": "gtsr1",
+            "hasAvif": false,
+            "hasWebp": true
         },
         {
             "name": "Emerald Isle, NC",
-            "file": "emerald-isle-night"
+            "file": "emerald-isle-night",
+            "hasAvif": false,
+            "hasWebp": true
         },
         {
             "name": "Grand Canyon of the Yellowstone, Yellowstone National Park, WY",
-            "file": "yellowstone-canyon1"
+            "file": "yellowstone-canyon1",
+            "hasAvif": false,
+            "hasWebp": true
         },
         {
             "name": "Honolulu, HI",
-            "file": "honolulu"
+            "file": "honolulu",
+            "hasAvif": false,
+            "hasWebp": true
         },
         {
             "name": "Tapachula, Chiapas, México",
-            "file": "tapachula"
+            "file": "tapachula",
+            "hasAvif": false,
+            "hasWebp": true
         },
         {
             "name": "Volcán de Fuego, Guatemala",
-            "file": "volcan-fuego"
+            "file": "volcan-fuego",
+            "hasAvif": false,
+            "hasWebp": true
         },
         {
             "name": "Going-to-the-Sun Road, Glacier National Park, MT",
-            "file": "gtsr3"
+            "file": "gtsr3",
+            "hasAvif": false,
+            "hasWebp": true
         },
         {
             "name": "Cañón del Sumidero, Chiapas, México",
-            "file": "sumidero"
+            "file": "sumidero",
+            "hasAvif": false,
+            "hasWebp": true
         },
         {
             "name": "Three Falls Trail, Glacier National Park, MT",
-            "file": "glacier-natl-park"
+            "file": "glacier-natl-park",
+            "hasAvif": false,
+            "hasWebp": true
         },
         {
             "name": "Canyonlands National Park, UT",
-            "file": "canyonlands"
+            "file": "canyonlands",
+            "hasAvif": true,
+            "hasWebp": false
         },
         {
             "name": "Island of Hawai&lsquo;i, HI",
-            "file": "hawaii"
+            "file": "hawaii",
+            "hasAvif": false,
+            "hasWebp": true
         },
         {
             "name": "Grand Prismatic Spring, Yellowstone National Park, WY",
-            "file": "prismatic"
+            "file": "prismatic",
+            "hasAvif": false,
+            "hasWebp": true
         },
         {
             "name": "Chain of Craters Road, Volcanoes National Park, HI",
-            "file": "chain-of-craters"
+            "file": "chain-of-craters",
+            "hasAvif": false,
+            "hasWebp": true
         },
         {
             "name": "Going-to-the-Sun Road, Glacier National Park, MT",
-            "file": "gtsr4"
+            "file": "gtsr4",
+            "hasAvif": false,
+            "hasWebp": true
         },
         {
             "name": "Lake McDonald, Glacier National Park, MT",
-            "file": "lake-mcdonald"
+            "file": "lake-mcdonald",
+            "hasAvif": false,
+            "hasWebp": true
         },
         {
             "name": "Three Falls Trail, Glacier National Park, MT",
-            "file": "three-falls"
+            "file": "three-falls",
+            "hasAvif": false,
+            "hasWebp": true
         },
         {
             "name": "Makapu'u Point Lookout, Oahu, HI",
-            "file": "makapu'u"
+            "file": "makapu'u",
+            "hasAvif": false,
+            "hasWebp": true
         },
         {
             "name": "Emerald Isle, NC",
-            "file": "emerald-isle-day"
+            "file": "emerald-isle-day",
+            "hasAvif": false,
+            "hasWebp": true
         },
         {
             "name": "Going-to-the-Sun Road, Glacier National Park, MT",
-            "file": "gtsr2"
+            "file": "gtsr2",
+            "hasAvif": false,
+            "hasWebp": true
         },
         {
             "name": "Cholla Cactus Garden, Joshua Tree National Park, CA",
-            "file": "cholla"
+            "file": "cholla",
+            "hasAvif": false,
+            "hasWebp": true
         },
         {
             "name": "Welch-Dickey Loop Trail, NH",
-            "file": "welch-dickey"
+            "file": "welch-dickey",
+            "hasAvif": false,
+            "hasWebp": true
         },
         {
             "name": "Mirador La Peña, Valle de Bravo, Estado de México, México",
-            "file": "valle-de-bravo"
+            "file": "valle-de-bravo",
+            "hasAvif": false,
+            "hasWebp": true
         },
         {
             "name": "Kohala Coast, Island of Hawai&lsquo;i, HI",
-            "file": "kohala-coast-2"
+            "file": "kohala-coast-2",
+            "hasAvif": false,
+            "hasWebp": true
         },
         {
             "name": "Tapachula, Chiapas, México",
-            "file": "tapachula2"
+            "file": "tapachula2",
+            "hasAvif": false,
+            "hasWebp": true
         }
     ]
 }
