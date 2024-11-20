@@ -1,18 +1,6 @@
 function lightbox() {
     "use strict";
 
-    // iPad and iPod detection
-    var isiPad = function () {
-        return navigator.platform.indexOf("iPad") != -1;
-    };
-
-    var isiPhone = function () {
-        return (
-            navigator.platform.indexOf("<i></i>Phone") != -1 ||
-            navigator.platform.indexOf("iPod") != -1
-        );
-    };
-
     // Loading page
     //   var loaderPage = function () {
     //     $(".fh5co-loader").fadeOut("slow");
@@ -44,13 +32,17 @@ function lightbox() {
                 open: function () {
                     // Update the URL when the lightbox opens with the current photo
                     var currentPhoto = this.currItem.el.attr('href');
-                    var newUrl = window.location.pathname + '#photo=' + encodeURIComponent(currentPhoto);
+                    var photoId = extractPhotoId(currentPhoto);
+
+                    var newUrl = window.location.pathname + '#photo=' + encodeURIComponent(photoId);
                     history.pushState(null, null, newUrl);
                 },
                 change: function () {
                     // Update the URL when navigating to a new photo
                     var currentPhoto = this.currItem.el.attr('href');
-                    var newUrl = window.location.pathname + '#photo=' + encodeURIComponent(currentPhoto);
+                    var photoId = extractPhotoId(currentPhoto);
+
+                    var newUrl = window.location.pathname + '#photo=' + encodeURIComponent(photoId);
                     history.pushState(null, null, newUrl);
                 },
                 close: function () {
@@ -89,6 +81,13 @@ function lightbox() {
             { offset: "50%" }
         );
     };
+
+    // Helper function to extract unique photo ID from a full photo path
+    function extractPhotoId(photoPath) {
+        // Use regex to extract the file name without the extension
+        var match = photoPath.match(/\/([^\/]+)\.\w+$/);
+        return match ? match[1] : photoPath; // Return the file name if matched, or the original path if not
+    }
 
     // Document on load.
     $(function () {
