@@ -1,74 +1,107 @@
 {
-    "directory": "/assets/images/wildlife/",
-    "photos": [
-      {
-        "name": "Black Bear",
-        "file": "mama-bear"
-      },
-      {
-        "name": "Bighorn Sheep",
-        "file": "bighorn-sheep1"
-      },
-      {
-        "name": "Marine Iguana",
-        "file": "marine-iguana1"
-      },
-      {
-        "name": "Common Chuckwalla",
-        "file": "chuckwalla"
-      },
-      {
-        "name": "Long-Tailed Ground Squirrel",
-        "file": "ground-squirrel"
-      },
-      {
-        "name": "Gold Dust Day Gecko",
-        "file": "gecko"
-      },
-      {
-        "name": "Pronghorn",
-        "file": "pronghorn"
-      },
-      {
-        "name": "Western Fence Lizard",
-        "file": "fence-lizard"
-      },
-      {
-        "name": "Bighorn Sheep",
-        "file": "bighorn-sheep3"
-      },
-      {
-        "name": "Prairie Dog",
-        "file": "prairie-dog"
-      },
-      {
-        "name": "Bison",
-        "file": "bison"
-      },
-      {
-        "name": "Olive Ridley Sea Turtle",
-        "file": "sea-turtle"
-      },
-      {
-        "name": "Galápagos Fur Seal",
-        "file": "fur-seal"
-      },
-      {
-        "name": "Moose",
-        "file": "moose"
-      },
-      {
-        "name": "Bighorn Sheep",
-        "file": "bighorn-sheep"
-      },
-      {
-        "name": "Black Bear cubs",
-        "file": "bear-cubs"
-      },
-      {
-        "name": "Eastern Gray Squirrel",
-        "file": "squirrel"
-      }
-    ]
-  }
-  
+  "directory": "/assets/images/wildlife/",
+  "photos": [
+    {
+      "name": "Black Bear",
+      "file": "mama-bear",
+      "hasAvif": false,
+      "hasWebp": true
+    },
+    {
+      "name": "Bighorn Sheep",
+      "file": "bighorn-sheep1",
+      "hasAvif": false,
+      "hasWebp": true
+    },
+    {
+      "name": "Marine Iguana",
+      "file": "marine-iguana1",
+      "hasAvif": false,
+      "hasWebp": true
+    },
+    {
+      "name": "Common Chuckwalla",
+      "file": "chuckwalla",
+      "hasAvif": false,
+      "hasWebp": true
+    },
+    {
+      "name": "Long-Tailed Ground Squirrel",
+      "file": "ground-squirrel",
+      "hasAvif": false,
+      "hasWebp": true
+    },
+    {
+      "name": "Gold Dust Day Gecko",
+      "file": "gecko",
+      "hasAvif": false,
+      "hasWebp": true
+    },
+    {
+      "name": "Pronghorn",
+      "file": "pronghorn",
+      "hasAvif": false,
+      "hasWebp": true
+    },
+    {
+      "name": "Western Fence Lizard",
+      "file": "fence-lizard",
+      "hasAvif": false,
+      "hasWebp": true
+    },
+    {
+      "name": "Bighorn Sheep",
+      "file": "bighorn-sheep3",
+      "hasAvif": false,
+      "hasWebp": true
+    },
+    {
+      "name": "Prairie Dog",
+      "file": "prairie-dog",
+      "hasAvif": false,
+      "hasWebp": true
+    },
+    {
+      "name": "Bison",
+      "file": "bison",
+      "hasAvif": false,
+      "hasWebp": true
+    },
+    {
+      "name": "Olive Ridley Sea Turtle",
+      "file": "sea-turtle",
+      "hasAvif": false,
+      "hasWebp": true
+    },
+    {
+      "name": "Galápagos Fur Seal",
+      "file": "fur-seal",
+      "hasAvif": false,
+      "hasWebp": true
+    },
+    {
+      "name": "Moose",
+      "file": "moose",
+      "hasAvif": false,
+      "hasWebp": true
+    },
+    {
+      "name": "Bighorn Sheep",
+      "file": "bighorn-sheep",
+      "hasAvif": false,
+      "hasWebp": true
+    },
+    {
+      "name": "Black Bear cubs",
+      "file": "bear-cubs",
+      "hasAvif": false,
+      "hasWebp": true
+    },
+    {
+      "name": "Eastern Gray Squirrel",
+      "file": "squirrel",
+      "hasAvif": false,
+      "hasWebp": true
+    }
+  ]
+}

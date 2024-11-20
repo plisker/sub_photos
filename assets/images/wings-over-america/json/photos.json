@@ -4,212 +4,316 @@
         {
             "name": "Tree Swallow and the Statue of Liberty",
             "file": "tres",
+            "hasAvif": false,
+            "hasWebp": true,
             "description": "Winner of the Urban Wildlife Channel, hosted by <a href='https://www.instagram.com/skeysimages/' target='_blank'>Scott Keys</a>"
         },
         {
             "name": "Blue-Gray Gnatcatcher",
-            "file": "bggn"
+            "file": "bggn",
+            "hasAvif": false,
+            "hasWebp": true
         },
         {
             "name": "Western Meadowlark",
-            "file": "weme"
+            "file": "weme",
+            "hasAvif": false,
+            "hasWebp": true
         },
         {
             "name": "Common Raven",
-            "file": "cora"
+            "file": "cora",
+            "hasAvif": false,
+            "hasWebp": true
         },
         {
             "name": "Ruby-Crowned Kinglet",
-            "file": "rcki"
+            "file": "rcki",
+            "hasAvif": false,
+            "hasWebp": true
         },
         {
             "name": "Neotropic Cormorant",
-            "file": "neco"
+            "file": "neco",
+            "hasAvif": false,
+            "hasWebp": true
         },
         {
             "name": "Summer Tanager",
-            "file": "suta"
+            "file": "suta",
+            "hasAvif": false,
+            "hasWebp": true
         },
         {
             "name": "Red-Winged Blackbirds",
-            "file": "rwbl2"
+            "file": "rwbl2",
+            "hasAvif": false,
+            "hasWebp": true
         },
         {
             "name": "Eastern Phoebe",
-            "file": "eaph2"
+            "file": "eaph2",
+            "hasAvif": false,
+            "hasWebp": true
         },
         {
             "name": "Vermillion Flycatcher",
-            "file": "vefl"
+            "file": "vefl",
+            "hasAvif": false,
+            "hasWebp": true
         },
         {
             "name": "Indigo Bunting",
-            "file": "inbu"
+            "file": "inbu",
+            "hasAvif": false,
+            "hasWebp": true
         },
         {
             "name": "Great Blue Heron",
-            "file": "gbhe"
+            "file": "gbhe",
+            "hasAvif": false,
+            "hasWebp": true
         },
         {
             "name": "Red-Eyed Vireo",
-            "file": "revi"
+            "file": "revi",
+            "hasAvif": false,
+            "hasWebp": true
         },
         {
             "name": "American Coot",
-            "file": "amco"
+            "file": "amco",
+            "hasAvif": false,
+            "hasWebp": true
         },
         {
             "name": "Western Tanager",
-            "file": "weta"
+            "file": "weta",
+            "hasAvif": false,
+            "hasWebp": true
         },
         {
             "name": "Tree Swallow",
-            "file": "tres1"
+            "file": "tres1",
+            "hasAvif": false,
+            "hasWebp": true
         },
         {
             "name": "Killdeer, juvenile",
-            "file": "kill2"
+            "file": "kill2",
+            "hasAvif": false,
+            "hasWebp": true
         },
         {
             "name": "Northern Rough-Winged Swallow",
-            "file": "nrws"
+            "file": "nrws",
+            "hasAvif": false,
+            "hasWebp": true
         },
         {
             "name": "Varied Thrush",
-            "file": "vath"
+            "file": "vath",
+            "hasAvif": false,
+            "hasWebp": true
         },
         {
             "name": "Eastern Bluebirds",
-            "file": "eabl"
+            "file": "eabl",
+            "hasAvif": false,
+            "hasWebp": true
         },
         {
             "name": "White-Crowned Sparrow",
-            "file": "wcsp"
+            "file": "wcsp",
+            "hasAvif": false,
+            "hasWebp": true
         },
         {
             "name": "Barn Swallow",
-            "file": "bars"
+            "file": "bars",
+            "hasAvif": false,
+            "hasWebp": true
         },
         {
             "name": "American Dipper",
-            "file": "amdi"
+            "file": "amdi",
+            "hasAvif": false,
+            "hasWebp": true
         },
         {
             "name": "Horned Lark",
-            "file": "hola"
+            "file": "hola",
+            "hasAvif": false,
+            "hasWebp": true
         },
         {
             "name": "Video of two Northern Flickers (Yellow-Shafted)",
             "file": "nofl",
+            "hasAvif": false,
+            "hasWebp": true,
             "video": "https://www.youtube.com/watch?v=xAppwSS23Bc"
         },
         {
             "name": "White Ibis",
-            "file": "whib"
+            "file": "whib",
+            "hasAvif": false,
+            "hasWebp": true
         },
         {
             "name": "Burrowing Owl",
-            "file": "buow"
+            "file": "buow",
+            "hasAvif": false,
+            "hasWebp": true
         },
         {
             "name": "Common Gallinule",
-            "file": "coga"
+            "file": "coga",
+            "hasAvif": false,
+            "hasWebp": true
         },
         {
             "name": "Boat-Tailed Grackle",
-            "file": "btgr"
+            "file": "btgr",
+            "hasAvif": false,
+            "hasWebp": true
         },
         {
             "name": "Common Nighthawk",
-            "file": "coni"
+            "file": "coni",
+            "hasAvif": false,
+            "hasWebp": true
         },
         {
             "name": "Phainopepla at dusk",
-            "file": "phai1"
+            "file": "phai1",
+            "hasAvif": false,
+            "hasWebp": true
         },
         {
             "name": "Winter Wren",
-            "file": "wiwr"
+            "file": "wiwr",
+            "hasAvif": false,
+            "hasWebp": true
         },
         {
             "name": "Pileated Woodpecker",
-            "file": "piwo"
+            "file": "piwo",
+            "hasAvif": false,
+            "hasWebp": true
         },
         {
             "name": "American Tree Sparrow",
-            "file": "atsp"
+            "file": "atsp",
+            "hasAvif": false,
+            "hasWebp": true
         },
         {
             "name": "Great Egret",
-            "file": "greg"
+            "file": "greg",
+            "hasAvif": false,
+            "hasWebp": true
         },
         {
             "name": "Hermit Thrush",
-            "file": "heth"
+            "file": "heth",
+            "hasAvif": false,
+            "hasWebp": true
         },
         {
             "name": "Warbling Vireo",
-            "file": "wavi"
+            "file": "wavi",
+            "hasAvif": false,
+            "hasWebp": true
         },
         {
             "name": "Harlequin Duck",
-            "file": "hadu"
+            "file": "hadu",
+            "hasAvif": false,
+            "hasWebp": true
         },
         {
             "name": "White-Eyed Vireo",
-            "file": "wevi"
+            "file": "wevi",
+            "hasAvif": false,
+            "hasWebp": true
         },
         {
             "name": "Phainopepla",
-            "file": "phai2"
+            "file": "phai2",
+            "hasAvif": false,
+            "hasWebp": true
         },
         {
             "name": "Mountain Bluebird",
-            "file": "mobl"
+            "file": "mobl",
+            "hasAvif": false,
+            "hasWebp": true
         },
         {
             "name": "Eastern Phoebe in the rain",
-            "file": "eaph"
+            "file": "eaph",
+            "hasAvif": false,
+            "hasWebp": true
         },
         {
             "name": "Black-Throated Sparrow",
-            "file": "btsp"
+            "file": "btsp",
+            "hasAvif": false,
+            "hasWebp": true
         },
         {
             "name": "Dickcissel",
-            "file": "dick"
+            "file": "dick",
+            "hasAvif": false,
+            "hasWebp": true
         },
         {
             "name": "Snowy Egret",
-            "file": "sneg"
+            "file": "sneg",
+            "hasAvif": false,
+            "hasWebp": true
         },
         {
             "name": "Pied-Billed Grebe",
-            "file": "pbgr"
+            "file": "pbgr",
+            "hasAvif": false,
+            "hasWebp": true
         },
         {
             "name": "Chestnut-Backed Chickadee",
-            "file": "cbch"
+            "file": "cbch",
+            "hasAvif": false,
+            "hasWebp": true
         },
         {
             "name": "Bufflehead",
-            "file": "buff"
+            "file": "buff",
+            "hasAvif": false,
+            "hasWebp": true
         },
         {
             "name": "Sandhill Cranes",
-            "file": "sacr"
+            "file": "sacr",
+            "hasAvif": false,
+            "hasWebp": true
         },
         {
             "name": "Killdeer",
-            "file": "kill1"
+            "file": "kill1",
+            "hasAvif": false,
+            "hasWebp": true
         },
         {
             "name": "Ring-Necked Duck",
-            "file": "rndu"
+            "file": "rndu",
+            "hasAvif": false,
+            "hasWebp": true
         },
         {
             "name": "Gray Catbird, juvenile",
-            "file": "grca"
+            "file": "grca",
+            "hasAvif": false,
+            "hasWebp": true
         }
     ]
 }
