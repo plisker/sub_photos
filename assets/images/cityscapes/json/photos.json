@@ -33,6 +33,12 @@
             "hasWebp": false
         },
         {
+            "name": "Naxos, Greece",
+            "file": "naxos",
+            "hasAvif": true,
+            "hasWebp": false
+        },
+        {
             "name": "Zinacantán, Chiapas, México",
             "file": "zinacantan",
             "hasAvif": false,
