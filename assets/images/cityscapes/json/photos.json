@@ -1,0 +1,54 @@
+{
+    "directory": "/assets/images/cityscapes/",
+    "photos": [
+        {
+            "name": "Statue of Liberty, New York City",
+            "file": "statue-of-liberty",
+            "hasAvif": false,
+            "hasWebp": true
+        },
+        {
+            "name": "Fourth of July fireworks in Carroll Gardens, Brooklyn",
+            "file": "fourth-of-july",
+            "hasAvif": true,
+            "hasWebp": false
+        },
+
+        {
+            "name": "Niño en Zinacantán, cuna de tradiciones",
+            "file": "cuna-de-tradiciones",
+            "hasAvif": false,
+            "hasWebp": true
+        },
+        {
+            "name": "San Cristobal de las Casas, Chiapas, México",
+            "file": "san-cristobal",
+            "hasAvif": true,
+            "hasWebp": false
+        },
+        {
+            "name": "Halloween in Cobble Hill, Brooklyn",
+            "file": "halloween",
+            "hasAvif": true,
+            "hasWebp": false
+        },
+        {
+            "name": "Naxos, Greece",
+            "file": "naxos",
+            "hasAvif": true,
+            "hasWebp": false
+        },
+        {
+            "name": "Zinacantán, Chiapas, México",
+            "file": "zinacantan",
+            "hasAvif": false,
+            "hasWebp": true
+        },
+        {
+            "name": "Harvard Yard, Cambridge, MA",
+            "file": "harvard-panorama",
+            "hasAvif": true,
+            "hasWebp": false
+        }
+    ]
+}
