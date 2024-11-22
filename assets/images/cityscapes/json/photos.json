@@ -13,12 +13,7 @@
             "hasAvif": false,
             "hasWebp": true
         },
-        {
-            "name": "Zinacantán, Chiapas, México",
-            "file": "zinacantan",
-            "hasAvif": false,
-            "hasWebp": true
-        },
+
         {
             "name": "Niño en Zinacantán, cuna de tradiciones",
             "file": "cuna-de-tradiciones",
@@ -34,6 +29,18 @@
         {
             "name": "Halloween in Cobble Hill, Brooklyn",
             "file": "halloween",
+            "hasAvif": true,
+            "hasWebp": false
+        },
+        {
+            "name": "Zinacantán, Chiapas, México",
+            "file": "zinacantan",
+            "hasAvif": false,
+            "hasWebp": true
+        },
+        {
+            "name": "Harvard Yard, Cambridge, MA",
+            "file": "harvard-panorama",
             "hasAvif": true,
             "hasWebp": false
         }
