@@ -10,8 +10,8 @@
         {
             "name": "Fourth of July fireworks in Carroll Gardens, Brooklyn",
             "file": "fourth-of-july",
-            "hasAvif": false,
-            "hasWebp": true
+            "hasAvif": true,
+            "hasWebp": false
         },
 
         {
