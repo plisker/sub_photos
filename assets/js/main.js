@@ -134,21 +134,24 @@ function getFooter() {
     footer.className = 'padding-left';
     footer.id = 'fh5co-footer';
 
+    const currentYear = new Date().getFullYear();
+
     footer.innerHTML = `
         <p>
-            <small>&copy; 2024 Paul Lisker. All Rights Reserved.<br />
+            <small>&copy; ${currentYear} Paul Lisker. All Rights Reserved.<br />
                 <a href="https://lisker.me/privacy_policy" target="_blank">Privacy Policy</a>
                 &#183;
                 <a href="https://lisker.me/cookie_policy" target="_blank">Cookie Policy</a><br />
                 Modified from a design by
                 <a href="http://freehtml5.co/" target="_blank">FreeHTML5.co</a></small>
         </p>
-        `;
+    `;
 
     footer.appendChild(getSocials());
 
     return footer;
 }
+
 
 $(document).ready(function () {
     const socials = document.getElementById('socials');
