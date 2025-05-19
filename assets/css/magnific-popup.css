@@ -291,6 +291,13 @@ img.mfp-img {
   word-wrap: break-word;
   padding-right: 36px; }
 
+.mfp-location {
+  text-align: left;
+  line-height: 18px;
+  color: #cccccc;
+  word-wrap: break-word;
+  padding-right: 36px; }
+
 .mfp-image-holder .mfp-content {
   max-width: 100%; }
 

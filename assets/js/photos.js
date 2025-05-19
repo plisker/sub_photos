@@ -23,7 +23,7 @@ function populatePhotoGrid(jsonFilePath, offset = 0) {
                                     (supportsWebP() && photo.hasWebp ? 'webp' : 'jpg');
 
                 console.debug('Will load ' + photo.file + '.' + imageFormat);
-                let elementDescription = photo.description ? photo.description : photo.name;
+                let elementName = photo.description ? photo.description : photo.name;
                 let lightboxElement = photo.video ? photo.video : data.directory + photo.file + '.' + imageFormat;
                 let lightboxClass = photo.video ? 'mfp-iframe image-popup' : 'image-popup'
 
@@ -38,13 +38,14 @@ function populatePhotoGrid(jsonFilePath, offset = 0) {
                 `;
 
                 albumElement.innerHTML = `
-                        <a href="${lightboxElement}" class="${lightboxClass}" title="${elementDescription}">
+                        <a href="${lightboxElement}" class="${lightboxClass}" title="${elementName}">
                             ${pictureElement}
                             <div class="album-photo-text-wrap">
                                 <div class="album-photo-text">
                                     <h2>${photo.name}</h2>
                                 </div>
                             </div>
+                            ${photo.location ? `<p style="display:none">${photo.location}</p>` : ''}
                         </a>
                     `;
 

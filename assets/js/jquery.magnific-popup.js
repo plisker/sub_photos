@@ -1110,6 +1110,7 @@ $.magnificPopup.registerModule('image', {
 						'<figcaption>'+
 							'<div class="mfp-bottom-bar">'+
 								'<div class="mfp-title"></div>'+
+								'<div class="mfp-location"></div>'+
 								'<div class="mfp-counter"></div>'+
 							'</div>'+
 						'</figcaption>'+
@@ -1296,7 +1297,8 @@ $.magnificPopup.registerModule('image', {
 
 			mfp._parseMarkup(template, {
 				title: _getTitle(item),
-				img_replaceWith: item.img
+				img_replaceWith: item.img,
+				location: item.el && item.el.find('p').text() || ''
 			}, item);
 
 			mfp.resizeImage();
