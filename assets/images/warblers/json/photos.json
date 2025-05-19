@@ -4,132 +4,154 @@
     {
       "name": "Magnolia Warbler",
       "file": "mawa",
+      "location": "Chicago, IL",
       "hasAvif": false,
       "hasWebp": true
     },
     {
       "name": "Cape May Warbler",
       "file": "cmwa",
+      "location": "Durham, NC",
       "hasAvif": false,
       "hasWebp": true
     },
     {
       "name": "Canada Warbler",
       "file": "cawa2",
+      "location": "Chicago, IL",
       "hasAvif": false,
       "hasWebp": true
     },
     {
       "name": "Yellow-Rumped Warbler",
       "file": "yrwa2",
+      "location": "Chicago, IL",
       "hasAvif": false,
       "hasWebp": true
     },
     {
       "name": "Wilson's Warbler",
       "file": "wiwa",
+      "location": "Chicago, IL",
       "hasAvif": false,
       "hasWebp": true
     },
     {
       "name": "American Redstart",
       "file": "amre",
+      "location": "Madison, WI",
       "hasAvif": false,
       "hasWebp": true
     },
     {
       "name": "Kirtland's Warbler",
       "file": "kiwa",
+      "location": "Chicago, IL",
       "hasAvif": false,
       "hasWebp": true
     },
     {
       "name": "Canada Warbler",
       "file": "cawa",
+      "location": "Chicago, IL",
       "hasAvif": false,
       "hasWebp": true
     },
     {
       "name": "Connecticut Warbler",
       "file": "conw",
+      "location": "Chicago, IL",
       "hasAvif": false,
       "hasWebp": true
     },
     {
       "name": "Northern Parula",
       "file": "nopa2",
+      "location": "Durham, NC",
       "hasAvif": false,
       "hasWebp": true
     },
     {
       "name": "Magnolia Warbler",
       "file": "mawa2",
+      "location": "Chicago, IL",
       "hasAvif": false,
       "hasWebp": true
     },
     {
       "name": "Black-and-white Warbler",
       "file": "baww",
+      "location": "Durham, NC",
       "hasAvif": false,
       "hasWebp": true
     },
     {
       "name": "Yellow-Rumped Warbler",
       "file": "yrwa",
+      "location": "Palm Springs, CA",
       "hasAvif": false,
       "hasWebp": true
     },
     {
       "name": "MacGillivray's Warbler",
       "file": "mgwa",
+      "location": "Glacier National Park, MT",
       "hasAvif": false,
       "hasWebp": true
     },
     {
       "name": "Northern Parula",
       "file": "nopa",
+      "location": "Durham, NC",
       "hasAvif": false,
       "hasWebp": true
     },
     {
       "name": "Prothonotary Warbler",
       "file": "prow2",
+      "location": "Chicago, IL",
       "hasAvif": false,
       "hasWebp": true
     },
     {
       "name": "Common Yellowthroat",
       "file": "coye",
+      "location": "Durham, NC",
       "hasAvif": false,
       "hasWebp": true
     },
     {
       "name": "American Redstart, female",
       "file": "amre-f2",
+      "location": "Chicago, IL",
       "hasAvif": false,
       "hasWebp": true
     },
     {
       "name": "Bay-breasted Warbler",
       "file": "bbwa",
+      "location": "Chicago, IL",
       "hasAvif": false,
       "hasWebp": true
     },
     {
       "name": "Louisiana Waterthrush, juvenile",
       "file": "lowa",
+      "location": "Durham, NC",
       "hasAvif": false,
       "hasWebp": true
     },
     {
       "name": "Prothonotary Warbler",
       "file": "prow",
+      "location": "Chicago, IL",
       "hasAvif": false,
       "hasWebp": true
     },
     {
       "name": "American Redstart, female",
       "file": "amre-f",
+      "location": "Chicago, IL",
       "hasAvif": false,
       "hasWebp": true
     }
