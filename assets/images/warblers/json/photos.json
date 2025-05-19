@@ -2,14 +2,74 @@
   "directory": "/assets/images/warblers/",
   "photos": [
     {
+      "name": "Magnolia Warbler",
+      "file": "mawa",
+      "hasAvif": false,
+      "hasWebp": true
+    },
+    {
       "name": "Cape May Warbler",
       "file": "cmwa",
       "hasAvif": false,
       "hasWebp": true
     },
     {
+      "name": "Canada Warbler",
+      "file": "cawa2",
+      "hasAvif": false,
+      "hasWebp": true
+    },
+    {
+      "name": "Yellow-Rumped Warbler",
+      "file": "yrwa2",
+      "hasAvif": false,
+      "hasWebp": true
+    },
+    {
+      "name": "Wilson's Warbler",
+      "file": "wiwa",
+      "hasAvif": false,
+      "hasWebp": true
+    },
+    {
       "name": "American Redstart",
       "file": "amre",
+      "hasAvif": false,
+      "hasWebp": true
+    },
+    {
+      "name": "Kirtland's Warbler",
+      "file": "kiwa",
+      "hasAvif": false,
+      "hasWebp": true
+    },
+    {
+      "name": "Canada Warbler",
+      "file": "cawa",
+      "hasAvif": false,
+      "hasWebp": true
+    },
+    {
+      "name": "Connecticut Warbler",
+      "file": "conw",
+      "hasAvif": false,
+      "hasWebp": true
+    },
+    {
+      "name": "Northern Parula",
+      "file": "nopa2",
+      "hasAvif": false,
+      "hasWebp": true
+    },
+    {
+      "name": "Magnolia Warbler",
+      "file": "mawa2",
+      "hasAvif": false,
+      "hasWebp": true
+    },
+    {
+      "name": "Black-and-white Warbler",
+      "file": "baww",
       "hasAvif": false,
       "hasWebp": true
     },
@@ -33,7 +93,7 @@
     },
     {
       "name": "Prothonotary Warbler",
-      "file": "prwa",
+      "file": "prow2",
       "hasAvif": false,
       "hasWebp": true
     },
@@ -44,8 +104,32 @@
       "hasWebp": true
     },
     {
+      "name": "American Redstart, female",
+      "file": "amre-f2",
+      "hasAvif": false,
+      "hasWebp": true
+    },
+    {
+      "name": "Bay-breasted Warbler",
+      "file": "bbwa",
+      "hasAvif": false,
+      "hasWebp": true
+    },
+    {
       "name": "Louisiana Waterthrush, juvenile",
       "file": "lowa",
+      "hasAvif": false,
+      "hasWebp": true
+    },
+    {
+      "name": "Prothonotary Warbler",
+      "file": "prow",
+      "hasAvif": false,
+      "hasWebp": true
+    },
+    {
+      "name": "American Redstart, female",
+      "file": "amre-f",
       "hasAvif": false,
       "hasWebp": true
     }
