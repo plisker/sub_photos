@@ -81,7 +81,7 @@
     {
       "name": "Black-and-white Warbler",
       "file": "baww",
-      "location": "Durham, NC",
+      "location": "St. Louis, MO",
       "hasAvif": false,
       "hasWebp": true
     },
@@ -121,8 +121,8 @@
       "hasWebp": true
     },
     {
-      "name": "American Redstart, female",
-      "file": "amre-f2",
+      "name": "American Redstart",
+      "file": "amre2",
       "location": "Chicago, IL",
       "hasAvif": false,
       "hasWebp": true
