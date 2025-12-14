@@ -1,60 +1,72 @@
 {
-    "directory": "/assets/images/birds-of-prey/",
-    "photos": [
-        {
-            "name": "Barred Owl",
-            "file": "bado",
-            "hasAvif": false,
-            "hasWebp": true
-        },
-        {
-            "name": "Barred Owl",
-            "file": "bado1",
-            "hasAvif": false,
-            "hasWebp": true
-        },
-        {
-            "name": "Cooper's Hawk",
-            "file": "coha",
-            "hasAvif": false,
-            "hasWebp": true
-        },
-        {
-            "name": "Red-Tailed Hawk",
-            "file": "rtha",
-            "hasAvif": false,
-            "hasWebp": true
-        },
-        {
-            "name": "Video of a Barred Owl",
-            "file": "bado-video",
-            "hasAvif": false,
-            "hasWebp": true,
-            "video": "https://www.youtube.com/watch?v=EX9RkPYKs4I"
-        },
-        {
-            "name": "Red-Shouldered Hawk",
-            "file": "rsha",
-            "hasAvif": false,
-            "hasWebp": true
-        },
-        {
-            "name": "Great Horned Owl",
-            "file": "ghow",
-            "hasAvif": false,
-            "hasWebp": true
-        },
-        {
-            "name": "Bald Eagle",
-            "file": "baea",
-            "hasAvif": false,
-            "hasWebp": true
-        },
-        {
-            "name": "Cooper's Hawk",
-            "file": "coha1",
-            "hasAvif": false,
-            "hasWebp": true
-        }
-    ]
+  "directory": "/assets/images/birds-of-prey/",
+  "photos": [
+    {
+      "name": "Barred Owl",
+      "file": "bado",
+      "hasAvif": false,
+      "hasWebp": true
+    },
+    {
+      "name": "Snowy Owl<br>Montrose Beach, Chicago, IL",
+      "file": "snow-1",
+      "hasAvif": false,
+      "hasWebp": true
+    },
+    {
+      "name": "Barred Owl",
+      "file": "bado1",
+      "hasAvif": false,
+      "hasWebp": true
+    },
+    {
+      "name": "Cooper's Hawk",
+      "file": "coha",
+      "hasAvif": false,
+      "hasWebp": true
+    },
+    {
+      "name": "Red-Tailed Hawk",
+      "file": "rtha",
+      "hasAvif": false,
+      "hasWebp": true
+    },
+    {
+      "name": "Video of a Barred Owl",
+      "file": "bado-video",
+      "hasAvif": false,
+      "hasWebp": true,
+      "video": "https://www.youtube.com/watch?v=EX9RkPYKs4I"
+    },
+    {
+      "name": "Red-Shouldered Hawk",
+      "file": "rsha",
+      "hasAvif": false,
+      "hasWebp": true
+    },
+    {
+      "name": "Great Horned Owl",
+      "file": "ghow",
+      "hasAvif": false,
+      "hasWebp": true
+    },
+    {
+      "name": "Bald Eagle",
+      "file": "baea",
+      "hasAvif": false,
+      "hasWebp": true
+    },
+    {
+      "name": "Snowy Owl<br>Montrose Beach, Chicago, IL",
+      "file": "snow-2",
+      "hasAvif": false,
+      "hasWebp": true
+    },
+    {
+      "name": "Cooper's Hawk",
+      "file": "coha1",
+      "hasAvif": false,
+      "hasWebp": true
+    }
+  ]
 }
