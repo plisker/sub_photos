@@ -1,370 +1,370 @@
 {
-    "directory": "/assets/images/wings-over-america/",
-    "photos": [
-        {
-            "name": "Tree Swallow and the Statue of Liberty",
-            "file": "tres",
-            "location": "Governors Island, New York, NY",
-            "hasAvif": false,
-            "hasWebp": true,
-            "description": "Winner of the Urban Wildlife Channel, hosted by <a href='https://www.instagram.com/skeysimages/' target='_blank'>Scott Keys</a>"
-        },
-        {
-            "name": "Blue-Gray Gnatcatcher",
-            "file": "bggn",
-            "location": "Durham, NC",
-            "hasAvif": false,
-            "hasWebp": true
-        },
-        {
-            "name": "Western Meadowlark",
-            "file": "weme",
-            "location": "Badlands National Park, SD",
-            "hasAvif": false,
-            "hasWebp": true
-        },
-        {
-            "name": "Common Raven",
-            "file": "cora",
-            "location": "Yellowstone National Park, WY",
-            "hasAvif": false,
-            "hasWebp": true
-        },
-        {
-            "name": "Ruby-Crowned Kinglet",
-            "file": "rcki",
-            "location": "Brooklyn, NY",
-            "hasAvif": false,
-            "hasWebp": true
-        },
-        {
-            "name": "Neotropic Cormorant",
-            "file": "neco",
-            "location": "Jocelyn Nungaray NWR (formerly Anahuac NWR), TX",
-            "hasAvif": false,
-            "hasWebp": true
-        },
-        {
-            "name": "Summer Tanager",
-            "file": "suta",
-            "location": "Durham, NC",
-            "hasAvif": false,
-            "hasWebp": true
-        },
-        {
-            "name": "Red-Winged Blackbirds",
-            "file": "rwbl2",
-            "location": "Columbia Bottom Conservation Area, MO",
-            "hasAvif": false,
-            "hasWebp": true
-        },
-        {
-            "name": "Eastern Phoebe",
-            "file": "eaph2",
-            "location": "Durham, NC",
-            "hasAvif": false,
-            "hasWebp": true
-        },
-        {
-            "name": "Vermillion Flycatcher",
-            "file": "vefl",
-            "location": "Palm Springs, CA",
-            "hasAvif": false,
-            "hasWebp": true
-        },
-        {
-            "name": "Indigo Bunting",
-            "file": "inbu",
-            "location": "St. Louis, MO",
-            "hasAvif": false,
-            "hasWebp": true
-        },
-        {
-            "name": "Great Blue Heron",
-            "file": "gbhe",
-            "location": "Durham, NC",
-            "hasAvif": false,
-            "hasWebp": true
-        },
-        {
-            "name": "Red-Eyed Vireo",
-            "file": "revi",
-            "location": "Durham, NC",
-            "hasAvif": false,
-            "hasWebp": true
-        },
-        {
-            "name": "American Coot",
-            "file": "amco",
-            "hasAvif": false,
-            "hasWebp": true
-        },
-        {
-            "name": "Western Tanager",
-            "file": "weta",
-            "location": "Glacier National Park, MT",
-            "hasAvif": false,
-            "hasWebp": true
-        },
-        {
-            "name": "Tree Swallow",
-            "file": "tres1",
-            "location": "Governors Island, New York City, NY",
-            "hasAvif": false,
-            "hasWebp": true
-        },
-        {
-            "name": "Killdeer, juvenile",
-            "file": "kill2",
-            "location": "St. Louis, MO",
-            "hasAvif": false,
-            "hasWebp": true
-        },
-        {
-            "name": "Northern Rough-Winged Swallow",
-            "file": "nrws",
-            "location": "Badlands National Park, SD",
-            "hasAvif": false,
-            "hasWebp": true
-        },
-        {
-            "name": "Varied Thrush",
-            "file": "vath",
-            "location": "St. Louis, MO",
-            "hasAvif": false,
-            "hasWebp": true
-        },
-        {
-            "name": "Eastern Bluebirds",
-            "file": "eabl",
-            "location": "Durham, NC",
-            "hasAvif": false,
-            "hasWebp": true
-        },
-        {
-            "name": "White-Crowned Sparrow",
-            "file": "wcsp",
-            "location": "Yellowstone National Park, WY",
-            "hasAvif": false,
-            "hasWebp": true
-        },
-        {
-            "name": "Barn Swallow",
-            "file": "bars",
-            "hasAvif": false,
-            "hasWebp": true
-        },
-        {
-            "name": "American Dipper",
-            "file": "amdi",
-            "location": "Glacier National Park, MT",
-            "hasAvif": false,
-            "hasWebp": true
-        },
-        {
-            "name": "Horned Lark",
-            "file": "hola",
-            "location": "Durham, NC",
-            "hasAvif": false,
-            "hasWebp": true
-        },
-        {
-            "name": "Video of two Northern Flickers (Yellow-Shafted)",
-            "file": "nofl",
-            "location": "St. Louis, MO",
-            "hasAvif": false,
-            "hasWebp": true,
-            "video": "https://www.youtube.com/watch?v=xAppwSS23Bc"
-        },
-        {
-            "name": "White Ibis",
-            "file": "whib",
-            "location": "Jocelyn Nungaray NWR (formerly Anahuac NWR), TX",
-            "hasAvif": false,
-            "hasWebp": true
-        },
-        {
-            "name": "Burrowing Owl",
-            "file": "buow",
-            "location": "Jocelyn Nungaray NWR (formerly Anahuac NWR), TX",
-            "hasAvif": false,
-            "hasWebp": true
-        },
-        {
-            "name": "Common Gallinule",
-            "file": "coga",
-            "location": "Horseshoe Lake State Park, IL",
-            "hasAvif": false,
-            "hasWebp": true
-        },
-        {
-            "name": "Boat-Tailed Grackle",
-            "file": "btgr",
-            "location": "Jocelyn Nungaray NWR (formerly Anahuac NWR), TX",
-            "hasAvif": false,
-            "hasWebp": true
-        },
-        {
-            "name": "Common Nighthawk",
-            "file": "coni",
-            "location": "Magee Marsh Wildlife Area, OH",
-            "hasAvif": false,
-            "hasWebp": true
-        },
-        {
-            "name": "Phainopepla",
-            "description": "Phainopepla at dusk",
-            "location": "Palm Springs, CA",
-            "file": "phai1",
-            "hasAvif": false,
-            "hasWebp": true
-        },
-        {
-            "name": "Winter Wren",
-            "file": "wiwr",
-            "location": "Durham, NC",
-            "hasAvif": false,
-            "hasWebp": true
-        },
-        {
-            "name": "Pileated Woodpecker",
-            "file": "piwo",
-            "location": "Emerald Isle, NC",
-            "hasAvif": false,
-            "hasWebp": true
-        },
-        {
-            "name": "American Tree Sparrow",
-            "file": "atsp",
-            "location": "St. Louis, MO",
-            "hasAvif": false,
-            "hasWebp": true
-        },
-        {
-            "name": "Great Egret",
-            "file": "greg",
-            "location": "Emerald Isle, NC",
-            "hasAvif": false,
-            "hasWebp": true
-        },
-        {
-            "name": "Hermit Thrush",
-            "file": "heth",
-            "location": "Durham, NC",
-            "hasAvif": false,
-            "hasWebp": true
-        },
-        {
-            "name": "Warbling Vireo",
-            "file": "wavi",
-            "location": "Magee Marsh Wildlife Area, OH",
-            "hasAvif": false,
-            "hasWebp": true
-        },
-        {
-            "name": "Harlequin Duck",
-            "file": "hadu",
-            "location": "Yellowstone National Park, WY",
-            "hasAvif": false,
-            "hasWebp": true
-        },
-        {
-            "name": "White-Eyed Vireo",
-            "file": "wevi",
-            "location": "Durham, NC",
-            "hasAvif": false,
-            "hasWebp": true
-        },
-        {
-            "name": "Phainopepla",
-            "file": "phai2",
-            "location": "Palm Springs, CA",
-            "hasAvif": false,
-            "hasWebp": true
-        },
-        {
-            "name": "Mountain Bluebird",
-            "file": "mobl",
-            "location": "Glacier National Park, MT",
-            "hasAvif": false,
-            "hasWebp": true
-        },
-        {
-            "name": "Eastern Phoebe in the rain",
-            "file": "eaph",
-            "location": "Durham, NC",
-            "hasAvif": false,
-            "hasWebp": true
-        },
-        {
-            "name": "Black-Throated Sparrow",
-            "file": "btsp",
-            "location": "Palm Springs, CA",
-            "hasAvif": false,
-            "hasWebp": true
-        },
-        {
-            "name": "Dickcissel",
-            "file": "dick",
-            "location": "Columbia Bottom Conservation Area, MO",
-            "hasAvif": false,
-            "hasWebp": true
-        },
-        {
-            "name": "Snowy Egret",
-            "file": "sneg",
-            "location": "Horseshoe Lake State Park, IL",
-            "hasAvif": false,
-            "hasWebp": true
-        },
-        {
-            "name": "Pied-Billed Grebe",
-            "file": "pbgr",
-            "location": "Jocelyn Nungaray NWR (formerly Anahuac NWR), TX",
-            "hasAvif": false,
-            "hasWebp": true
-        },
-        {
-            "name": "Chestnut-Backed Chickadee",
-            "file": "cbch",
-            "location": "Seattle, WA",
-            "hasAvif": false,
-            "hasWebp": true
-        },
-        {
-            "name": "Bufflehead",
-            "file": "buff",
-            "location": "Durham, NC",
-            "hasAvif": false,
-            "hasWebp": true
-        },
-        {
-            "name": "Sandhill Cranes",
-            "file": "sacr",
-            "location": "Yellowstone National Park, WY",
-            "hasAvif": false,
-            "hasWebp": true
-        },
-        {
-            "name": "Killdeer",
-            "file": "kill1",
-            "location": "St. Louis, MO",
-            "hasAvif": false,
-            "hasWebp": true
-        },
-        {
-            "name": "Ring-Necked Duck",
-            "file": "rndu",
-            "location": "St. Louis, MO",
-            "hasAvif": false,
-            "hasWebp": true
-        },
-        {
-            "name": "Gray Catbird, juvenile",
-            "file": "grca",
-            "location": "Central Park, New York, NY",
-            "hasAvif": false,
-            "hasWebp": true
-        }
-    ]
+  "directory": "/assets/images/wings-over-america/",
+  "photos": [
+    {
+      "name": "Tree Swallow and the Statue of Liberty",
+      "file": "tres",
+      "location": "Governors Island, New York, NY",
+      "hasAvif": false,
+      "hasWebp": true,
+      "description": "Winner of the Urban Wildlife Channel, hosted by <a href='https://www.instagram.com/skeysimages/' target='_blank'>Scott Keys</a>"
+    },
+    {
+      "name": "Blue-Gray Gnatcatcher",
+      "file": "bggn",
+      "location": "Durham, NC",
+      "hasAvif": false,
+      "hasWebp": true
+    },
+    {
+      "name": "Western Meadowlark",
+      "file": "weme",
+      "location": "Badlands National Park, SD",
+      "hasAvif": false,
+      "hasWebp": true
+    },
+    {
+      "name": "Common Raven",
+      "file": "cora",
+      "location": "Yellowstone National Park, WY",
+      "hasAvif": false,
+      "hasWebp": true
+    },
+    {
+      "name": "Ruby-Crowned Kinglet",
+      "file": "rcki",
+      "location": "Brooklyn, NY",
+      "hasAvif": false,
+      "hasWebp": true
+    },
+    {
+      "name": "Neotropic Cormorant",
+      "file": "neco",
+      "location": "Jocelyn Nungaray NWR (formerly Anahuac NWR), TX",
+      "hasAvif": false,
+      "hasWebp": true
+    },
+    {
+      "name": "Summer Tanager",
+      "file": "suta",
+      "location": "Durham, NC",
+      "hasAvif": false,
+      "hasWebp": true
+    },
+    {
+      "name": "Red-Winged Blackbirds",
+      "file": "rwbl2",
+      "location": "Columbia Bottom Conservation Area, MO",
+      "hasAvif": false,
+      "hasWebp": true
+    },
+    {
+      "name": "Eastern Phoebe",
+      "file": "eaph2",
+      "location": "Durham, NC",
+      "hasAvif": false,
+      "hasWebp": true
+    },
+    {
+      "name": "Vermillion Flycatcher",
+      "file": "vefl",
+      "location": "Palm Springs, CA",
+      "hasAvif": false,
+      "hasWebp": true
+    },
+    {
+      "name": "Indigo Bunting",
+      "file": "inbu",
+      "location": "St. Louis, MO",
+      "hasAvif": false,
+      "hasWebp": true
+    },
+    {
+      "name": "Great Blue Heron",
+      "file": "gbhe",
+      "location": "Durham, NC",
+      "hasAvif": false,
+      "hasWebp": true
+    },
+    {
+      "name": "Red-Eyed Vireo",
+      "file": "revi",
+      "location": "Durham, NC",
+      "hasAvif": false,
+      "hasWebp": true
+    },
+    {
+      "name": "American Coot",
+      "file": "amco",
+      "hasAvif": false,
+      "hasWebp": true
+    },
+    {
+      "name": "Western Tanager",
+      "file": "weta",
+      "location": "Glacier National Park, MT",
+      "hasAvif": false,
+      "hasWebp": true
+    },
+    {
+      "name": "Tree Swallow",
+      "file": "tres1",
+      "location": "Governors Island, New York City, NY",
+      "hasAvif": false,
+      "hasWebp": true
+    },
+    {
+      "name": "Killdeer, juvenile",
+      "file": "kill2",
+      "location": "St. Louis, MO",
+      "hasAvif": false,
+      "hasWebp": true
+    },
+    {
+      "name": "Northern Rough-Winged Swallow",
+      "file": "nrws",
+      "location": "Badlands National Park, SD",
+      "hasAvif": false,
+      "hasWebp": true
+    },
+    {
+      "name": "Varied Thrush",
+      "file": "vath",
+      "location": "St. Louis, MO",
+      "hasAvif": false,
+      "hasWebp": true
+    },
+    {
+      "name": "Eastern Bluebirds",
+      "file": "eabl",
+      "location": "Durham, NC",
+      "hasAvif": false,
+      "hasWebp": true
+    },
+    {
+      "name": "White-Crowned Sparrow",
+      "file": "wcsp",
+      "location": "Yellowstone National Park, WY",
+      "hasAvif": false,
+      "hasWebp": true
+    },
+    {
+      "name": "Barn Swallow",
+      "file": "bars",
+      "hasAvif": false,
+      "hasWebp": true
+    },
+    {
+      "name": "American Dipper",
+      "file": "amdi",
+      "location": "Glacier National Park, MT",
+      "hasAvif": false,
+      "hasWebp": true
+    },
+    {
+      "name": "Horned Lark",
+      "file": "hola",
+      "location": "Durham, NC",
+      "hasAvif": false,
+      "hasWebp": true
+    },
+    {
+      "name": "Video of two Northern Flickers (Yellow-Shafted)",
+      "file": "nofl",
+      "location": "St. Louis, MO",
+      "hasAvif": false,
+      "hasWebp": true,
+      "video": "https://www.youtube.com/watch?v=xAppwSS23Bc"
+    },
+    {
+      "name": "White Ibis",
+      "file": "whib",
+      "location": "Jocelyn Nungaray NWR (formerly Anahuac NWR), TX",
+      "hasAvif": false,
+      "hasWebp": true
+    },
+    {
+      "name": "Burrowing Owl",
+      "file": "buow",
+      "location": "Jocelyn Nungaray NWR (formerly Anahuac NWR), TX",
+      "hasAvif": false,
+      "hasWebp": true
+    },
+    {
+      "name": "Common Gallinule",
+      "file": "coga",
+      "location": "Horseshoe Lake State Park, IL",
+      "hasAvif": false,
+      "hasWebp": true
+    },
+    {
+      "name": "Boat-Tailed Grackle",
+      "file": "btgr",
+      "location": "Jocelyn Nungaray NWR (formerly Anahuac NWR), TX",
+      "hasAvif": false,
+      "hasWebp": true
+    },
+    {
+      "name": "Common Nighthawk",
+      "file": "coni",
+      "location": "Magee Marsh Wildlife Area, OH",
+      "hasAvif": false,
+      "hasWebp": true
+    },
+    {
+      "name": "Phainopepla",
+      "description": "Phainopepla at dusk",
+      "location": "Palm Springs, CA",
+      "file": "phai1",
+      "hasAvif": false,
+      "hasWebp": true
+    },
+    {
+      "name": "Winter Wren",
+      "file": "wiwr",
+      "location": "Durham, NC",
+      "hasAvif": false,
+      "hasWebp": true
+    },
+    {
+      "name": "Pileated Woodpecker",
+      "file": "piwo",
+      "location": "Emerald Isle, NC",
+      "hasAvif": false,
+      "hasWebp": true
+    },
+    {
+      "name": "American Tree Sparrow",
+      "file": "atsp",
+      "location": "St. Louis, MO",
+      "hasAvif": false,
+      "hasWebp": true
+    },
+    {
+      "name": "Great Egret",
+      "file": "greg",
+      "location": "Emerald Isle, NC",
+      "hasAvif": false,
+      "hasWebp": true
+    },
+    {
+      "name": "Hermit Thrush",
+      "file": "heth",
+      "location": "Durham, NC",
+      "hasAvif": false,
+      "hasWebp": true
+    },
+    {
+      "name": "Warbling Vireo",
+      "file": "wavi",
+      "location": "Magee Marsh Wildlife Area, OH",
+      "hasAvif": false,
+      "hasWebp": true
+    },
+    {
+      "name": "Harlequin Duck",
+      "file": "hadu",
+      "location": "Yellowstone National Park, WY",
+      "hasAvif": false,
+      "hasWebp": true
+    },
+    {
+      "name": "White-Eyed Vireo",
+      "file": "wevi",
+      "location": "Durham, NC",
+      "hasAvif": false,
+      "hasWebp": true
+    },
+    {
+      "name": "Phainopepla",
+      "file": "phai2",
+      "location": "Palm Springs, CA",
+      "hasAvif": false,
+      "hasWebp": true
+    },
+    {
+      "name": "Mountain Bluebird",
+      "file": "mobl",
+      "location": "Glacier National Park, MT",
+      "hasAvif": false,
+      "hasWebp": true
+    },
+    {
+      "name": "Eastern Phoebe in the rain",
+      "file": "eaph",
+      "location": "Durham, NC",
+      "hasAvif": false,
+      "hasWebp": true
+    },
+    {
+      "name": "Black-Throated Sparrow",
+      "file": "btsp",
+      "location": "Palm Springs, CA",
+      "hasAvif": false,
+      "hasWebp": true
+    },
+    {
+      "name": "Dickcissel",
+      "file": "dick",
+      "location": "Columbia Bottom Conservation Area, MO",
+      "hasAvif": false,
+      "hasWebp": true
+    },
+    {
+      "name": "Snowy Egret",
+      "file": "sneg",
+      "location": "Horseshoe Lake State Park, IL",
+      "hasAvif": false,
+      "hasWebp": true
+    },
+    {
+      "name": "Pied-Billed Grebe",
+      "file": "pbgr",
+      "location": "Jocelyn Nungaray NWR (formerly Anahuac NWR), TX",
+      "hasAvif": false,
+      "hasWebp": true
+    },
+    {
+      "name": "Chestnut-Backed Chickadee",
+      "file": "cbch",
+      "location": "Seattle, WA",
+      "hasAvif": false,
+      "hasWebp": true
+    },
+    {
+      "name": "Bufflehead",
+      "file": "buff",
+      "location": "Durham, NC",
+      "hasAvif": false,
+      "hasWebp": true
+    },
+    {
+      "name": "Sandhill Cranes",
+      "file": "sacr",
+      "location": "Yellowstone National Park, WY",
+      "hasAvif": false,
+      "hasWebp": true
+    },
+    {
+      "name": "Killdeer",
+      "file": "kill1",
+      "location": "St. Louis, MO",
+      "hasAvif": false,
+      "hasWebp": true
+    },
+    {
+      "name": "Ring-Necked Duck",
+      "file": "rndu",
+      "location": "St. Louis, MO",
+      "hasAvif": false,
+      "hasWebp": true
+    },
+    {
+      "name": "Gray Catbird, juvenile",
+      "file": "grca",
+      "location": "Central Park, New York, NY",
+      "hasAvif": false,
+      "hasWebp": true
+    }
+  ]
 }
