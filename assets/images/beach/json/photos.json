@@ -1,124 +1,210 @@
 {
-    "directory": "/assets/images/beach/",
-    "photos": [
-        {
-            "name": "Long-Billed Curlew",
-            "file": "lbcu",
-            "location": "Bolivar Flats Shorebird Sanctuary, Galveston, TX",
-            "hasAvif": false,
-            "hasWebp": true
-        },
-        {
-            "name": "Piping Plover",
-            "file": "imani",
-            "description": "Imani the Piping Plover",
-            "location": "Montrose Beach, Chicago, IL",
-            "hasAvif": false,
-            "hasWebp": true
-        },
-        {
-            "name": "American Oystercatcher",
-            "file": "amoy2",
-            "location": "Rockaway Beach, Queens, NY",
-            "hasAvif": false,
-            "hasWebp": true
-        },
-        {
-            "name": "Whimbrel",
-            "file": "whim",
-            "location": "Emerald Isle, NC",
-            "hasAvif": false,
-            "hasWebp": true
-        },
-        {
-            "name": "Sanderlings",
-            "file": "sand",
-            "location": "Rockaway Beach, Queens, NY",
-            "hasAvif": false,
-            "hasWebp": true
-        },
-        {
-            "name": "Semipalmated Plover",
-            "file": "sepl",
-            "location": "Jamaica Bay Wildlife Refuge, Queens, NY",
-            "hasAvif": false,
-            "hasWebp": true
-        },
-        {
-            "name": "Wilson's Plover",
-            "file": "wipl",
-            "location": "Emerald Isle, NC",
-            "hasAvif": false,
-            "hasWebp": true
-        },
-        {
-            "name": "Ring-Billed Gull",
-            "file": "rbgu",
-            "hasAvif": false,
-            "hasWebp": true
-        },
-        {
-            "name": "American Avocet",
-            "file": "amav",
-            "location": "Bolivar Flats Shorebird Sanctuary, Galveston, TX",
-            "hasAvif": false,
-            "hasWebp": true
-        },
-        {
-            "name": "Herring Gull",
-            "file": "herg",
-            "location": "Jamaica Bay Wildlife Refuge, Queens, NY",
-            "hasAvif": false,
-            "hasWebp": true
-        },
-        {
-            "name": "Ruddy Turnstone",
-            "file": "rutu",
-            "location": "Emerald Isle, NC",
-            "hasAvif": false,
-            "hasWebp": true
-        },
-        {
-            "name": "Lesser Yellowlegs",
-            "file": "leye2",
-            "location": "Jamaica Bay Wildlife Refuge, Queens, NY",
-            "hasAvif": false,
-            "hasWebp": true
-        },
-        {
-            "name": "Spotted Sandpiper",
-            "file": "spsa",
-            "location": "Montrose Beach, Chicago, IL",
-            "hasAvif": false,
-            "hasWebp": true
-        },
-        {
-            "name": "Least Sandpiper",
-            "file": "lesa1",
-            "location": "Jamaica Bay Wildlife Refuge, Queens, NY",
-            "hasAvif": false,
-            "hasWebp": true
-        },
-        {
-            "name": "Sanderling",
-            "file": "sand3",
-            "location": "Emerald Isle, NC",
-            "hasAvif": false,
-            "hasWebp": true
-        },
-        {
-            "name": "American Oystercatcher",
-            "file": "amoy",
-            "location": "Rockaway Beach, Queens, NY",
-            "hasAvif": false,
-            "hasWebp": true
-        },
-        {
-            "name": "Great Black-Backed Gull",
-            "file": "gbbg",
-            "location": "Rockaway Beach, Queens, NY",
-            "hasAvif": false,
-            "hasWebp": true
-        }
-    ]
+  "directory": "/assets/images/beach/",
+  "photos": [
+    {
+      "name": "Long-Billed Curlew",
+      "file": "lbcu",
+      "location": "Bolivar Flats Shorebird Sanctuary, Galveston, TX",
+      "hasAvif": false,
+      "hasWebp": true
+    },
+    {
+      "name": "Piping Plover",
+      "file": "imani",
+      "description": "Imani the Piping Plover",
+      "location": "Montrose Beach, Chicago, IL",
+      "hasAvif": false,
+      "hasWebp": true
+    },
+
+    {
+      "name": "American Oystercatcher",
+      "file": "amoy2",
+      "location": "Rockaway Beach, Queens, NY",
+      "hasAvif": false,
+      "hasWebp": true
+    },
+    {
+      "name": "Whimbrel",
+      "file": "whim",
+      "location": "Emerald Isle, NC",
+      "hasAvif": false,
+      "hasWebp": true
+    },
+    {
+      "name": "Sanderlings",
+      "file": "sand",
+      "location": "Rockaway Beach, Queens, NY",
+      "hasAvif": false,
+      "hasWebp": true
+    },
+    {
+      "name": "Semipalmated Plover",
+      "file": "sepl",
+      "location": "Jamaica Bay Wildlife Refuge, Queens, NY",
+      "hasAvif": false,
+      "hasWebp": true
+    },
+    {
+      "name": "Black Skimmer",
+      "file": "blsk-2",
+      "location": "Nickerson Beach, NY",
+      "hasAvif": false,
+      "hasWebp": true
+    },
+    {
+      "name": "Black Skimmer juvenile",
+      "file": "blsk-young",
+      "location": "Nickerson Beach, NY",
+      "hasAvif": false,
+      "hasWebp": true
+    },
+    {
+      "name": "Wilson's Plover",
+      "file": "wipl",
+      "location": "Emerald Isle, NC",
+      "hasAvif": false,
+      "hasWebp": true
+    },
+    {
+      "name": "Piping Plover",
+      "file": "pipl-2",
+      "location": "Newport, RI",
+      "hasAvif": false,
+      "hasWebp": true
+    },
+    {
+      "name": "Common Tern",
+      "file": "cote-flying",
+      "location": "Nickerson Beach, NY",
+      "hasAvif": false,
+      "hasWebp": true
+    },
+    {
+      "name": "Common Tern juvenile",
+      "file": "cote-young",
+      "location": "Emerald Isle, NC",
+      "hasAvif": false,
+      "hasWebp": true
+    },
+    {
+      "name": "American Oystercatcher",
+      "file": "amoy3",
+      "location": "Nickerson Beach, NY",
+      "hasAvif": false,
+      "hasWebp": true
+    },
+    {
+      "name": "Laughing Gull",
+      "file": "lagu",
+      "location": "Nickerson Beach, NY",
+      "hasAvif": false,
+      "hasWebp": true
+    },
+    {
+      "name": "Ring-Billed Gull",
+      "file": "rbgu",
+      "hasAvif": false,
+      "hasWebp": true
+    },
+    {
+      "name": "Piping Plover",
+      "file": "pipl-1",
+      "description": "Piping Plover",
+      "location": "Newport, RI",
+      "hasAvif": false,
+      "hasWebp": true
+    },
+    {
+      "name": "American Avocet",
+      "file": "amav",
+      "location": "Bolivar Flats Shorebird Sanctuary, Galveston, TX",
+      "hasAvif": false,
+      "hasWebp": true
+    },
+    {
+      "name": "Black Skimmers",
+      "file": "blsks",
+      "location": "Nickerson Beach, NY",
+      "hasAvif": false,
+      "hasWebp": true
+    },
+    {
+      "name": "Herring Gull",
+      "file": "herg",
+      "location": "Jamaica Bay Wildlife Refuge, Queens, NY",
+      "hasAvif": false,
+      "hasWebp": true
+    },
+    {
+      "name": "Ruddy Turnstone",
+      "file": "rutu",
+      "location": "Emerald Isle, NC",
+      "hasAvif": false,
+      "hasWebp": true
+    },
+    {
+      "name": "Lesser Yellowlegs",
+      "file": "leye2",
+      "location": "Jamaica Bay Wildlife Refuge, Queens, NY",
+      "hasAvif": false,
+      "hasWebp": true
+    },
+    {
+      "name": "Spotted Sandpiper",
+      "file": "spsa",
+      "location": "Montrose Beach, Chicago, IL",
+      "hasAvif": false,
+      "hasWebp": true
+    },
+    {
+      "name": "Least Sandpiper",
+      "file": "lesa1",
+      "location": "Jamaica Bay Wildlife Refuge, Queens, NY",
+      "hasAvif": false,
+      "hasWebp": true
+    },
+    {
+      "name": "Sanderling",
+      "file": "sand3",
+      "location": "Emerald Isle, NC",
+      "hasAvif": false,
+      "hasWebp": true
+    },
+    {
+      "name": "Black Skimmer",
+      "file": "blsk-1",
+      "location": "Nickerson Beach, NY",
+      "hasAvif": false,
+      "hasWebp": true
+    },
+    {
+      "name": "Common Tern juvenile",
+      "file": "cote-young-2",
+      "location": "Nickerson Beach, NY",
+      "hasAvif": false,
+      "hasWebp": true
+    },
+    {
+      "name": "American Oystercatcher",
+      "file": "amoy",
+      "location": "Rockaway Beach, Queens, NY",
+      "hasAvif": false,
+      "hasWebp": true
+    },
+    {
+      "name": "Common Terns",
+      "file": "cotes",
+      "location": "Nickerson Beach, NY",
+      "hasAvif": false,
+      "hasWebp": true
+    },
+    {
+      "name": "Great Black-Backed Gull",
+      "file": "gbbg",
+      "location": "Rockaway Beach, Queens, NY",
+      "hasAvif": false,
+      "hasWebp": true
+    }
+  ]
 }
