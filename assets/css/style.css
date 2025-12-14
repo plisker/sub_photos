@@ -249,16 +249,24 @@ p {
   margin: 0 auto;
   height: 50px;
 }
-#fh5co-logo > a i, #fh5co-logo > a em {
+/* Hide icons until Font Awesome has loaded to prevent flash of missing characters */
+#fh5co-logo > a i {
+  opacity: 0;
+}
+#fh5co-logo.fa-loaded > a i,
+#fh5co-logo.fa-loaded > a svg {
+  opacity: 1;
+}
+#fh5co-logo > a i, #fh5co-logo > a em, #fh5co-logo > a svg {
   position: absolute;
   top: 0;
   left: 0;
   width: 200px;
   text-align: center;
   display: block;
-  -webkit-transition: 0.5s;
-  -o-transition: 0.5s;
-  transition: 0.5s;
+  -webkit-transition: opacity 0.3s ease-in-out, visibility 0.5s;
+  -o-transition: opacity 0.3s ease-in-out, visibility 0.5s;
+  transition: opacity 0.3s ease-in-out, visibility 0.5s;
 }
 #fh5co-logo > a em {
   opacity: 0;
