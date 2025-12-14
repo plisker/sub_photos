@@ -4,36 +4,42 @@
     {
       "name": "Barred Owl",
       "file": "bado",
+      "location": "St. Louis, MO",
       "hasAvif": false,
       "hasWebp": true
     },
     {
-      "name": "Snowy Owl<br>Montrose Beach, Chicago, IL",
+      "name": "Snowy Owl",
       "file": "snow-1",
+      "location": "Montrose Beach, Chicago, IL",
       "hasAvif": false,
       "hasWebp": true
     },
     {
       "name": "Barred Owl",
       "file": "bado1",
+      "location": "St. Louis, MO",
       "hasAvif": false,
       "hasWebp": true
     },
     {
       "name": "Cooper's Hawk",
       "file": "coha",
+      "location": "St. Louis, MO",
       "hasAvif": false,
       "hasWebp": true
     },
     {
       "name": "Red-Tailed Hawk",
       "file": "rtha",
+      "location": "Columbia Bottom Conservation Area, MO",
       "hasAvif": false,
       "hasWebp": true
     },
     {
       "name": "Video of a Barred Owl",
       "file": "bado-video",
+      "location": "St. Louis, MO",
       "hasAvif": false,
       "hasWebp": true,
       "video": "https://www.youtube.com/watch?v=EX9RkPYKs4I"
@@ -41,30 +47,35 @@
     {
       "name": "Red-Shouldered Hawk",
       "file": "rsha",
+      "location": "Durham, NC",
       "hasAvif": false,
       "hasWebp": true
     },
     {
       "name": "Great Horned Owl",
       "file": "ghow",
+      "location": "St. Louis, MO",
       "hasAvif": false,
       "hasWebp": true
     },
     {
       "name": "Bald Eagle",
       "file": "baea",
+      "location": "Columbia Bottom Conservation Area, MO",
       "hasAvif": false,
       "hasWebp": true
     },
     {
-      "name": "Snowy Owl<br>Montrose Beach, Chicago, IL",
+      "name": "Snowy Owl",
       "file": "snow-2",
+      "location": "Montrose Beach, Chicago, IL",
       "hasAvif": false,
       "hasWebp": true
     },
     {
       "name": "Cooper's Hawk",
       "file": "coha1",
+      "location": "St. Louis, MO",
       "hasAvif": false,
       "hasWebp": true
     }
