@@ -1,0 +1,13 @@
+{
+  "directory": "/assets/images/costa-rica/",
+  "photos": [
+    {
+      "name": "Resplendent Quetzal",
+      "description": "A male Resplendent Quetzal perched on a branch in the cloud forests of Costa Rica.",
+      "location": "Cartago Province, Costa Rica",
+      "file": "requ",
+      "hasAvif": false,
+      "hasWebp": true
+    }
+  ]
+}
