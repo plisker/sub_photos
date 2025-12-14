@@ -13,7 +13,12 @@
             "hasAvif": true,
             "hasWebp": false
         },
-
+        {
+            "name": "Tallinn, Estonia",
+            "file": "tallinn",
+            "hasAvif": false,
+            "hasWebp": true
+        },
         {
             "name": "Niño en Zinacantán, cuna de tradiciones",
             "file": "cuna-de-tradiciones",
