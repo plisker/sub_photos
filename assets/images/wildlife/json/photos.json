@@ -4,24 +4,28 @@
     {
       "name": "Black Bear",
       "file": "mama-bear",
+      "location": "Yellowstone National Park, WY",
       "hasAvif": false,
       "hasWebp": true
     },
     {
-      "name": "Bighorn Sheep",
+      "name": "Peninsular Bighorn Sheep",
       "file": "bighorn-sheep1",
+      "location": "San Jacinto Mountains, CA",
       "hasAvif": false,
       "hasWebp": true
     },
     {
       "name": "Marine Iguana",
       "file": "marine-iguana1",
+      "location": "Galápagos Islands, Ecuador",
       "hasAvif": false,
       "hasWebp": true
     },
     {
       "name": "Common Chuckwalla",
       "file": "chuckwalla",
+      "location": "San Jacinto Mountains, CA",
       "hasAvif": false,
       "hasWebp": true
     },
@@ -40,74 +44,86 @@
       "hasWebp": true
     },
     {
-      "name": "Long-Tailed Ground Squirrel",
+      "name": "Uinta Ground Squirrel",
       "file": "ground-squirrel",
+      "location": "Yellowstone National Park, WY",
       "hasAvif": false,
       "hasWebp": true
     },
     {
       "name": "Gold Dust Day Gecko",
       "file": "gecko",
+      "location": "Hilo, HI",
       "hasAvif": false,
       "hasWebp": true
     },
     {
       "name": "Pronghorn",
       "file": "pronghorn",
+      "location": "Yellowstone National Park, WY",
       "hasAvif": false,
       "hasWebp": true
     },
     {
       "name": "Western Fence Lizard",
       "file": "fence-lizard",
+      "location": "Joshua Tree National Park, CA",
       "hasAvif": false,
       "hasWebp": true
     },
     {
       "name": "Bighorn Sheep",
       "file": "bighorn-sheep3",
+      "location": "San Jacinto Mountains, CA",
       "hasAvif": false,
       "hasWebp": true
     },
     {
       "name": "Prairie Dog",
       "file": "prairie-dog",
+      "location": "Badlands National Park, SD",
       "hasAvif": false,
       "hasWebp": true
     },
     {
-      "name": "Bison",
+      "name": "Bison and calf",
       "file": "bison",
+      "location": "Yellowstone National Park, WY",
       "hasAvif": false,
       "hasWebp": true
     },
     {
       "name": "Olive Ridley Sea Turtle",
       "file": "sea-turtle",
+      "location": "Nuevo Vallarta, Nayarit, Mexico",
       "hasAvif": false,
       "hasWebp": true
     },
     {
       "name": "Galápagos Fur Seal",
       "file": "fur-seal",
+      "location": "Galápagos Islands, Ecuador",
       "hasAvif": false,
       "hasWebp": true
     },
     {
       "name": "Moose",
       "file": "moose",
+      "location": "Grand Teton National Park, WY",
       "hasAvif": false,
       "hasWebp": true
     },
     {
       "name": "Bighorn Sheep",
       "file": "bighorn-sheep",
+      "location": "Badlands National Park, SD",
       "hasAvif": false,
       "hasWebp": true
     },
     {
       "name": "Black Bear cubs",
       "file": "bear-cubs",
+      "location": "Yellowstone National Park, WY",
       "hasAvif": false,
       "hasWebp": true
     },
