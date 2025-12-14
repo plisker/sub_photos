@@ -1,167 +1,194 @@
 {
-    "directory": "/assets/images/backyards/",
-    "photos": [
-        {
-            "name": "American Robin",
-            "file": "amro",
-            "hasAvif": false,
-            "hasWebp": true
-        },
-        {
-            "name": "Carolina Chickadee",
-            "file": "cach",
-            "hasAvif": false,
-            "hasWebp": true
-        },
-        {
-            "name": "Brown Creeper",
-            "file": "brcr",
-            "hasAvif": false,
-            "hasWebp": true
-        },
-        {
-            "name": "White-Throated Sparrow",
-            "file": "wtsp2",
-            "hasAvif": false,
-            "hasWebp": true
-        },
-        {
-            "name": "Grasshopper Sparrow",
-            "file": "grsp",
-            "hasAvif": false,
-            "hasWebp": true
-        },
-        {
-            "name": "Yellow-Breasted Sapsucker",
-            "file": "ybsa",
-            "hasAvif": false,
-            "hasWebp": true
-        },
-        {
-            "name": "Ruby-Throated Hummingbird",
-            "file": "rthu2",
-            "hasAvif": false,
-            "hasWebp": true
-        },
-        {
-            "name": "Northern Mockingbird",
-            "file": "nomo",
-            "hasAvif": false,
-            "hasWebp": true
-        },
-        {
-            "name": "Costa's Hummingbird",
-            "file": "cohu1",
-            "hasAvif": false,
-            "hasWebp": true
-        },
-        {
-            "name": "White-Throated Sparrow",
-            "file": "wtsp",
-            "hasAvif": false,
-            "hasWebp": true
-        },
-        {
-            "name": "House Finch",
-            "file": "hofi",
-            "hasAvif": false,
-            "hasWebp": true
-        },
-        {
-            "name": "Great-Horned Owl pair",
-            "file": "ghow",
-            "hasAvif": false,
-            "hasWebp": true
-        },
-        {
-            "name": "Red-Bellied Woodpecker",
-            "file": "rbwo",
-            "hasAvif": false,
-            "hasWebp": true
-        },
-        {
-            "name": "Song Sparrow",
-            "file": "sosp",
-            "hasAvif": false,
-            "hasWebp": true
-        },
-        {
-            "name": "Berylline Hummingbird",
-            "file": "behu1",
-            "hasAvif": false,
-            "hasWebp": true
-        },
-        {
-            "name": "Chipping Sparrow",
-            "file": "chsp",
-            "hasAvif": false,
-            "hasWebp": true
-        },
-        {
-            "name": "Tufted Titmouse",
-            "file": "tuti",
-            "hasAvif": false,
-            "hasWebp": true
-        },
-        {
-            "name": "Evening Grosbeak",
-            "file": "evgr",
-            "hasAvif": false,
-            "hasWebp": true
-        },
-        {
-            "name": "Costa's Hummingbird",
-            "file": "cohu3",
-            "hasAvif": false,
-            "hasWebp": true
-        },
-        {
-            "name": "House Finch",
-            "file": "hofi1",
-            "hasAvif": false,
-            "hasWebp": true
-        },
-        {
-            "name": "Blue-Throated Mountain-Gem",
-            "file": "btmg",
-            "hasAvif": false,
-            "hasWebp": true
-        },
-        {
-            "name": "Barred Owl",
-            "file": "bado",
-            "hasAvif": false,
-            "hasWebp": true
-        },
-        {
-            "name": "Ruby-Throated Hummingbird",
-            "file": "rthu1",
-            "hasAvif": false,
-            "hasWebp": true
-        },
-        {
-            "name": "Bewick's Wren",
-            "file": "bewr",
-            "hasAvif": false,
-            "hasWebp": true
-        },
-        {
-            "name": "Costa's Hummingbird",
-            "file": "cohu2",
-            "hasAvif": false,
-            "hasWebp": true
-        },
-        {
-            "name": "Eurasian Tree Sparrow",
-            "file": "etsp",
-            "hasAvif": false,
-            "hasWebp": true
-        },
-        {
-            "name": "White-Throated Sparrow",
-            "file": "wtsp1",
-            "hasAvif": false,
-            "hasWebp": true
-        }
-    ]
+  "directory": "/assets/images/backyards/",
+  "photos": [
+    {
+      "name": "American Robin",
+      "file": "amro",
+      "location": "St. Louis, MO",
+      "hasAvif": false,
+      "hasWebp": true
+    },
+    {
+      "name": "Carolina Chickadee",
+      "file": "cach",
+      "location": "Durham, NC",
+      "hasAvif": false,
+      "hasWebp": true
+    },
+    {
+      "name": "Brown Creeper",
+      "file": "brcr",
+      "location": "St. Louis, MO",
+      "hasAvif": false,
+      "hasWebp": true
+    },
+    {
+      "name": "White-Throated Sparrow",
+      "file": "wtsp2",
+      "location": "St. Louis, MO",
+      "hasAvif": false,
+      "hasWebp": true
+    },
+    {
+      "name": "Grasshopper Sparrow",
+      "file": "grsp",
+      "location": "Durham, NC",
+      "hasAvif": false,
+      "hasWebp": true
+    },
+    {
+      "name": "Yellow-Breasted Sapsucker",
+      "file": "ybsa",
+      "location": "Durham, NC",
+      "hasAvif": false,
+      "hasWebp": true
+    },
+    {
+      "name": "Ruby-Throated Hummingbird",
+      "file": "rthu2",
+      "location": "St. Louis, MO",
+      "hasAvif": false,
+      "hasWebp": true
+    },
+    {
+      "name": "Northern Mockingbird",
+      "file": "nomo",
+      "location": "Durham, NC",
+      "hasAvif": false,
+      "hasWebp": true
+    },
+    {
+      "name": "Costa's Hummingbird",
+      "file": "cohu1",
+      "location": "Palm Springs, CA",
+      "hasAvif": false,
+      "hasWebp": true
+    },
+    {
+      "name": "White-Throated Sparrow",
+      "file": "wtsp",
+      "location": "St. Louis, MO",
+      "hasAvif": false,
+      "hasWebp": true
+    },
+    {
+      "name": "House Finch",
+      "file": "hofi",
+      "location": "St. Louis, MO",
+      "hasAvif": false,
+      "hasWebp": true
+    },
+    {
+      "name": "Great-Horned Owl pair",
+      "file": "ghow",
+      "location": "St. Louis, MO",
+      "hasAvif": false,
+      "hasWebp": true
+    },
+    {
+      "name": "Red-Bellied Woodpecker",
+      "file": "rbwo",
+      "location": "St. Louis, MO",
+      "hasAvif": false,
+      "hasWebp": true
+    },
+    {
+      "name": "Song Sparrow",
+      "file": "sosp",
+      "location": "Seattle, WA",
+      "hasAvif": false,
+      "hasWebp": true
+    },
+    {
+      "name": "Berylline Hummingbird",
+      "file": "behu1",
+      "location": "Valle de Bravo, Mexico",
+      "hasAvif": false,
+      "hasWebp": true
+    },
+    {
+      "name": "Chipping Sparrow",
+      "file": "chsp",
+      "location": "St. Louis, MO",
+      "hasAvif": false,
+      "hasWebp": true
+    },
+    {
+      "name": "Tufted Titmouse",
+      "file": "tuti",
+      "location": "New York, NY",
+      "hasAvif": false,
+      "hasWebp": true
+    },
+    {
+      "name": "Evening Grosbeak",
+      "file": "evgr",
+      "location": "Durham, NC",
+      "hasAvif": false,
+      "hasWebp": true
+    },
+    {
+      "name": "Costa's Hummingbird",
+      "file": "cohu3",
+      "location": "Palm Springs, CA",
+      "hasAvif": false,
+      "hasWebp": true
+    },
+    {
+      "name": "House Finch",
+      "file": "hofi1",
+      "location": "St. Louis, MO",
+      "hasAvif": false,
+      "hasWebp": true
+    },
+    {
+      "name": "Blue-Throated Mountain-Gem",
+      "file": "btmg",
+      "location": "Valle de Bravo, Mexico",
+      "hasAvif": false,
+      "hasWebp": true
+    },
+    {
+      "name": "Barred Owl",
+      "file": "bado",
+      "location": "St. Louis, MO",
+      "hasAvif": false,
+      "hasWebp": true
+    },
+    {
+      "name": "Ruby-Throated Hummingbird",
+      "file": "rthu1",
+      "location": "St. Louis, MO",
+      "hasAvif": false,
+      "hasWebp": true
+    },
+    {
+      "name": "Bewick's Wren",
+      "file": "bewr",
+      "location": "Palm Springs, CA",
+      "hasAvif": false,
+      "hasWebp": true
+    },
+    {
+      "name": "Costa's Hummingbird",
+      "file": "cohu2",
+      "location": "Palm Springs, CA",
+      "hasAvif": false,
+      "hasWebp": true
+    },
+    {
+      "name": "Eurasian Tree Sparrow",
+      "file": "etsp",
+      "location": "St. Louis, MO",
+      "hasAvif": false,
+      "hasWebp": true
+    },
+    {
+      "name": "White-Throated Sparrow",
+      "file": "wtsp1",
+      "location": "St. Louis, MO",
+      "hasAvif": false,
+      "hasWebp": true
+    }
+  ]
 }
