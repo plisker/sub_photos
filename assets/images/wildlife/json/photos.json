@@ -26,6 +26,20 @@
       "hasWebp": true
     },
     {
+      "name": "Spotted Orbweaver Spider",
+      "file": "spotted-orbweaver-1",
+      "location": "Chicago, IL",
+      "hasAvif": false,
+      "hasWebp": true
+    },
+    {
+      "name": "Spotted Orbweaver Spider",
+      "file": "spotted-orbweaver-2",
+      "location": "Chicago, IL",
+      "hasAvif": false,
+      "hasWebp": true
+    },
+    {
       "name": "Long-Tailed Ground Squirrel",
       "file": "ground-squirrel",
       "hasAvif": false,
