@@ -4,8 +4,104 @@
     {
       "name": "Resplendent Quetzal",
       "description": "A male Resplendent Quetzal perched on a branch in the cloud forests of Costa Rica.",
-      "location": "Cartago Province, Costa Rica",
-      "file": "requ",
+      "location": "Cartago Province",
+      "file": "requ-m",
+      "hasAvif": false,
+      "hasWebp": true
+    },
+    {
+      "name": "Resplendent Quetzal",
+      "description": "The female Resplendent Quetzal, with her more subdued plumage, was nearby.",
+      "location": "Cartago Province",
+      "file": "requ-f",
+      "hasAvif": false,
+      "hasWebp": true
+    },
+    {
+      "name": "Resplendent Quetzal",
+      "description": "Close-up of the male's vibrant colors, from its iridescent greens to its yellow beak.",
+      "location": "Cartago Province",
+      "file": "requ-m-close",
+      "hasAvif": false,
+      "hasWebp": true
+    },
+    {
+      "name": "Acorn Woodpecker",
+      "description": "Some of the species that we saw, like this Acorn Woodpecker, can also be found in the United States",
+      "location": "Cartago Province",
+      "file": "acwo-1",
+      "hasAvif": false,
+      "hasWebp": true
+    },
+    {
+      "name": "Acorn Woodpecker",
+      "description": "This woodpecker seemed particularly intense.",
+      "location": "Cartago Province",
+      "file": "acwo-2",
+      "hasAvif": false,
+      "hasWebp": true
+    },
+    {
+      "name": "Blue-and-white Swallow",
+      "description": "This vocal blue-and-white swallow rested briefly on a wire before resuming its acrobatic flight.",
+      "location": "Cartago Province",
+      "file": "baws",
+      "hasAvif": false,
+      "hasWebp": true
+    },
+    {
+      "name": "Sunbittern",
+      "description": "Sunbitterns have striking wing patterns&mdash;when you least expect it, they spread their wings to display dazzling colors and eye-like markings.",
+      "location": "Nauyaca Waterfalls",
+      "file": "sunbittern",
+      "hasAvif": false,
+      "hasWebp": true
+    },
+    {
+      "name": "Pacific Ocean",
+      "description": "A view of the Pacific Ocean near Dominical.",
+      "location": "Dominical",
+      "file": "ocean",
+      "hasAvif": false,
+      "hasWebp": true
+    },
+    {
+      "name": "Yellow-throated Toucan",
+      "description": "A yellow-throated toucan foraging for a meal.",
+      "location": "Dominical",
+      "file": "ytto",
+      "hasAvif": false,
+      "hasWebp": true
+    },
+    {
+      "name": "Palm Tanager",
+      "description": "Two playful palm tanagers foraging for berries.",
+      "location": "Dominical",
+      "file": "pata-1",
+      "hasAvif": false,
+      "hasWebp": true
+    },
+    {
+      "name": "Palm Tanager",
+      "description": "Palm tanagers",
+      "location": "Dominical",
+      "file": "pata-2",
+      "hasAvif": false,
+      "hasWebp": true
+    },
+    {
+      "name": "Species",
+      "description": "Description",
+      "location": "Location",
+      "file": "file",
+      "hasAvif": false,
+      "hasWebp": true
+    },
+    {
+      "name": "Species",
+      "description": "Description",
+      "location": "Location",
+      "file": "file",
       "hasAvif": false,
       "hasWebp": true
     }
