@@ -52,7 +52,7 @@
     {
       "name": "Sunbittern",
       "description": "Sunbitterns have striking wing patterns&mdash;when you least expect it, they spread their wings to display dazzling colors and eye-like markings.",
-      "location": "Nauyaca Waterfalls",
+      "location": "Nauyaca Waterfalls, Dominical, Puntarenas",
       "file": "sunbittern",
       "hasAvif": false,
       "hasWebp": true
@@ -60,7 +60,7 @@
     {
       "name": "Pacific Ocean",
       "description": "A view of the Pacific Ocean near Dominical.",
-      "location": "Dominical",
+      "location": "Dominical, Puntarenas",
       "file": "ocean",
       "hasAvif": false,
       "hasWebp": true
@@ -68,7 +68,7 @@
     {
       "name": "Yellow-throated Toucan",
       "description": "A yellow-throated toucan foraging for a meal.",
-      "location": "Dominical",
+      "location": "Dominical, Puntarenas",
       "file": "ytto",
       "hasAvif": false,
       "hasWebp": true
@@ -76,7 +76,7 @@
     {
       "name": "Palm Tanager",
       "description": "Two playful palm tanagers foraging for berries.",
-      "location": "Dominical",
+      "location": "Dominical, Puntarenas",
       "file": "pata-1",
       "hasAvif": false,
       "hasWebp": true
@@ -84,7 +84,7 @@
     {
       "name": "Palm Tanager",
       "description": "Palm tanagers",
-      "location": "Dominical",
+      "location": "Dominical, Puntarenas",
       "file": "pata-2",
       "hasAvif": false,
       "hasWebp": true
@@ -92,7 +92,7 @@
     {
       "name": "Boat-billed Flycatcher",
       "description": "Boat-billed Flycatcher—note its distinctively broad bill!",
-      "location": "Dominical",
+      "location": "Dominical, Puntarenas",
       "file": "bobf",
       "hasAvif": false,
       "hasWebp": true
@@ -100,7 +100,7 @@
     {
       "name": "Gray-capped Flycatcher",
       "description": "While superficially similar to the Boat-billed Flycatcher, the Gray-capped Flycatcher has a noticeably smaller bill.",
-      "location": "Dominical",
+      "location": "Dominical, Puntarenas",
       "file": "gcaf",
       "hasAvif": false,
       "hasWebp": true
@@ -108,7 +108,7 @@
     {
       "name": "Crowned Woodnymph",
       "description": "This female Crowned Woodnymph buzzed about, moving from flower to flower.",
-      "location": "Dominical" ,
+      "location": "Dominical, Puntarenas",
       "file": "crwo-1",
       "hasAvif": false,
       "hasWebp": true
@@ -116,8 +116,97 @@
     {
       "name": "Crowned Woodnymph",
       "description": "Crowned Woodnymph",
-      "location": "Dominical" ,
+      "location": "Dominical, Puntarenas",
       "file": "crwo-2",
+      "hasAvif": false,
+      "hasWebp": true
+    },
+    {
+      "name": "Video of White-crowned Parrots",
+      "description": "A flock of raucous White-crowned Parrots",
+      "file": "wcpa",
+      "location": "Dominical, Puntarenas",
+      "hasAvif": false,
+      "hasWebp": true,
+      "video": "https://www.youtube.com/watch?v=7ndrYlwnvhU"
+    },
+    {
+      "name": "Mangrove Swallow",
+      "description": "Two bickering mangrove swallows",
+      "location": "Sierpe, Puntarenas",
+      "file": "mans",
+      "hasAvif": false,
+      "hasWebp": true
+    },
+    {
+      "name": "Prothonotary Warbler",
+      "description": "The golden yellow of this Prothonotary Warbler stood out against the dark banks of the Sierpe River.",
+      "location": "Sierpe, Puntarenas",
+      "file": "prow",
+      "hasAvif": false,
+      "hasWebp": true
+    },
+    {
+      "name": "Tropical Kingbird",
+      "description": "This Tropical Kingbird perched along the Sierpe River, sallying out to catch a midair meal.",
+      "location": "Sierpe, Puntarenas",
+      "file": "trki",
+      "hasAvif": false,
+      "hasWebp": true
+    },
+    {
+      "name": "Southern Lapwing",
+      "description": "A flock of Southern Lapwings flew by and landed along the mudflats by the river.",
+      "location": "Sierpe, Puntarenas",
+      "file": "sola",
+      "hasAvif": false,
+      "hasWebp": true
+    },
+    {
+      "name": "Little Blue Heron",
+      "description": "Nearby, a Little Blue Heron waded in search of a midday meal.",
+      "location": "Sierpe, Puntarenas",
+      "file": "lbhe",
+      "hasAvif": false,
+      "hasWebp": true
+    },
+    {
+      "name": "Snowy Egret",
+      "description": "A Snowy Egret passed by, just where the Little Blue Heron had just been hunting.",
+      "location": "Sierpe, Puntarenas",
+      "file": "sneg",
+      "hasAvif": false,
+      "hasWebp": true
+    },
+    {
+      "name": "Crocodile",
+      "description": "Not too far away, a crocodile just barely broke the surface of the water.",
+      "location": "Sierpe, Puntarenas",
+      "file": "croc",
+      "hasAvif": false,
+      "hasWebp": true
+    },
+    {
+      "name": "Proboscis Bats",
+      "description": "We found a small colony of proboscis bats roosting on a tree.",
+      "location": "Sierpe, Puntarenas",
+      "file": "bats",
+      "hasAvif": false,
+      "hasWebp": true
+    },
+    {
+      "name": "Scarlet Macaw",
+      "description": "Despite the gloomy clouds, the occasional Scarlet Macaw added a much-appreciated splash of color.",
+      "location": "Sierpe, Puntarenas",
+      "file": "scma",
+      "hasAvif": false,
+      "hasWebp": true
+    },
+    {
+      "name": "Green Heron",
+      "description": "Meanwhile, in the shadows, a Green Heron hunted patiently.",
+      "location": "Sierpe, Puntarenas",
+      "file": "grhe",
       "hasAvif": false,
       "hasWebp": true
     },
