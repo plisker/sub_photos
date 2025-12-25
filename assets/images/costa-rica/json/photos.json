@@ -90,6 +90,38 @@
       "hasWebp": true
     },
     {
+      "name": "Boat-billed Flycatcher",
+      "description": "Boat-billed Flycatcher—note its distinctively broad bill!",
+      "location": "Dominical",
+      "file": "bobf",
+      "hasAvif": false,
+      "hasWebp": true
+    },
+    {
+      "name": "Gray-capped Flycatcher",
+      "description": "While superficially similar to the Boat-billed Flycatcher, the Gray-capped Flycatcher has a noticeably smaller bill.",
+      "location": "Dominical",
+      "file": "gcaf",
+      "hasAvif": false,
+      "hasWebp": true
+    },
+    {
+      "name": "Crowned Woodnymph",
+      "description": "This female Crowned Woodnymph buzzed about, moving from flower to flower.",
+      "location": "Dominical" ,
+      "file": "crwo-1",
+      "hasAvif": false,
+      "hasWebp": true
+    },
+    {
+      "name": "Crowned Woodnymph",
+      "description": "Crowned Woodnymph",
+      "location": "Dominical" ,
+      "file": "crwo-2",
+      "hasAvif": false,
+      "hasWebp": true
+    },
+    {
       "name": "Species",
       "description": "Description",
       "location": "Location",
