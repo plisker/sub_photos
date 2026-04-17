@@ -3,103 +3,119 @@ function populatePhotoGrid(jsonFilePath, offset = 0) {
         .then(response => response.json())
         .then(data => {
             const photoGrid = document.getElementById('photo-grid');
-            let column1 = document.createElement('div');
+            const column1 = document.createElement('div');
             column1.className = 'fh5co-col-1';
-            let column2 = document.createElement('div');
+            const column2 = document.createElement('div');
             column2.className = 'fh5co-col-2';
             let currentColumn = column1;
 
             data.photos.forEach((photo, index) => {
                 if (index === Math.ceil((data.photos.length - offset) / 2)) {
-                    // Switch to the second column
                     currentColumn = column2;
                 }
-
-                let albumElement = document.createElement('div');
-                albumElement.className = 'album-photo';
-
-                // Set the image format based on browser support and photo availability
-                const imageFormat = supportsAvif() && photo.hasAvif ? 'avif' :
-                                    (supportsWebP() && photo.hasWebp ? 'webp' : 'jpg');
-
-                console.debug('Will load ' + photo.file + '.' + imageFormat);
-                let elementName = photo.description ? photo.description : photo.name;
-                let lightboxElement = photo.video ? photo.video : data.directory + photo.file + '.' + imageFormat;
-                let lightboxClass = photo.video ? 'mfp-iframe image-popup' : 'image-popup'
-
-                // Dynamically build the <picture> element based on available formats
-                let pictureElement = `
-                    <picture>
-                        ${photo.hasAvif ? `<source type="image/avif" srcset="${data.directory}${photo.file}.avif" />` : ''}
-                        ${photo.hasWebp ? `<source type="image/webp" srcset="${data.directory}${photo.file}.webp" />` : ''}
-                        <source type="image/jpeg" srcset="${data.directory}${photo.file}.jpg" />
-                        <img src="${data.directory}${photo.file}.${imageFormat}" alt="${photo.name}" title="${photo.name}" />
-                    </picture>
-                `;
-
-                albumElement.innerHTML = `
-                        <a href="${lightboxElement}" class="${lightboxClass}" title="${elementName}">
-                            ${pictureElement}
-                            <div class="album-photo-text-wrap">
-                                <div class="album-photo-text">
-                                    <h2>${photo.name}</h2>
-                                </div>
-                            </div>
-                            ${photo.location ? `<p style="display:none">${photo.location}</p>` : ''}
-                        </a>
-                    `;
-
-                currentColumn.appendChild(albumElement);
-
+                currentColumn.appendChild(buildAlbumPhoto(photo, data.directory));
             });
 
-            // Append footer to the photo-grid
             currentColumn.appendChild(getFooter());
 
-            // Append columns to the photo-grid
             photoGrid.appendChild(column1);
             photoGrid.appendChild(column2);
 
             lightbox();
-
-            // Open photo if URL hash is present
             openPhotoFromHash();
         })
         .catch(error => console.error('Error fetching photos:', error));
 }
 
-// Function to open a photo based on the hash in the URL
-function openPhotoFromHash() {
-    const hash = window.location.hash;
-    if (hash.startsWith("#photo=")) {
-        const photoId = decodeURIComponent(hash.split("=")[1]);
-        if (!photoId) return;
+// Format selection: trust JSON flags. <picture>'s <source> elements handle
+// the actual browser-format negotiation for the rendered image; this picks
+// the single URL we hand to the lightbox.
+function pickLightboxFormat(photo) {
+    if (photo.hasAvif) return 'avif';
+    if (photo.hasWebp) return 'webp';
+    return 'jpg';
+}
 
-        // Look for a matching photo in the DOM
-        const photoElement = document.querySelector(`a[href*="${photoId}"]`);
-        if (photoElement) {
-            photoElement.click(); // Open the lightbox
-        }
+// Allow only safe URL schemes for the video field. Anything else (e.g.
+// javascript:) is dropped so a malformed JSON entry can't inject a script.
+function sanitizeVideoUrl(url) {
+    try {
+        const parsed = new URL(url, window.location.origin);
+        return ['https:', 'http:'].includes(parsed.protocol) ? parsed.href : null;
+    } catch (_) {
+        return null;
     }
 }
 
-function supportsWebP() {
-    if (!self.createImageBitmap) return false;
+function buildAlbumPhoto(photo, directory) {
+    const album = document.createElement('div');
+    album.className = 'album-photo';
 
-    const webpData =
-        'data:image/webp;base64,UklGRjoAAABXRUJQVlA4IBYAAAAwAQCdASoBAAEADs=';
+    const safeVideo = photo.video ? sanitizeVideoUrl(photo.video) : null;
+    const lightboxHref = safeVideo
+        ? safeVideo
+        : directory + photo.file + '.' + pickLightboxFormat(photo);
+    const titleText = photo.description || photo.name;
 
-    const img = new Image();
-    img.src = webpData;
-    return img.decode !== undefined;
+    const anchor = document.createElement('a');
+    anchor.href = lightboxHref;
+    anchor.className = safeVideo ? 'mfp-iframe image-popup' : 'image-popup';
+    anchor.title = titleText;
+
+    anchor.appendChild(buildPicture(photo, directory));
+
+    const textWrap = document.createElement('div');
+    textWrap.className = 'album-photo-text-wrap';
+    const text = document.createElement('div');
+    text.className = 'album-photo-text';
+    const h2 = document.createElement('h2');
+    h2.textContent = photo.name;
+    text.appendChild(h2);
+    textWrap.appendChild(text);
+    anchor.appendChild(textWrap);
+
+    if (photo.location) {
+        const loc = document.createElement('p');
+        loc.style.display = 'none';
+        loc.textContent = photo.location;
+        anchor.appendChild(loc);
+    }
+
+    album.appendChild(anchor);
+    return album;
 }
 
-function supportsAvif() {
-    if (!self.createImageBitmap) return false;
+function buildPicture(photo, directory) {
+    const picture = document.createElement('picture');
+    const base = directory + photo.file;
 
-    const avifData = 'data:image/avif;base64,AAAAIGZ0eXBhdmlmAAAAAG1pZjFhdmlmAAACAGF2aWZtYWl...';
+    if (photo.hasAvif) picture.appendChild(buildSource('image/avif', base + '.avif'));
+    if (photo.hasWebp) picture.appendChild(buildSource('image/webp', base + '.webp'));
+    picture.appendChild(buildSource('image/jpeg', base + '.jpg'));
 
-    const img = new Image();
-    img.src = avifData;
-    return img.decode !== undefined;
+    const img = document.createElement('img');
+    img.src = base + '.' + pickLightboxFormat(photo);
+    img.alt = photo.name;
+    img.title = photo.name;
+    img.loading = 'lazy';
+    img.decoding = 'async';
+    picture.appendChild(img);
+
+    return picture;
+}
+
+function buildSource(type, srcset) {
+    const source = document.createElement('source');
+    source.type = type;
+    source.srcset = srcset;
+    return source;
+}
+
+function openPhotoFromHash() {
+    const hash = window.location.hash;
+    if (!hash.startsWith('#photo=')) return;
+    const photoId = decodeURIComponent(hash.split('=')[1]);
+    if (!photoId) return;
+    const photoElement = document.querySelector('a[href*="' + CSS.escape(photoId) + '"]');
+    if (photoElement) photoElement.click();
 }
