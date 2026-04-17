@@ -27,6 +27,23 @@ function albumThumbnails(slugs) {
   return slugs.map(slug => `${SITE}/assets/images/albums/${slug}.jpg`);
 }
 
+async function albumPhotoImages(slug) {
+  const jsonPath = path.join(ROOT, 'assets/images', slug, 'json/photos.json');
+  let raw;
+  try {
+    raw = await readFile(jsonPath, 'utf8');
+  } catch (err) {
+    if (err.code === 'ENOENT') return [];
+    throw err;
+  }
+  const data = JSON.parse(raw);
+  if (!Array.isArray(data.photos)) return [];
+  return data.photos
+    .filter(p => !p.video && p.file)
+    .map(p => `${SITE}${data.directory}${p.file}.jpg`)
+    .sort();
+}
+
 function renderUrl({ loc, priority, images = [] }) {
   const lines = [
     '    <url>',
@@ -46,6 +63,7 @@ function renderUrl({ loc, priority, images = [] }) {
 async function main() {
   const slugs = await listAlbumSlugs();
   const thumbs = albumThumbnails(slugs);
+  const albumImages = await Promise.all(slugs.map(albumPhotoImages));
 
   const blocks = [
     renderUrl({ loc: `${SITE}/`, priority: '1.0', images: thumbs }),
@@ -54,9 +72,10 @@ async function main() {
       priority: '0.8',
       images: [`${SITE}/assets/images/about/paul.jpg`],
     }),
-    ...slugs.map(slug => renderUrl({
+    ...slugs.map((slug, i) => renderUrl({
       loc: `${SITE}/albums/${slug}/`,
       priority: '0.6',
+      images: albumImages[i],
     })),
   ];
 
