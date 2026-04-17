@@ -5,7 +5,15 @@ function lightbox() {
     type: "image",
     removalDelay: 300,
     mainClass: "mfp-with-zoom",
-    titleSrc: "title",
+    image: {
+      titleSrc: function (item) {
+        var title = item.el.attr("title") || "";
+        var location = item.el.attr("data-location") || "";
+        var out = escapeHtml(title);
+        if (location) out += '<div class="mfp-location">' + escapeHtml(location) + "</div>";
+        return out;
+      },
+    },
     gallery: {
       enabled: true,
       navigateByImgClick: true,
@@ -42,6 +50,15 @@ function lightbox() {
   function extractPhotoId(photoPath) {
     var match = photoPath.match(/\/([^\/]+)\.\w+$/);
     return match ? match[1] : photoPath;
+  }
+
+  function escapeHtml(s) {
+    return String(s)
+      .replace(/&/g, "&amp;")
+      .replace(/</g, "&lt;")
+      .replace(/>/g, "&gt;")
+      .replace(/"/g, "&quot;")
+      .replace(/'/g, "&#39;");
   }
 }
 

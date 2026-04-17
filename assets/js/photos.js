@@ -68,6 +68,7 @@ function buildAlbumPhoto(photo, directory) {
     anchor.href = lightboxHref;
     anchor.className = safeVideo ? 'mfp-iframe image-popup' : 'image-popup';
     anchor.title = titleText;
+    if (photo.location) anchor.dataset.location = photo.location;
 
     anchor.appendChild(buildPicture(photo, directory));
 
@@ -80,13 +81,6 @@ function buildAlbumPhoto(photo, directory) {
     text.appendChild(h2);
     textWrap.appendChild(text);
     anchor.appendChild(textWrap);
-
-    if (photo.location) {
-        const loc = document.createElement('p');
-        loc.style.display = 'none';
-        loc.textContent = photo.location;
-        anchor.appendChild(loc);
-    }
 
     album.appendChild(anchor);
     return album;
