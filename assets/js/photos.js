@@ -1,3 +1,10 @@
+document.addEventListener('DOMContentLoaded', () => {
+    const grid = document.getElementById('photo-grid');
+    if (!grid || !grid.dataset.json) return;
+    const offset = parseInt(grid.dataset.offset, 10);
+    populatePhotoGrid(grid.dataset.json, Number.isFinite(offset) ? offset : 0);
+});
+
 function populatePhotoGrid(jsonFilePath, offset = 0) {
     fetch(jsonFilePath)
         .then(response => response.json())
