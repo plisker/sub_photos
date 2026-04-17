@@ -716,4 +716,61 @@ figure figcaption {
   background: url(../images/hourglass.svg) center no-repeat #ffffff;
 }
 
+/* Minimal reset + grid rules (replaces Bootstrap 3 usage).
+   Only the five classes actually used in templates: container, row,
+   col-md-8, col-md-push-4, img-responsive. */
+*, *::before, *::after { box-sizing: border-box; }
+
+a { text-decoration: none; }
+
+/* Normalise heading baseline the way Bootstrap used to. style.css already
+   declares its own font-family and margin-bottom for headings above, so we
+   only fill in what Bootstrap contributed on top: font-weight, line-height,
+   and the top margins. */
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 500;
+  line-height: 1.1;
+}
+h1, h2, h3 { margin-top: 20px; }
+h4, h5, h6 { margin-top: 10px; }
+
+img { vertical-align: middle; }
+
+.container {
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+@media (min-width: 768px)  { .container { width: 750px; } }
+@media (min-width: 992px)  { .container { width: 970px; } }
+@media (min-width: 1200px) { .container { width: 1170px; } }
+
+.row {
+  margin-left: -15px;
+  margin-right: -15px;
+}
+.row::before, .row::after { content: " "; display: table; }
+.row::after { clear: both; }
+
+.col-md-8 {
+  position: relative;
+  min-height: 1px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+@media (min-width: 992px) {
+  .col-md-8 {
+    float: left;
+    width: 66.66666667%;
+  }
+  .col-md-push-4 { left: 33.33333333%; }
+}
+
+.img-responsive {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
 /*# sourceMappingURL=style.css.map */
