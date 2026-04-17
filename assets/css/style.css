@@ -726,12 +726,18 @@ a { text-decoration: none; }
 
 /* Normalise heading baseline the way Bootstrap used to. style.css already
    declares its own font-family and margin-bottom for headings above, so we
-   only fill in what Bootstrap contributed on top: font-weight, line-height,
-   and the top margins. */
+   only fill in what Bootstrap contributed on top: font sizes/weight/line-
+   height and the top margins. */
 h1, h2, h3, h4, h5, h6 {
   font-weight: 500;
   line-height: 1.1;
 }
+h1 { font-size: 36px; }
+h2 { font-size: 30px; }
+h3 { font-size: 24px; }
+h4 { font-size: 18px; }
+h5 { font-size: 14px; }
+h6 { font-size: 12px; }
 h1, h2, h3 { margin-top: 20px; }
 h4, h5, h6 { margin-top: 10px; }
 
