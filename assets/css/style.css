@@ -2,12 +2,32 @@ html, body {
   background: #fff;
 }
 
+.skip-link {
+  position: absolute;
+  left: -9999px;
+  top: 0;
+  padding: 10px 16px;
+  background: #000;
+  color: #fff;
+  z-index: 10000;
+}
+.skip-link:focus { left: 0; }
+
 body {
+  margin: 0;
   font-family: "Roboto", arial, sans-serif;
   font-size: 18px;
   font-weight: 300;
   line-height: 1.8;
   color: #676767;
+  animation: fh5co-fade-in 600ms ease-out both;
+}
+@keyframes fh5co-fade-in {
+  from { opacity: 0; }
+  to   { opacity: 1; }
+}
+@media (prefers-reduced-motion: reduce) {
+  body { animation: none; }
 }
 body.fh5co-overflow {
   overflow-x: auto;
@@ -698,14 +718,68 @@ figure figcaption {
   top: 0;
 }
 
-.fh5co-loader {
-  position: fixed;
-  left: 0px;
-  top: 0px;
-  width: 100%;
-  height: 100%;
-  z-index: 9999;
-  background: url(../images/hourglass.svg) center no-repeat #ffffff;
+/* Minimal reset + grid rules (replaces Bootstrap 3 usage).
+   Only the five classes actually used in templates: container, row,
+   col-md-8, col-md-push-4, img-responsive. */
+*, *::before, *::after { box-sizing: border-box; }
+
+a { text-decoration: none; }
+
+/* Normalise heading baseline the way Bootstrap used to. style.css already
+   declares its own font-family and margin-bottom for headings above, so we
+   only fill in what Bootstrap contributed on top: font sizes/weight/line-
+   height and the top margins. */
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 500;
+  line-height: 1.1;
+}
+h1 { font-size: 36px; }
+h2 { font-size: 30px; }
+h3 { font-size: 24px; }
+h4 { font-size: 18px; }
+h5 { font-size: 14px; }
+h6 { font-size: 12px; }
+h1, h2, h3 { margin-top: 20px; }
+h4, h5, h6 { margin-top: 10px; }
+
+img { vertical-align: middle; }
+
+.container {
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+.container::before, .container::after { content: " "; display: table; }
+.container::after { clear: both; }
+@media (min-width: 768px) { .container { width: 750px; } }
+@media (min-width: 992px) { .container { width: 970px; } }
+
+.row {
+  margin-left: -15px;
+  margin-right: -15px;
+}
+.row::before, .row::after { content: " "; display: table; }
+.row::after { clear: both; }
+
+.col-md-8 {
+  position: relative;
+  min-height: 1px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+@media (min-width: 992px) {
+  .col-md-8 {
+    float: left;
+    width: 66.66666667%;
+  }
+  .col-md-push-4 { left: 33.33333333%; }
+}
+
+.img-responsive {
+  display: block;
+  max-width: 100%;
+  height: auto;
 }
 
 /*# sourceMappingURL=style.css.map */

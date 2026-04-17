@@ -1,26 +1,15 @@
 <!DOCTYPE html>
-<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
-<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
-<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
-<!--[if gt IE 8]><!-->
-<html class="no-js">
-<!--<![endif]-->
+<html lang="en">
 
 <head>
     <!-- Google tag (gtag.js) -->
-    <script async src="https://www.googletagmanager.com/gtag/assets/js?id=G-JERQFZR6JP"></script>
-    <script>
-        window.dataLayer = window.dataLayer || [];
-        function gtag() {
-            dataLayer.push(arguments);
-        }
-        gtag("js", new Date());
-
-        gtag("config", "G-JERQFZR6JP");
-    </script>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-JERQFZR6JP"></script>
+    <script src="/assets/js/gtag-init.js"></script>
 
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta http-equiv="Content-Security-Policy"
+        content="default-src 'self'; base-uri 'self'; object-src 'none'; img-src 'self' data:; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com https://ka-f.fontawesome.com; font-src 'self' https://fonts.gstatic.com https://ka-f.fontawesome.com data:; script-src 'self' https://kit.fontawesome.com https://ka-f.fontawesome.com https://www.googletagmanager.com https://*.google-analytics.com; connect-src 'self' https://*.fontawesome.com https://*.google-analytics.com https://*.analytics.google.com; frame-src https://www.youtube.com https://www.youtube-nocookie.com;" />
     <title>Paul Lisker | About Me</title>
     <meta http-equiv='content-language' content='en'>
     <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -54,15 +43,16 @@
     <meta name="msapplication-config" content="/favicons/browserconfig.xml" />
     <meta name="theme-color" content="#ffffff" />
     <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://kit.fontawesome.com" crossorigin />
+    <link rel="preconnect" href="https://ka-f.fontawesome.com" crossorigin />
+    <link rel="preconnect" href="https://www.googletagmanager.com" />
     <link
         href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@1,200&family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=Roboto:wght@300;400;700&display=swap"
         rel="stylesheet" />
-    <!-- Animate -->
-    <link rel="stylesheet" href="/assets/css/animate.css" />
     <!-- Font Awesome -->
     <script src="https://kit.fontawesome.com/414f558033.js" crossorigin="anonymous"></script>
-    <!-- Bootstrap  -->
-    <link rel="stylesheet" href="/assets/css/bootstrap.css" />
     <!-- Magnific Popup -->
     <link rel="stylesheet" href="/assets/css/magnific-popup.css" />
 
@@ -70,40 +60,25 @@
 
     <!-- jQuery -->
     <script src="/assets/js/jquery.min.js"></script>
-    <!-- jQuery Easing -->
-    <script src="/assets/js/jquery.easing.1.3.js"></script>
-    <!-- Bootstrap -->
-    <script src="/assets/js/bootstrap.min.js"></script>
-    <!-- Waypoints -->
-    <script src="/assets/js/jquery.waypoints.min.js"></script>
     <!-- Magnific Popup -->
     <script src="/assets/js/jquery.magnific-popup.min.js"></script>
 
     <!-- Main JS -->
     <script src="/assets/js/main.js"></script>
-
-    <!-- Modernizr JS -->
-    <script src="/assets/js/modernizr-2.6.2.min.js"></script>
-    <!-- FOR IE9 below -->
-    <!--[if lt IE 9]>
-      <script src="js/respond.min.js"></script>
-    <![endif]-->
 </head>
 
 <body>
-    <!-- Loader -->
-    <!-- <div class="fh5co-loader"></div> -->
-
+    <a class="skip-link" href="#fh5co-main">Skip to main content</a>
     <div id="fh5co-logo" class="inside-page">
-        <a href="/" class="transition" aria-label="Photos home page"><i class="fa-solid fa-camera camera"></i><em><i
-                    class="fa-solid fa-house home"></i></em></a>
+        <a href="/" class="transition" aria-label="Photos home page"><i class="fa-solid fa-camera camera" aria-hidden="true"></i><em><i
+                    class="fa-solid fa-house home" aria-hidden="true"></i></em></a>
     </div>
 
     <div id="fh5co-main" role="main">
         <div class="container">
             <figure class="fh5co-img">
                 <picture>
-                    <source type="image/avi" srcset="/assets/images/about/paul.avif" />
+                    <source type="image/avif" srcset="/assets/images/about/paul.avif" />
                     <source type="image/jpeg" srcset="/assets/images/about/paul.jpg" />
                     <img src="/assets/images/about/paul.jpg" alt="Paul Lisker. Maroon Bells, CO"
                         title="Paul Lisker. Maroon Bells, CO" class="img-responsive" />
