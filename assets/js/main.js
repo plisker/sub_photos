@@ -5,7 +5,16 @@ function lightbox() {
     type: "image",
     removalDelay: 300,
     mainClass: "mfp-with-zoom",
-    titleSrc: "title",
+    image: {
+      titleSrc: function (item) {
+        var description = item.el.attr("data-description") || "";
+        var title = item.el.attr("title") || "";
+        var location = item.el.attr("data-location") || "";
+        var out = description ? sanitizeDescription(description) : escapeHtml(title);
+        if (location) out += '<div class="mfp-location">' + escapeHtml(location) + "</div>";
+        return out;
+      },
+    },
     gallery: {
       enabled: true,
       navigateByImgClick: true,
@@ -42,6 +51,52 @@ function lightbox() {
   function extractPhotoId(photoPath) {
     var match = photoPath.match(/\/([^\/]+)\.\w+$/);
     return match ? match[1] : photoPath;
+  }
+
+  function escapeHtml(s) {
+    return String(s)
+      .replace(/&/g, "&amp;")
+      .replace(/</g, "&lt;")
+      .replace(/>/g, "&gt;")
+      .replace(/"/g, "&quot;")
+      .replace(/'/g, "&#39;");
+  }
+
+  // Allow only <a> tags with http(s) hrefs in photo descriptions. Anything
+  // else (other tags, javascript: URLs, event handler attrs) is reduced to
+  // plain text. Defense-in-depth: the JSON is author-controlled, but a typo
+  // or compromise shouldn't let arbitrary HTML into the lightbox.
+  function sanitizeDescription(html) {
+    var tpl = document.createElement("template");
+    tpl.innerHTML = String(html);
+    walkDescription(tpl.content);
+    return tpl.innerHTML;
+  }
+
+  function walkDescription(node) {
+    var children = Array.prototype.slice.call(node.childNodes);
+    for (var i = 0; i < children.length; i++) {
+      var child = children[i];
+      if (child.nodeType === Node.ELEMENT_NODE) {
+        if (child.tagName === "A") {
+          var href = child.getAttribute("href") || "";
+          var attrs = Array.prototype.slice.call(child.attributes);
+          for (var j = 0; j < attrs.length; j++) child.removeAttribute(attrs[j].name);
+          if (/^https?:\/\//i.test(href)) {
+            child.setAttribute("href", href);
+            child.setAttribute("target", "_blank");
+            child.setAttribute("rel", "noopener noreferrer");
+            walkDescription(child);
+          } else {
+            child.replaceWith(document.createTextNode(child.textContent));
+          }
+        } else {
+          child.replaceWith(document.createTextNode(child.textContent));
+        }
+      } else if (child.nodeType === Node.COMMENT_NODE) {
+        child.remove();
+      }
+    }
   }
 }
 

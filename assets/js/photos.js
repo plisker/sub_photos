@@ -62,12 +62,13 @@ function buildAlbumPhoto(photo, directory) {
     const lightboxHref = safeVideo
         ? safeVideo
         : directory + photo.file + '.' + pickLightboxFormat(photo);
-    const titleText = photo.description || photo.name;
 
     const anchor = document.createElement('a');
     anchor.href = lightboxHref;
     anchor.className = safeVideo ? 'mfp-iframe image-popup' : 'image-popup';
-    anchor.title = titleText;
+    anchor.title = photo.name;
+    if (photo.description) anchor.dataset.description = photo.description;
+    if (photo.location) anchor.dataset.location = photo.location;
 
     anchor.appendChild(buildPicture(photo, directory));
 
@@ -80,13 +81,6 @@ function buildAlbumPhoto(photo, directory) {
     text.appendChild(h2);
     textWrap.appendChild(text);
     anchor.appendChild(textWrap);
-
-    if (photo.location) {
-        const loc = document.createElement('p');
-        loc.style.display = 'none';
-        loc.textContent = photo.location;
-        anchor.appendChild(loc);
-    }
 
     album.appendChild(anchor);
     return album;
