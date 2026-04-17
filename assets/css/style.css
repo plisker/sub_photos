@@ -8,6 +8,14 @@ body {
   font-weight: 300;
   line-height: 1.8;
   color: #676767;
+  animation: fh5co-fade-in 600ms ease-out both;
+}
+@keyframes fh5co-fade-in {
+  from { opacity: 0; }
+  to   { opacity: 1; }
+}
+@media (prefers-reduced-motion: reduce) {
+  body { animation: none; }
 }
 body.fh5co-overflow {
   overflow-x: auto;
