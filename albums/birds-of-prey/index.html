@@ -1,10 +1,5 @@
 <!DOCTYPE html>
-<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
-<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
-<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
-<!--[if gt IE 8]><!-->
-<html class="no-js" lang="en">
-<!--<![endif]-->
+<html lang="en">
 
 <head>
     <!-- Google tag (gtag.js) -->
@@ -37,8 +32,8 @@
 
     <!-- Facebook and Twitter integration -->
     <meta property="og:title" content="Paul Lisker | Birds of Prey" />
-    <meta property="og:image" content="https://photos.lisker.me/images/birds_of_prey/og-image.jpg" />
-    <meta property="og:url" content="https://photos.lisker.me/birds_of_prey" />
+    <meta property="og:image" content="https://photos.lisker.me/assets/images/birds-of-prey/og-image.jpg" />
+    <meta property="og:url" content="https://photos.lisker.me/albums/birds-of-prey/" />
     <meta property="og:site_name" content="Paul Lisker &CenterDot; Photography" />
     <meta property="og:description" content="A collection of my best photos of birds of prey" />
 
@@ -71,31 +66,21 @@
 
     <!-- jQuery -->
     <script src="/assets/js/jquery.min.js"></script>
-    <!-- jQuery Easing -->
-    <script src="/assets/js/jquery.easing.1.3.js"></script>
     <!-- Bootstrap -->
     <script src="/assets/js/bootstrap.min.js"></script>
-    <!-- Waypoints -->
-    <script src="/assets/js/jquery.waypoints.min.js"></script>
     <!-- Magnific Popup -->
-    <!-- <script src="/assets/js/jquery.magnific-popup.min.js"></script> -->
-    <script src="/assets/js/jquery.magnific-popup.js"></script>
+    <script src="/assets/js/jquery.magnific-popup.min.js"></script>
 
     <!-- Photos JS -->
     <script src="/assets/js/photos.js"></script>
     <script>
-        populatePhotoGrid('/assets/images/birds-of-prey/json/photos.json');
+        document.addEventListener('DOMContentLoaded', function () {
+            populatePhotoGrid('/assets/images/birds-of-prey/json/photos.json');
+        });
     </script>
 
     <!-- Main JS -->
     <script src="/assets/js/main.js"></script>
-
-    <!-- Modernizr JS -->
-    <script src="/assets/js/modernizr-2.6.2.min.js"></script>
-    <!-- FOR IE9 below -->
-    <!--[if lt IE 9]>
-      <script src="/assets/js/respond.min.js"></script>
-    <![endif]-->
 </head>
 
 <body>
