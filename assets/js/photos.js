@@ -62,12 +62,12 @@ function buildAlbumPhoto(photo, directory) {
     const lightboxHref = safeVideo
         ? safeVideo
         : directory + photo.file + '.' + pickLightboxFormat(photo);
-    const titleText = photo.description || photo.name;
 
     const anchor = document.createElement('a');
     anchor.href = lightboxHref;
     anchor.className = safeVideo ? 'mfp-iframe image-popup' : 'image-popup';
-    anchor.title = titleText;
+    anchor.title = photo.name;
+    if (photo.description) anchor.dataset.description = photo.description;
     if (photo.location) anchor.dataset.location = photo.location;
 
     anchor.appendChild(buildPicture(photo, directory));
