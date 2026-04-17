@@ -2,6 +2,17 @@ html, body {
   background: #fff;
 }
 
+.skip-link {
+  position: absolute;
+  left: -9999px;
+  top: 0;
+  padding: 10px 16px;
+  background: #000;
+  color: #fff;
+  z-index: 10000;
+}
+.skip-link:focus { left: 0; }
+
 body {
   font-family: "Roboto", arial, sans-serif;
   font-size: 18px;

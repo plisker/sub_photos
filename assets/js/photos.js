@@ -96,7 +96,6 @@ function buildPicture(photo, directory) {
     const img = document.createElement('img');
     img.src = base + '.' + pickLightboxFormat(photo);
     img.alt = photo.name;
-    img.title = photo.name;
     img.loading = 'lazy';
     img.decoding = 'async';
     picture.appendChild(img);

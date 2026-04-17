@@ -52,23 +52,23 @@ function getSocials() {
   socials.innerHTML = `
             <li>
                 <a href="https://www.instagram.com/paullisker/" rel="noopener noreferrer" target="_blank"
-                    aria-label="See: Instagram"><i class="fa-brands fa-instagram"></i></a>
+                    aria-label="See: Instagram (opens in new tab)"><i class="fa-brands fa-instagram" aria-hidden="true"></i></a>
             </li>
             <li>
                 <a href="https://www.linkedin.com/in/paullisker/" rel="noopener noreferrer" target="_blank"
-                    aria-label="See: LinkedIn"><i class="fa-brands fa-linkedin"></i></a>
+                    aria-label="See: LinkedIn (opens in new tab)"><i class="fa-brands fa-linkedin" aria-hidden="true"></i></a>
             </li>
             <li>
                 <a href="https://twitter.com/PaulLisker/" rel="noopener noreferrer" target="_blank"
-                    aria-label="See: X (Twitter)"><i class="fa-brands fa-x-twitter"></i></a>
+                    aria-label="See: X (Twitter) (opens in new tab)"><i class="fa-brands fa-x-twitter" aria-hidden="true"></i></a>
             </li>
             <li>
                 <a href="https://ebird.org/profile/MTgxMjE3NQ/" rel="noopener noreferrer" target="_blank"
-                    aria-label="See: eBird"><i class="fa-solid fa-binoculars"></i></a>
+                    aria-label="See: eBird (opens in new tab)"><i class="fa-solid fa-binoculars" aria-hidden="true"></i></a>
             </li>
             <li>
                 <a href="mailto:photos@lisker.me"
-                    aria-label="Email me: photos@lisker.me"><i class="fa-regular fa-envelope"></i></a>
+                    aria-label="Email me: photos@lisker.me"><i class="fa-regular fa-envelope" aria-hidden="true"></i></a>
             </li>
     `;
 
