@@ -31,8 +31,9 @@ Temporary Items
 *.icloud
 
 ### Claude ###
-CLAUDE.md
-.claude/
+# Track CLAUDE.md and project skills; ignore the rest of .claude/
+.claude/*
+!.claude/skills/
 .claude.json
 
 ### Derived artifacts ###
