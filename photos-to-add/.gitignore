@@ -1,0 +1,4 @@
+# Track this folder (the add-photos skill expects it) but never its contents —
+# it's a scratch drop zone for photos staged for a future PR.
+*
+!.gitignore
