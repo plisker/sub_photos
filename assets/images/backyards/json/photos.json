@@ -9,6 +9,20 @@
       "hasWebp": true
     },
     {
+      "name": "Northern Cardinal",
+      "file": "noca",
+      "location": "Montrose Point Bird Sanctuary, Chicago, IL",
+      "hasAvif": false,
+      "hasWebp": true
+    },
+    {
+      "name": "Yellow-Breasted Sapsucker",
+      "file": "ybsa",
+      "location": "Durham, NC",
+      "hasAvif": false,
+      "hasWebp": true
+    },
+    {
       "name": "Carolina Chickadee",
       "file": "cach",
       "location": "Durham, NC",
@@ -16,9 +30,30 @@
       "hasWebp": true
     },
     {
+      "name": "Canada Goose goslings",
+      "file": "goslings",
+      "location": "Montrose Point Bird Sanctuary, Chicago, IL",
+      "hasAvif": false,
+      "hasWebp": true
+    },
+    {
+      "name": "Downy Woodpecker",
+      "file": "dowo",
+      "location": "Montrose Point Bird Sanctuary, Chicago, IL",
+      "hasAvif": false,
+      "hasWebp": true
+    },
+    {
       "name": "Brown Creeper",
       "file": "brcr",
       "location": "St. Louis, MO",
+      "hasAvif": false,
+      "hasWebp": true
+    },
+    {
+      "name": "Red-Winged Blackbird",
+      "file": "rwbl",
+      "location": "Montrose Point Bird Sanctuary, Chicago, IL",
       "hasAvif": false,
       "hasWebp": true
     },
@@ -37,13 +72,6 @@
       "hasWebp": true
     },
     {
-      "name": "Yellow-Breasted Sapsucker",
-      "file": "ybsa",
-      "location": "Durham, NC",
-      "hasAvif": false,
-      "hasWebp": true
-    },
-    {
       "name": "Ruby-Throated Hummingbird",
       "file": "rthu2",
       "location": "St. Louis, MO",
@@ -51,9 +79,37 @@
       "hasWebp": true
     },
     {
+      "name": "House Sparrow",
+      "file": "hosp",
+      "location": "Montrose Point Bird Sanctuary, Chicago, IL",
+      "hasAvif": false,
+      "hasWebp": true
+    },
+    {
       "name": "Northern Mockingbird",
       "file": "nomo",
       "location": "Durham, NC",
+      "hasAvif": false,
+      "hasWebp": true
+    },
+    {
+      "name": "Yellow-Bellied Flycatcher",
+      "file": "ybfl",
+      "location": "Montrose Point Bird Sanctuary, Chicago, IL",
+      "hasAvif": false,
+      "hasWebp": true
+    },
+    {
+      "name": "Scarlet Tanager",
+      "file": "scta",
+      "location": "Montrose Point Bird Sanctuary, Chicago, IL",
+      "hasAvif": true,
+      "hasWebp": false
+    },
+    {
+      "name": "Least Flycatcher",
+      "file": "lefl",
+      "location": "Montrose Point Bird Sanctuary, Chicago, IL",
       "hasAvif": false,
       "hasWebp": true
     },
@@ -72,6 +128,13 @@
       "hasWebp": true
     },
     {
+      "name": "Eastern Warbling Vireo",
+      "file": "eawv",
+      "location": "Montrose Point Bird Sanctuary, Chicago, IL",
+      "hasAvif": false,
+      "hasWebp": true
+    },
+    {
       "name": "House Finch",
       "file": "hofi",
       "location": "St. Louis, MO",
@@ -82,6 +145,13 @@
       "name": "Great-Horned Owl pair",
       "file": "ghow",
       "location": "St. Louis, MO",
+      "hasAvif": false,
+      "hasWebp": true
+    },
+    {
+      "name": "Ruby-Crowned Kinglet",
+      "file": "rcki",
+      "location": "Montrose Point Bird Sanctuary, Chicago, IL",
       "hasAvif": false,
       "hasWebp": true
     },
@@ -191,78 +261,8 @@
       "hasWebp": true
     },
     {
-      "name": "Downy Woodpecker",
-      "file": "dowo",
-      "location": "Montrose Point Bird Sanctuary, Chicago, IL",
-      "hasAvif": false,
-      "hasWebp": true
-    },
-    {
-      "name": "Eastern Warbling Vireo",
-      "file": "eawv",
-      "location": "Montrose Point Bird Sanctuary, Chicago, IL",
-      "hasAvif": false,
-      "hasWebp": true
-    },
-    {
-      "name": "Canada Goose goslings",
-      "file": "goslings",
-      "location": "Montrose Point Bird Sanctuary, Chicago, IL",
-      "hasAvif": false,
-      "hasWebp": true
-    },
-    {
-      "name": "House Sparrow",
-      "file": "hosp",
-      "location": "Montrose Point Bird Sanctuary, Chicago, IL",
-      "hasAvif": false,
-      "hasWebp": true
-    },
-    {
-      "name": "Least Flycatcher",
-      "file": "lefl",
-      "location": "Montrose Point Bird Sanctuary, Chicago, IL",
-      "hasAvif": false,
-      "hasWebp": true
-    },
-    {
-      "name": "Northern Cardinal",
-      "file": "noca",
-      "location": "Montrose Point Bird Sanctuary, Chicago, IL",
-      "hasAvif": false,
-      "hasWebp": true
-    },
-    {
-      "name": "Ruby-Crowned Kinglet",
-      "file": "rcki",
-      "location": "Montrose Point Bird Sanctuary, Chicago, IL",
-      "hasAvif": false,
-      "hasWebp": true
-    },
-    {
-      "name": "Red-Winged Blackbird",
-      "file": "rwbl",
-      "location": "Montrose Point Bird Sanctuary, Chicago, IL",
-      "hasAvif": false,
-      "hasWebp": true
-    },
-    {
-      "name": "Scarlet Tanager",
-      "file": "scta",
-      "location": "Montrose Point Bird Sanctuary, Chicago, IL",
-      "hasAvif": true,
-      "hasWebp": false
-    },
-    {
       "name": "Swainson's Thrush",
       "file": "swth",
-      "location": "Montrose Point Bird Sanctuary, Chicago, IL",
-      "hasAvif": false,
-      "hasWebp": true
-    },
-    {
-      "name": "Yellow-Bellied Flycatcher",
-      "file": "ybfl",
       "location": "Montrose Point Bird Sanctuary, Chicago, IL",
       "hasAvif": false,
       "hasWebp": true
