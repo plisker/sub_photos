@@ -30,8 +30,8 @@
       "description": "Some of the species that we saw, like this Acorn Woodpecker, can also be found in the United States",
       "location": "Cartago Province",
       "file": "acwo-1",
-      "hasAvif": false,
-      "hasWebp": true
+      "hasAvif": true,
+      "hasWebp": false
     },
     {
       "name": "Acorn Woodpecker",
@@ -110,8 +110,8 @@
       "description": "This female Crowned Woodnymph buzzed about, moving from flower to flower.",
       "location": "Dominical, Puntarenas",
       "file": "crwo-1",
-      "hasAvif": false,
-      "hasWebp": true
+      "hasAvif": true,
+      "hasWebp": false
     },
     {
       "name": "Crowned Woodnymph",
@@ -175,12 +175,12 @@
       "description": "A Snowy Egret passed by, just where the Little Blue Heron had just been hunting.",
       "location": "Sierpe, Puntarenas",
       "file": "sneg",
-      "hasAvif": false,
-      "hasWebp": true
+      "hasAvif": true,
+      "hasWebp": false
     },
     {
-      "name": "Crocodile",
-      "description": "Not too far away, a crocodile just barely broke the surface of the water.",
+      "name": "American Crocodile",
+      "description": "Not too far away, an American Crocodile just barely broke the surface of the water.",
       "location": "Sierpe, Puntarenas",
       "file": "croc",
       "hasAvif": false,
@@ -207,22 +207,6 @@
       "description": "Meanwhile, in the shadows, a Green Heron hunted patiently.",
       "location": "Sierpe, Puntarenas",
       "file": "grhe",
-      "hasAvif": false,
-      "hasWebp": true
-    },
-    {
-      "name": "Species",
-      "description": "Description",
-      "location": "Location",
-      "file": "file",
-      "hasAvif": false,
-      "hasWebp": true
-    },
-    {
-      "name": "Species",
-      "description": "Description",
-      "location": "Location",
-      "file": "file",
       "hasAvif": false,
       "hasWebp": true
     }
