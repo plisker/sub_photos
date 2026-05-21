@@ -1,0 +1,8 @@
+{
+  "skill_name": "add-photos",
+  "evals": [
+    {"id": 0, "name": "mixed-two-albums", "prompt": "I dropped some new photos into the photos-to-add/ folder of this repo. They were all taken at Montrose Point Bird Sanctuary, Chicago, IL. Please add them to the correct albums — compress and convert them properly, and update the album JSON so they show up on the site.", "expected_output": "4 photos added to backyards (incl. scta as HDR AVIF) and 3 to warblers (amre/coye deconflicted), P3 preserved, correct species names + location, valid JSON", "files": ["photos-to-add/backyard_birds/{noca,scta,eawv,dowo}.jpg", "photos-to-add/warblers/{amre,coye,blbw}.jpg"]},
+    {"id": 1, "name": "hdr-backyards", "prompt": "I dropped some new photos into the photos-to-add/ folder of this repo. They were all taken at Montrose Point Bird Sanctuary, Chicago, IL. Please add them to the correct albums — compress and convert them properly, and update the album JSON so they show up on the site.", "expected_output": "scta added as 10-bit P3/PQ HDR AVIF (no webp, hasAvif:true); rcki added normally; correct names + location", "files": ["photos-to-add/backyard_birds/{scta,rcki}.jpg"]},
+    {"id": 2, "name": "warblers-conflicts", "prompt": "I dropped some new photos into the photos-to-add/ folder of this repo. They were all taken at Montrose Point Bird Sanctuary, Chicago, IL. Please add them to the correct albums — compress and convert them properly, and update the album JSON so they show up on the site.", "expected_output": "amre/mawa/wiwa deconflicted against existing files, cswa added; all normal P3 webp; correct species names + location", "files": ["photos-to-add/warblers/{amre,mawa,wiwa,cswa}.jpg"]}
+  ]
+}
