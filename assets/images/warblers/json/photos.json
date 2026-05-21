@@ -9,6 +9,13 @@
       "hasWebp": true
     },
     {
+      "name": "Blackburnian Warbler",
+      "file": "blbw",
+      "location": "Montrose Point Bird Sanctuary, Chicago, IL",
+      "hasAvif": false,
+      "hasWebp": true
+    },
+    {
       "name": "Cape May Warbler",
       "file": "cmwa",
       "location": "Durham, NC",
@@ -38,6 +45,20 @@
     },
     {
       "name": "American Redstart",
+      "file": "amre3",
+      "location": "Montrose Point Bird Sanctuary, Chicago, IL",
+      "hasAvif": false,
+      "hasWebp": true
+    },
+    {
+      "name": "Yellow Warbler",
+      "file": "yewa",
+      "location": "Montrose Point Bird Sanctuary, Chicago, IL",
+      "hasAvif": false,
+      "hasWebp": true
+    },
+    {
+      "name": "American Redstart",
       "file": "amre",
       "location": "Madison, WI",
       "hasAvif": false,
@@ -58,9 +79,9 @@
       "hasWebp": true
     },
     {
-      "name": "Connecticut Warbler",
-      "file": "conw",
-      "location": "Chicago, IL",
+      "name": "Black-Throated Blue Warbler",
+      "file": "btbw",
+      "location": "Montrose Point Bird Sanctuary, Chicago, IL",
       "hasAvif": false,
       "hasWebp": true
     },
@@ -72,6 +93,13 @@
       "hasWebp": true
     },
     {
+      "name": "Connecticut Warbler",
+      "file": "conw",
+      "location": "Chicago, IL",
+      "hasAvif": false,
+      "hasWebp": true
+    },
+    {
       "name": "Magnolia Warbler",
       "file": "mawa2",
       "location": "Chicago, IL",
@@ -79,9 +107,9 @@
       "hasWebp": true
     },
     {
-      "name": "Black-and-white Warbler",
-      "file": "baww",
-      "location": "St. Louis, MO",
+      "name": "Magnolia Warbler",
+      "file": "mawa3",
+      "location": "Montrose Point Bird Sanctuary, Chicago, IL",
       "hasAvif": false,
       "hasWebp": true
     },
@@ -89,6 +117,20 @@
       "name": "Yellow-Rumped Warbler",
       "file": "yrwa",
       "location": "Palm Springs, CA",
+      "hasAvif": false,
+      "hasWebp": true
+    },
+    {
+      "name": "Palm Warbler",
+      "file": "pawa",
+      "location": "Montrose Point Bird Sanctuary, Chicago, IL",
+      "hasAvif": false,
+      "hasWebp": true
+    },
+    {
+      "name": "Black-and-white Warbler",
+      "file": "baww",
+      "location": "St. Louis, MO",
       "hasAvif": false,
       "hasWebp": true
     },
@@ -114,13 +156,6 @@
       "hasWebp": true
     },
     {
-      "name": "Common Yellowthroat",
-      "file": "coye",
-      "location": "Durham, NC",
-      "hasAvif": false,
-      "hasWebp": true
-    },
-    {
       "name": "American Redstart",
       "file": "amre2",
       "location": "Chicago, IL",
@@ -128,9 +163,9 @@
       "hasWebp": true
     },
     {
-      "name": "Bay-breasted Warbler",
+      "name": "Bay-Breasted Warbler",
       "file": "bbwa",
-      "location": "Chicago, IL",
+      "location": "Montrose Point Bird Sanctuary, Chicago, IL",
       "hasAvif": false,
       "hasWebp": true
     },
@@ -152,6 +187,55 @@
       "name": "American Redstart, female",
       "file": "amre-f",
       "location": "Chicago, IL",
+      "hasAvif": false,
+      "hasWebp": true
+    },
+    {
+      "name": "American Redstart",
+      "file": "amre4",
+      "location": "Montrose Point Bird Sanctuary, Chicago, IL",
+      "hasAvif": false,
+      "hasWebp": true
+    },
+    {
+      "name": "Common Yellowthroat",
+      "file": "coye",
+      "location": "Durham, NC",
+      "hasAvif": false,
+      "hasWebp": true
+    },
+    {
+      "name": "Common Yellowthroat",
+      "file": "coye2",
+      "location": "Montrose Point Bird Sanctuary, Chicago, IL",
+      "hasAvif": false,
+      "hasWebp": true
+    },
+    {
+      "name": "Chestnut-Sided Warbler",
+      "file": "cswa",
+      "location": "Montrose Point Bird Sanctuary, Chicago, IL",
+      "hasAvif": false,
+      "hasWebp": true
+    },
+    {
+      "name": "Magnolia Warbler",
+      "file": "mawa4",
+      "location": "Montrose Point Bird Sanctuary, Chicago, IL",
+      "hasAvif": false,
+      "hasWebp": true
+    },
+    {
+      "name": "Wilson's Warbler",
+      "file": "wiwa2",
+      "location": "Montrose Point Bird Sanctuary, Chicago, IL",
+      "hasAvif": false,
+      "hasWebp": true
+    },
+    {
+      "name": "Yellow Warbler, nest building",
+      "file": "yewa-nest-building",
+      "location": "Montrose Point Bird Sanctuary, Chicago, IL",
       "hasAvif": false,
       "hasWebp": true
     }
