@@ -189,6 +189,83 @@
       "location": "St. Louis, MO",
       "hasAvif": false,
       "hasWebp": true
+    },
+    {
+      "name": "Downy Woodpecker",
+      "file": "dowo",
+      "location": "Montrose Point Bird Sanctuary, Chicago, IL",
+      "hasAvif": false,
+      "hasWebp": true
+    },
+    {
+      "name": "Eastern Warbling Vireo",
+      "file": "eawv",
+      "location": "Montrose Point Bird Sanctuary, Chicago, IL",
+      "hasAvif": false,
+      "hasWebp": true
+    },
+    {
+      "name": "Canada Goose goslings",
+      "file": "goslings",
+      "location": "Montrose Point Bird Sanctuary, Chicago, IL",
+      "hasAvif": false,
+      "hasWebp": true
+    },
+    {
+      "name": "House Sparrow",
+      "file": "hosp",
+      "location": "Montrose Point Bird Sanctuary, Chicago, IL",
+      "hasAvif": false,
+      "hasWebp": true
+    },
+    {
+      "name": "Least Flycatcher",
+      "file": "lefl",
+      "location": "Montrose Point Bird Sanctuary, Chicago, IL",
+      "hasAvif": false,
+      "hasWebp": true
+    },
+    {
+      "name": "Northern Cardinal",
+      "file": "noca",
+      "location": "Montrose Point Bird Sanctuary, Chicago, IL",
+      "hasAvif": false,
+      "hasWebp": true
+    },
+    {
+      "name": "Ruby-Crowned Kinglet",
+      "file": "rcki",
+      "location": "Montrose Point Bird Sanctuary, Chicago, IL",
+      "hasAvif": false,
+      "hasWebp": true
+    },
+    {
+      "name": "Red-Winged Blackbird",
+      "file": "rwbl",
+      "location": "Montrose Point Bird Sanctuary, Chicago, IL",
+      "hasAvif": false,
+      "hasWebp": true
+    },
+    {
+      "name": "Scarlet Tanager",
+      "file": "scta",
+      "location": "Montrose Point Bird Sanctuary, Chicago, IL",
+      "hasAvif": true,
+      "hasWebp": false
+    },
+    {
+      "name": "Swainson's Thrush",
+      "file": "swth",
+      "location": "Montrose Point Bird Sanctuary, Chicago, IL",
+      "hasAvif": false,
+      "hasWebp": true
+    },
+    {
+      "name": "Yellow-Bellied Flycatcher",
+      "file": "ybfl",
+      "location": "Montrose Point Bird Sanctuary, Chicago, IL",
+      "hasAvif": false,
+      "hasWebp": true
     }
   ]
 }
