@@ -15,6 +15,18 @@ function lightbox() {
         return out;
       },
     },
+    iframe: {
+      // Force an https embed URL so the iframe satisfies the page CSP
+      // (frame-src https://www.youtube.com) even when previewing over http
+      // on localhost — Magnific's default pattern is protocol-relative.
+      patterns: {
+        youtube: {
+          index: "youtube.com/",
+          id: "v=",
+          src: "https://www.youtube.com/embed/%id%?autoplay=1",
+        },
+      },
+    },
     gallery: {
       enabled: true,
       navigateByImgClick: true,
